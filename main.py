@@ -61,6 +61,8 @@ def condizioniMeteoAvverse():
     pVTC=[6001,10000] # 40%
 
 def generaDati():
-    
+    while True:
+        time.sleep(1)
+        
 
 # funzione di rilevamento 
