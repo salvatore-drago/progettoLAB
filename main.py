@@ -9,6 +9,9 @@ import time
 import threading
 #time.strftime('%H:%M:%S', time.localtime())
 #random.randrange(50,99,0.5) #probabilità etichetta
+etichetta=[]
+luogo=[]
+
 
 #probabilità assegnazione prima etichetta
 #random.randrange(1,10000)
@@ -61,10 +64,11 @@ def condizioniMeteoAvverse():
     pVTC=[6001,10000] # 40%
 
 def generaDati():
+    global finestra,etichetta,luogo
     for i in range(1,10801,1): #supponiamo nelle ore di punta tra le 7 e le 10 entri una persona al secondo
         lista_totale= open("lista_risultati","a")
         time.sleep(1) 
-        print("Genera dato")
+        #print("Genera dato")
         n= randrange(1,10000)
         if n>=pVS[0] and n<=pVS[1]:
             etichetta=prima_etichetta[0]
@@ -78,28 +82,28 @@ def generaDati():
         elif n>=pVTC[0] and n<=pVTC[1]:
             etichetta=prima_etichetta[3]
         
-        p= randrange(50,99,0.5) 
-        l= randrange(1,100)
-        
-        if l>=pA[0] and n<=pA[1]:
+        p= randrange(50,99,1) 
+        l= randrange(1,100,1)
+
+        if l>=pA[0] and l<=pA[1]:
             luogo=luogo_rilevamento[0]
 
-        elif l>=pB[0] and n<=pB[1]:
+        elif l>=pB[0] and l<=pB[1]:
             luogo=luogo_rilevamento[1]
 
-        elif n>=pC[0] and n<=pC[1]:
+        elif l>=pC[0] and l<=pC[1]:
             luogo=luogo_rilevamento[2]
 
-        elif n>=pD[0] and n<=pD[1]:
+        elif l>=pD[0] and l<=pD[1]:
             luogo=luogo_rilevamento[3]
         
-        elif n>=pE[0] and n<=pE[1]:
+        elif l>=pE[0] and l<=pE[1]:
             luogo=luogo_rilevamento[4]
         
         orario=time.strftime('%H:%M:%S', time.localtime())
         
         etichetta_rilevamento= seconda_etichetta[cs[prima_etichetta.index(etichetta)]]
-        dato=[i,etichetta,p,l,orario,etichetta_rilevamento]
+        dato=[i,etichetta,p,luogo,orario,etichetta_rilevamento]
         
         if len(finestra)<N:
             finestra.append(dato)
@@ -108,7 +112,7 @@ def generaDati():
             finestra.pop()
             finestra=finestra.reverse()
             finestra.append(dato)
-        lista_totale.write("\n"+dato)
+        lista_totale.write("\n"+str(dato))
     lista_totale.close()
 th = threading.Thread(target=generaDati, args=())
 th.start()
@@ -153,6 +157,11 @@ def funzioneRilevamento():
         nC_VCS=0
         nD_VCS=0
         nE_VCS=0
+        nA_VTC=0
+        nB_VTC=0
+        nC_VTC=0
+        nD_VTC=0
+        nE_VTC=0
         ##
     
         #numero di luoghi da cui proviene almeno un dato con quell'etichetta
@@ -169,7 +178,7 @@ def funzioneRilevamento():
 
         time.sleep(T)
         nTOT= len(finestra) # conta i dati totali
-        for elem in range(0, len(finestra)-1, -1):
+        for elem in range(0, nTOT-1, 1):
             if finestra[elem][2]>=65:
                 if finestra[elem][1]=='VS':
                     nVS+=1
@@ -242,40 +251,48 @@ def funzioneRilevamento():
                     elif finestra[elem][3]=='E':
                         cE=1
                         nE_VTC=1
+        if(nTOT>0):
+            nIU=cA+cB+cC+cD+cE
 
-        nIU=cA+cB+cC+cD+cE
+            nL_VS=nA_VS+nB_VS+nC_VS+nD_VS+nE_VS
+            sVS= (1-k)*(nVS/nTOT) + k*(nL_VS/nIU)
 
-        nL_VS=nA_VS+nB_VS+nC_VS+nD_VS+nE_VS
-        sVS= (1-k)*(nVS/nTOT) + k*(nL_VS/nIU)
-
-        nL_VCI=nA_VCI+nB_VCI+nC_VCI+nD_VCI+nE_VCI
-        sVCI= (1-k)*(nVCI/nTOT) + k*(nL_VCI/nIU)     
+            nL_VCI=nA_VCI+nB_VCI+nC_VCI+nD_VCI+nE_VCI
+            sVCI= (1-k)*(nVCI/nTOT) + k*(nL_VCI/nIU)     
             
-        nL_VCS=nA_VCS+nB_VCS+nC_VCS+nD_VCS+nE_VCS
-        sVCS= (1-k)*(nVCS/nTOT) + k*(nL_VCS/nIU)
+            nL_VCS=nA_VCS+nB_VCS+nC_VCS+nD_VCS+nE_VCS
+            sVCS= (1-k)*(nVCS/nTOT) + k*(nL_VCS/nIU)
 
-        nL_VTC=nA_VTC+nB_VTC+nC_VTC+nD_VTC+nE_VTC
-        sVTC= (1-k)*(nVTC/nTOT) + k*(nL_VTC/nIU)
+            nL_VTC=nA_VTC+nB_VTC+nC_VTC+nD_VTC+nE_VTC
+            sVTC= (1-k)*(nVTC/nTOT) + k*(nL_VTC/nIU)
             
-        if sVS<d_min:
-            cs[0]=1 #etichetta come 'Sospetto'
-        elif sVS>=d_max:
-            cs[0]=0 #etichetta come 'Non Sospetto'
-    
-        if sVCI<d_min:
-            cs[1]=1
-        elif sVCI>=d_max:
-            cs[1]=0
+            print("Funzione di rilevamento...")
+            print(f"\n sVS:{sVS}, sVCI:{sVCI}, sVCS:{sVCS}, sVTC:{sVTC}")
 
-        if sVCS<d_min:
-            cs[2]=1
-        elif sVCS>=d_max:
-            cs[2]=0
-
-        if sVTC<d_min:
-            cs[3]=1
-        elif sVTC>=d_max:
-            cs[3]=0 
+            if sVS<d_min:
+                cs[0]=1 #etichetta come 'Sospetto'
+            elif sVS>=d_max:
+                cs[0]=0 #etichetta come 'Non Sospetto'
     
+            if sVCI<d_min:
+                cs[1]=1
+            elif sVCI>=d_max:
+                cs[1]=0
+
+            if sVCS<d_min:
+                cs[2]=1
+            elif sVCS>=d_max:
+                cs[2]=0
+
+            if sVTC<d_min:
+                cs[3]=1
+            elif sVTC>=d_max:
+                cs[3]=0 
+
+            print(f"\n CS:{cs}")
+
+        else:
+            print("Nessun dato nella finestra da analizzare")
+
 th = threading.Thread(target=funzioneRilevamento, args=())
 th.start()
