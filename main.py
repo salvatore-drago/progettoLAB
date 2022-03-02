@@ -1,5 +1,4 @@
 #VARIABILI CONDIVISE
-lista_totale=[]
 finestra=[]
 cs = [0,1,0,1] # in che modo rispetto alla prima etichetta deve essere emessa la seconda, inizialmente vengono considerati sospetti i volti coperti inforiormente e totalmente coperti
 
@@ -63,9 +62,54 @@ def condizioniMeteoAvverse():
 
 def generaDati():
     for i in range(1,10801,1): #supponiamo nelle ore di punta tra le 7 e le 10 entri una persona al secondo
+        lista_totale= open("lista_risultati","a")
         time.sleep(1) 
         print("Genera dato")
+        n= randrange(1,10000)
+        if n>=pVS[0] and n<=pVS[1]:
+            etichetta=prima_etichetta[0]
+
+        elif n>=pVCI[0] and n<=pVCI[1]:
+            etichetta=prima_etichetta[1]
+
+        elif n>=pVCS[0] and n<=pVCS[1]:
+            etichetta=prima_etichetta[2]
+
+        elif n>=pVTC[0] and n<=pVTC[1]:
+            etichetta=prima_etichetta[3]
         
+        p= randrange(50,99,0.5) 
+        l= randrange(1,100)
+        
+        if l>=pA[0] and n<=pA[1]:
+            luogo=luogo_rilevamento[0]
+
+        elif l>=pB[0] and n<=pB[1]:
+            luogo=luogo_rilevamento[1]
+
+        elif n>=pC[0] and n<=pC[1]:
+            luogo=luogo_rilevamento[2]
+
+        elif n>=pD[0] and n<=pD[1]:
+            luogo=luogo_rilevamento[3]
+        
+        elif n>=pE[0] and n<=pE[1]:
+            luogo=luogo_rilevamento[4]
+        
+        orario=time.strftime('%H:%M:%S', time.localtime())
+        
+        etichetta_rilevamento= seconda_etichetta[cs[prima_etichetta.index(etichetta)]]
+        dato=[i,etichetta,p,l,orario,etichetta_rilevamento]
+        
+        if len(finestra)<N:
+            finestra.append(dato)
+        else:
+            finestra=finestra.reverse()
+            finestra.pop()
+            finestra=finestra.reverse()
+            finestra.append(dato)
+        lista_totale.write("\n"+dato)
+    lista_totale.close()
 th = threading.Thread(target=generaDati, args=())
 th.start()
 
@@ -126,76 +170,76 @@ def funzioneRilevamento():
         time.sleep(T)
         nTOT= len(finestra) # conta i dati totali
         for elem in range(0, len(finestra)-1, -1):
-            if finestra[elem][1]>=65:
-                if finestra[elem][0]=='VS':
+            if finestra[elem][2]>=65:
+                if finestra[elem][1]=='VS':
                     nVS+=1
-                    if finestra[elem][2]=='A':
+                    if finestra[elem][3]=='A':
                         cA=1
                         nA_VS=1
-                    elif finestra[elem][2]=='B':
+                    elif finestra[elem][3]=='B':
                         cB=1
                         nB_VS=1
-                    elif finestra[elem][2]=='C':
+                    elif finestra[elem][3]=='C':
                         cC=1
                         nC_VS=1
-                    elif finestra[elem][2]=='D':
+                    elif finestra[elem][3]=='D':
                         cD=1
                         nD_VS=1
-                    elif finestra[elem][2]=='E':
+                    elif finestra[elem][3]=='E':
                         cE=1
                         nE_VS=1
 
-                elif finestra[elem][0]=='VCI':
+                elif finestra[elem][1]=='VCI':
                     nVCI+=1
-                    if finestra[elem][2]=='A':
+                    if finestra[elem][3]=='A':
                         cA=1
                         nA_VCI=1
-                    elif finestra[elem][2]=='B':
+                    elif finestra[elem][3]=='B':
                         cB=1
                         nB_VCI=1
-                    elif finestra[elem][2]=='C':
+                    elif finestra[elem][3]=='C':
                         cC=1
                         nC_VCI=1
-                    elif finestra[elem][2]=='D':
+                    elif finestra[elem][3]=='D':
                         cD=1
                         nD_VCI=1
-                    elif finestra[elem][2]=='E':
+                    elif finestra[elem][3]=='E':
                         cE=1
                         nE_VCI=1
 
-                elif finestra[elem][0]=='VCS':
+                elif finestra[elem][1]=='VCS':
                     nVCS+=1
-                    if finestra[elem][2]=='A':
+                    if finestra[elem][3]=='A':
                         cA=1
                         nA_VCS=1
-                    elif finestra[elem][2]=='B':
+                    elif finestra[elem][3]=='B':
                         cB=1
                         nB_VCS=1
-                    elif finestra[elem][2]=='C':
+                    elif finestra[elem][3]=='C':
                         cC=1
                         nC_VCS=1
-                    elif finestra[elem][2]=='D':
+                    elif finestra[elem][3]=='D':
                         cD=1
                         nD_VCS=1
-                    elif finestra[elem][2]=='E':
+                    elif finestra[elem][3]=='E':
                         cE=1
                         nE_VCS=1
 
-                elif finestra[elem][0]=='VTC':
+                elif finestra[elem][1]=='VTC':
                     nVTC+=1
-                    if finestra[elem][2]=='A':
+                    if finestra[elem][3]=='A':
                         cA=1
                         nA_VTC=1
-                    elif finestra[elem][2]=='B':
+                    elif finestra[elem][3]=='B':
                         cB=1
                         nB_VTC=1
-                    elif finestra[elem][2]=='C':
+                    elif finestra[elem][3]=='C':
                         cC=1
                         nC_VTC=1
-                    elif finestra[elem][2]=='D':
+                    elif finestra[elem][3]=='D':
                         cD=1
                         nD_VTC=1
-                    elif finestra[elem][2]=='E':
+                    elif finestra[elem][3]=='E':
                         cE=1
                         nE_VTC=1
 
@@ -211,7 +255,7 @@ def funzioneRilevamento():
         sVCS= (1-k)*(nVCS/nTOT) + k*(nL_VCS/nIU)
 
         nL_VTC=nA_VTC+nB_VTC+nC_VTC+nD_VTC+nE_VTC
-        sVTV= (1-k)*(nVTC/nTOT) + k*(nL_VTC/nIU)
+        sVTC= (1-k)*(nVTC/nTOT) + k*(nL_VTC/nIU)
             
         if sVS<d_min:
             cs[0]=1 #etichetta come 'Sospetto'
