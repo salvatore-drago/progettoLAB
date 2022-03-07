@@ -1,0 +1,304 @@
+REPORT-ORA:14:28:12
+ Elementi finestra:19
+ [nVS: 13, nVCI: 0, nVCS: 5, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.8736842105263158, sVCI:0.0, sVCS:0.4652631578947368, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:28:32
+ Elementi finestra:39
+ [nVS: 26, nVCI: 1, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8666666666666667, sVCI:0.13025641025641024, sVCS:0.7128205128205128, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:28:52
+ Elementi finestra:50
+ [nVS: 36, nVCI: 1, nVCS: 12, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8879999999999999, sVCI:0.128, sVCS:0.696, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:29:12
+ Elementi finestra:50
+ [nVS: 35, nVCI: 1, nVCS: 13, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.128, sVCS:0.704, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:29:32
+ Elementi finestra:50
+ [nVS: 35, nVCI: 0, nVCS: 14, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.0, sVCS:0.592, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:29:52
+ Elementi finestra:50
+ [nVS: 37, nVCI: 0, nVCS: 12, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.8959999999999999, sVCI:0.0, sVCS:0.576, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:30:12
+ Elementi finestra:50
+ [nVS: 35, nVCI: 1, nVCS: 13, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.128, sVCS:0.704, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:30:32
+ Elementi finestra:50
+ [nVS: 35, nVCI: 1, nVCS: 13, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.128, sVCS:0.704, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:30:52
+ Elementi finestra:50
+ [nVS: 36, nVCI: 0, nVCS: 13, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8879999999999999, sVCI:0.0, sVCS:0.704, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:31:12
+ Elementi finestra:50
+ [nVS: 35, nVCI: 0, nVCS: 14, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.0, sVCS:0.712, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:31:32
+ Elementi finestra:50
+ [nVS: 22, nVCI: 14, nVCS: 13, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.592, sVCS:0.704, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:31:52
+ Elementi finestra:50
+ [nVS: 14, nVCI: 27, nVCS: 8, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 5, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.592, sVCI:0.8160000000000001, sVCS:0.6639999999999999, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:32:12
+ Elementi finestra:50
+ [nVS: 10, nVCI: 37, nVCS: 2, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.56, sVCI:0.8959999999999999, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:32:32
+ Elementi finestra:50
+ [nVS: 7, nVCI: 35, nVCS: 7, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.416, sVCI:0.8799999999999999, sVCS:0.536, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:32:52
+ Elementi finestra:50
+ [nVS: 6, nVCI: 34, nVCS: 9, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 5, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.528, sVCI:0.872, sVCS:0.6719999999999999, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:33:12
+ Elementi finestra:50
+ [nVS: 6, nVCI: 35, nVCS: 8, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.408, sVCI:0.8799999999999999, sVCS:0.544, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:33:32
+ Elementi finestra:50
+ [nVS: 8, nVCI: 39, nVCS: 2, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.544, sVCI:0.912, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:33:52
+ Elementi finestra:50
+ [nVS: 7, nVCI: 41, nVCS: 1, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 5, nL_VCS: 1, nL_VTC: 0] 
+ [sVS:0.536, sVCI:0.9279999999999999, sVCS:0.128, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:34:12
+ Elementi finestra:50
+ [nVS: 9, nVCI: 36, nVCS: 4, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.432, sVCI:0.8879999999999999, sVCS:0.392, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:34:32
+ Elementi finestra:50
+ [nVS: 7, nVCI: 35, nVCS: 7, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.416, sVCI:0.8799999999999999, sVCS:0.536, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:34:52
+ Elementi finestra:50
+ [nVS: 12, nVCI: 26, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.696, sVCI:0.808, sVCS:0.688, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:35:12
+ Elementi finestra:50
+ [nVS: 22, nVCI: 10, nVCS: 17, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.56, sVCS:0.736, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT-ORA:14:35:32
+ Elementi finestra:50
+ [nVS: 32, nVCI: 0, nVCS: 17, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.856, sVCI:0.0, sVCS:0.736, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:35:52
+ Elementi finestra:50
+ [nVS: 39, nVCI: 0, nVCS: 10, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.912, sVCI:0.0, sVCS:0.44, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:36:12
+ Elementi finestra:50
+ [nVS: 35, nVCI: 0, nVCS: 14, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.0, sVCS:0.592, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:36:32
+ Elementi finestra:50
+ [nVS: 34, nVCI: 0, nVCS: 15, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.872, sVCI:0.0, sVCS:0.72, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:36:52
+ Elementi finestra:50
+ [nVS: 36, nVCI: 0, nVCS: 13, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8879999999999999, sVCI:0.0, sVCS:0.704, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:37:12
+ Elementi finestra:50
+ [nVS: 35, nVCI: 0, nVCS: 14, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.8799999999999999, sVCI:0.0, sVCS:0.712, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:37:32
+ Elementi finestra:50
+ [nVS: 39, nVCI: 0, nVCS: 10, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.912, sVCI:0.0, sVCS:0.56, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:37:52
+ Elementi finestra:50
+ [nVS: 39, nVCI: 0, nVCS: 10, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.912, sVCI:0.0, sVCS:0.56, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:38:12
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:38:32
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:38:52
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:39:12
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:39:33
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:39:53
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:40:13
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT-ORA:14:40:33
+ Elementi finestra:50
+ [nVS: 38, nVCI: 0, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.904, sVCI:0.0, sVCS:0.568, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+

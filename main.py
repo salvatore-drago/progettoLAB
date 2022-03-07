@@ -64,24 +64,21 @@ def condizioniMeteoAvverse():
     pVTC=[6001,10000] # 40%
 
 def generaDati():
-    f_sn=0
-    f_om=0
-    f_sn2=0
     global finestra,etichetta,luogo
     lista_totale= open("lista_risultati","a")
-    for i in range(1,10801,1): #supponiamo nelle ore di punta tra le 7 e le 10 entri una persona al secondo
-        if i<200 and f_sn==0:
-            f_sn=1
+    for i in range(1,600,1): #supponiamo nelle ore di punta tra le 7 e le 10 entri una persona al secondo
+        if i==1:
             situazioneNormale()
+            print("\n Situazione normale")
             lista_totale.write("\n Situazione normale")
-        elif i>200 and i<1000 and f_om==0:
-            f_om=1
+        elif i==200:
             obbligoMascherina()
+            print("\n Obbligo mascherina")
             lista_totale.write("\n Obbligo mascherina")
             
-        elif f_sn2==0:
-            f_sn2=1
+        elif i==400:
             situazioneNormale()
+            print("\n Situazione normale")
             lista_totale.write("\n Situazione normale")
 
         
@@ -143,8 +140,9 @@ s= 65 # scarta i dati con pr.etichetta inferiore al 65%
 d_min= 0.1 #cambia in 'SOSPETTO' se sei inferiore a questa soglia
 d_max=0.4 #cambia in 'NON SOSPETTO' se sei superiore a questa soglia
 def funzioneRilevamento():
-    report= open("report","a")
+    
     while True:
+        report= open("report","a")
         #flag degli ingressi utilizzati
         cA=0 
         cB=0
@@ -198,7 +196,7 @@ def funzioneRilevamento():
         time.sleep(T)
         nTOT= len(finestra) # conta i dati totali
         for elem in range(0, nTOT-1, 1):
-            if finestra[elem][2]>=65:
+            #if finestra[elem][2]>=65:
                 if finestra[elem][1]=='VS':
                     nVS+=1
                     if finestra[elem][3]=='A':
@@ -286,6 +284,9 @@ def funzioneRilevamento():
             sVTC= (1-k)*(nVTC/nTOT) + k*(nL_VTC/nIU)
             
             print("\n Funzione di rilevamento...")
+            print(f"\n Elementi finestra:{nTOT}")
+            print(f"\n nVS: {nVS}, nVCI: {nVCI}, nVCS: {nVCS}, nVTC: {nVTC}")
+            print(f"\n nL_VS: {nL_VS}, nL_VCI: {nL_VCI}, nL_VCS: {nL_VCS}, nL_VTC: {nL_VTC}")
             print(f"\n sVS:{sVS}, sVCI:{sVCI}, sVCS:{sVCS}, sVTC:{sVTC}")
 
             if sVS<d_min:
@@ -310,10 +311,10 @@ def funzioneRilevamento():
 
             print(f"\n CS:{cs}")
             ora_report=time.strftime('%H:%M:%S', time.localtime())
-            report.write(f"REPORT-ORA:{ora_report}\n sVS:{sVS}, sVCI:{sVCI}, sVCS:{sVCS}, sVTC:{sVTC}\n CS:{cs}\n\n\n")
-
+            report.write(f"REPORT-ORA:{ora_report}\n Elementi finestra:{nTOT}\n [nVS: {nVS}, nVCI: {nVCI}, nVCS: {nVCS}, nVTC: {nVTC}]\n [nL_VS: {nL_VS}, nL_VCI: {nL_VCI}, nL_VCS: {nL_VCS}, nL_VTC: {nL_VTC}] \n [sVS:{sVS}, sVCI:{sVCI}, sVCS:{sVCS}, sVTC:{sVTC}]\n CS:{cs}\n\n\n")
+            report.close()
         else:
             print("Nessun dato nella finestra da analizzare")
-    report.close()
+    
 th = threading.Thread(target=funzioneRilevamento, args=())
 th.start()
