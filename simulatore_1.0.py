@@ -4,9 +4,11 @@ cs = [0,1,0,1] # in che modo rispetto alla prima etichetta deve essere emessa la
 
 
 #GENERATORE DATI SINTETICI
+#import numpy as np
 from random import randrange
 import time
 import threading
+#print(np.random().seed)
 #time.strftime('%H:%M:%S', time.localtime())
 #random.randrange(50,99,0.5) #probabilità etichetta
 etichetta=[]
