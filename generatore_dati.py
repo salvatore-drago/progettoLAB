@@ -118,7 +118,7 @@ def genera_orario():
     return orario
 
 probabilitàLuoghiUniforme()
-with open('dati2.csv', 'w', newline='') as file:
+with open('dati.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Id", "Prima etichetta", "Pr. Prima etichetta", "Verità Prima etichetta", "Luogo", "Orario", "Verità Seconda etichetta","Tipo situazione"])
     for i in range(1,600,1):
