@@ -22,7 +22,7 @@ cs = [] # verità sulla seconda etichetta
 ts=""# tipo di situazione 
 etichetta=""
 v_etichetta=""
-orario=time.time() #espresso in secondi rispetto all'ingresso precedente
+orario=int(time.time()) #espresso in secondi rispetto all'ingresso precedente
 luogo=""
 
 # probabilità verità prima etichetta
@@ -118,9 +118,9 @@ def genera_orario():
     return orario
 
 probabilitàLuoghiUniforme()
-with open('dati.csv', 'w', newline='') as file:
+with open('dati2.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Id", "Prima etichetta", "Pr. Prima etichetta", "Verità Prima etichetta", "Luogo", "Orario", "Verità Seconda etichetta","Tipo situazione"])
+    writer.writerow(["Id", "Prima etichetta", "Pr Prima etichetta", "Verità Prima etichetta", "Luogo", "Orario", "Verità Seconda etichetta","Tipo situazione"])
     for i in range(1,600,1):
         if i==1:
             ts=situazioneNormale()
