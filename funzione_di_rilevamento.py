@@ -1,21 +1,46 @@
 import numpy as np
 import pandas as pd
-
+import csv
 # FUNZIONE DI RILEVAMENTO 
 T= 20 #voglio analizzare i dati ogni 20s
 N= 50 #voglio conservare i dati relativi alle ultime 50 persone 
 k= 0.6 # k può assumere valori [0;1] e permette di  assegnare piu o meno importanza alla distribuzione delle etichette tra i vari disp/luoghi.
-s= 65 # scarta i dati con pr.etichetta inferiore al 65%
+s_min= 65 # scarta i dati con pr.etichetta inferiore al 65%
+s=85 # considerali molto attendibili
 d_min= 0.1 #cambia in 'SOSPETTO' se sei inferiore a questa soglia
 d_max=0.4 #cambia in 'NON SOSPETTO' se sei superiore a questa soglia
 cs = [0,1,0,1]
+prima_etichetta= ['VS', 'VCI', 'VCS', 'VTC']
 seconda_etichetta= {0:'Non sospetto', 1: 'Sospetto'}
 finestra=[]
+imprecisione=0
+precisione=0
+att_prima=0
+
+def calcolo_probabilita_NS(min,max,x):
+        if x<=min and x>=0:
+            y= -x+1
+            return y
+        elif x>min and x<max:
+            y= -1.334*x+1.034
+            return y
+        else:
+            y= -0.833*x+0.833
+            return y
+
+def calcolo_probabilita_S(min,max,x):
+    return 1- calcolo_probabilita_NS(min,max,x)
+       
+    
 
 dati= pd.read_csv('dati.csv' ,usecols=["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario"])
 dati_array= dati.to_numpy()
 ultimo_orario= int(dati_array[0][4])
 i=0
+
+with open('risultati.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Id","Seconda etichetta", "Pr Seconda etichetta"])
 
 while i<len(dati_array):
     if dati_array[i][4]<= ultimo_orario+T:
@@ -81,7 +106,9 @@ while i<len(dati_array):
         sVCS=0
         sVTC=0
         for elem in range(0, nTOT-1, 1):
-            if finestra[elem][2]>=65:
+            if finestra[elem][2]>=s_min:
+                if finestra[elem][2]>=s:
+                    precisione+=1
                 if finestra[elem][1]=='VS':
                     nVS+=1
                     if finestra[elem][3]=='A':
@@ -153,6 +180,9 @@ while i<len(dati_array):
                     elif finestra[elem][3]=='E':
                         cE=1
                         nE_VTC=1
+            else:
+                imprecisione+=1
+
         if(nTOT>0):
             nIU=cA+cB+cC+cD+cE
 
@@ -195,6 +225,12 @@ while i<len(dati_array):
                 cs[3]=0 
 
             print(f"\n CS:{cs}")
+            report= open("report_rilevamento","a")
+            report.write(f"REPORT-ORA:{ultimo_orario}\n{finestra}\n Elementi finestra:{nTOT}\n [nVS: {nVS}, nVCI: {nVCI}, nVCS: {nVCS}, nVTC: {nVTC}]\n [nL_VS: {nL_VS}, nL_VCI: {nL_VCI}, nL_VCS: {nL_VCS}, nL_VTC: {nL_VTC}] \n [sVS:{sVS}, sVCI:{sVCI}, sVCS:{sVCS}, sVTC:{sVTC}]\n CS:{cs}\n\n\n")
+            report.close()
+            for elem in finestra:
+                att_prima= 
+                writer.writerow([elem[0], seconda_etichetta[cs[prima_etichetta.index(elem[1])]], pr_seconda_etichetta])
         else:
             print("Nessun dato nella finestra da analizzare")
     i=i+1
