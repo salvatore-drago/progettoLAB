@@ -13,8 +13,10 @@ cs = [0,1,0,1]
 prima_etichetta= ['VS', 'VCI', 'VCS', 'VTC']
 seconda_etichetta= {0:'Non sospetto', 1: 'Sospetto'}
 finestra=[]
+pr_seconda_etichetta_NS=""
+pr_seconda_etichetta_S=""
 pr_seconda_etichetta=""
-incertezza= 1 -(P1* max(P_2S, P_2NS))
+incertezza_sistema="" #1 -(P1* max(P_2S, P_2NS))
 #valori di rilevamento per etichetta
 sVS=(d_max-d_min)/2
 sVCI=(d_max-d_min)/2
@@ -41,36 +43,34 @@ def calcolo_probabilita_S(min,max,x):
        
     
 
-dati= pd.read_csv('dati.csv' ,usecols=["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario"])
+dati= pd.read_csv('dati.csv' ,usecols=["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario","Verita Seconda etichetta","Tipo situazione"])
 dati_array= dati.to_numpy()
 ultimo_orario= int(dati_array[0][4])
 i=0
 
 with open('risultati.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Id","Seconda etichetta", "Pr Seconda etichetta"])
+    writer.writerow(["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario","Verita Seconda etichetta","Tipo situazione","Seconda etichetta", "Pr Seconda etichetta","Incertezza Sistema"])
     while i<len(dati_array):
         se= seconda_etichetta[cs[prima_etichetta.index(dati_array[i][1])]]
-        if se=='Non sospetto':
-            if dati_array[i][1]=="VS":
-                pr_seconda_etichetta= calcolo_probabilita_NS(d_min,d_max,sVS)
-            elif dati_array[i][1]=="VCI":
-                pr_seconda_etichetta= calcolo_probabilita_NS(d_min,d_max,sVCI)
-            elif dati_array[i][1]=="VCS":
-                pr_seconda_etichetta= calcolo_probabilita_NS(d_min,d_max,sVCS)
-            elif dati_array[i][1]=="VTC":
-                pr_seconda_etichetta= calcolo_probabilita_NS(d_min,d_max,sVTC)
-            else:
-                if dati_array[i][1]=="VS":
-                    pr_seconda_etichetta= calcolo_probabilita_S(d_min,d_max,sVS)
-                elif dati_array[i][1]=="VCI":
-                    pr_seconda_etichetta= calcolo_probabilita_S(d_min,d_max,sVCI)
-                elif dati_array[i][1]=="VCS":
-                    pr_seconda_etichetta= calcolo_probabilita_S(d_min,d_max,sVCS)
-                elif dati_array[i][1]=="VTC":
-                    pr_seconda_etichetta= calcolo_probabilita_S(d_min,d_max,sVTC)
-                
-        writer.writerow([dati_array[i][0], se , pr_seconda_etichetta])
+        if dati_array[i][1]=="VS":
+            pr_seconda_etichetta_NS= calcolo_probabilita_NS(d_min,d_max,sVS)
+            pr_seconda_etichetta_S= calcolo_probabilita_S(d_min,d_max,sVS)
+        elif dati_array[i][1]=="VCI":
+            pr_seconda_etichetta_NS= calcolo_probabilita_NS(d_min,d_max,sVCI)
+            pr_seconda_etichetta_S= calcolo_probabilita_S(d_min,d_max,sVCI)
+        elif dati_array[i][1]=="VCS":
+            pr_seconda_etichetta_NS= calcolo_probabilita_NS(d_min,d_max,sVCS)
+            pr_seconda_etichetta_S= calcolo_probabilita_S(d_min,d_max,sVCS)
+        elif dati_array[i][1]=="VTC":
+            pr_seconda_etichetta_NS= calcolo_probabilita_NS(d_min,d_max,sVTC)
+            pr_seconda_etichetta_S= calcolo_probabilita_S(d_min,d_max,sVTC)
+        if se=="Non sospetto":
+            pr_seconda_etichetta=pr_seconda_etichetta_NS
+        else:
+            pr_seconda_etichetta=pr_seconda_etichetta_S           
+        incertezza_sistema=1-((dati_array[i][2]/100)* max(pr_seconda_etichetta_NS,pr_seconda_etichetta_S))       
+        writer.writerow([dati_array[i][0],dati_array[i][1],dati_array[i][2],dati_array[i][3],dati_array[i][4],dati_array[i][5],dati_array[i][6], se , int(pr_seconda_etichetta*100),round(incertezza_sistema,2)])
 
         if dati_array[i][4]<= ultimo_orario+T:
             if len(finestra)<N:
@@ -81,7 +81,6 @@ with open('risultati.csv', 'w', newline='') as file:
                 finestra.reverse()
                 finestra.append(dati_array[i])
         else:
-            i=i-1
             ultimo_orario=dati_array[i][4]
             print("\n",finestra,len(finestra),ultimo_orario)
             nTOT= len(finestra) # conta i dati totali

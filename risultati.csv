@@ -1,677 +1,600 @@
-Id,Seconda etichetta,Pr Seconda etichetta
-1,Non sospetto,0.5
-2,Non sospetto,0.5
-3,Non sospetto,0.5
-4,Non sospetto,0.5
-5,Non sospetto,0.5
-6,Non sospetto,0.5
-7,Non sospetto,0.5
-8,Non sospetto,0.5
-9,Non sospetto,0.5
-9,Non sospetto,0.88
-10,Non sospetto,0.5
-11,Non sospetto,0.88
-12,Non sospetto,0.88
-13,Non sospetto,0.88
-14,Non sospetto,0.88
-15,Non sospetto,0.88
-16,Non sospetto,0.88
-17,Non sospetto,0.88
-18,Non sospetto,0.88
-18,Non sospetto,0.88
-19,Non sospetto,0.88
-20,Non sospetto,0.88
-21,Non sospetto,0.88
-22,Non sospetto,0.5
-23,Non sospetto,0.88
-24,Non sospetto,0.88
-25,Non sospetto,0.88
-26,Non sospetto,0.88
-26,Non sospetto,0.75
-27,Non sospetto,0.75
-28,Non sospetto,0.75
-29,Non sospetto,0.75
-30,Non sospetto,0.75
-31,Non sospetto,0.75
-32,Non sospetto,0.75
-33,Non sospetto,0.75
-34,Non sospetto,0.75
-35,Non sospetto,0.75
-35,Non sospetto,0.86
-36,Non sospetto,0.86
-37,Non sospetto,0.86
-38,Non sospetto,0.86
-39,Non sospetto,0.86
-40,Non sospetto,0.5
-41,Non sospetto,0.5
-42,Non sospetto,0.86
-43,Sospetto,0.86
-44,Non sospetto,0.86
-44,Non sospetto,0.84
-45,Non sospetto,0.5
-46,Non sospetto,0.84
-47,Non sospetto,0.84
-48,Non sospetto,0.84
-49,Non sospetto,0.84
-50,Non sospetto,0.84
-50,Non sospetto,0.83
-51,Non sospetto,0.83
-52,Non sospetto,0.5
-53,Non sospetto,0.83
-54,Non sospetto,0.83
-55,Non sospetto,0.83
-56,Non sospetto,0.83
-57,Non sospetto,0.83
-58,Non sospetto,0.83
-58,Non sospetto,0.82
-59,Non sospetto,0.82
-60,Sospetto,0.82
-61,Non sospetto,0.5
-62,Sospetto,0.5
-63,Non sospetto,0.82
-64,Sospetto,0.82
-65,Non sospetto,0.82
-66,Non sospetto,0.82
-66,Non sospetto,0.81
-67,Non sospetto,0.5
-68,Non sospetto,0.81
-69,Non sospetto,0.5
-70,Non sospetto,0.5
-71,Non sospetto,0.81
-72,Non sospetto,0.81
-73,Non sospetto,0.81
-74,Non sospetto,0.81
-74,Non sospetto,0.79
-75,Non sospetto,0.79
-76,Non sospetto,0.79
-77,Non sospetto,0.79
-78,Non sospetto,0.79
-79,Non sospetto,0.79
-80,Non sospetto,0.79
-81,Non sospetto,0.79
-82,Sospetto,0.79
-82,Sospetto,0.79
-83,Non sospetto,0.81
-84,Non sospetto,0.81
-85,Non sospetto,0.51
-86,Non sospetto,0.51
-87,Non sospetto,0.81
-88,Non sospetto,0.81
-89,Non sospetto,0.81
-90,Non sospetto,0.81
-91,Non sospetto,0.51
-92,Non sospetto,0.81
-93,Non sospetto,0.51
-93,Non sospetto,0.51
-94,Non sospetto,0.81
-95,Non sospetto,0.81
-96,Non sospetto,0.81
-97,Sospetto,0.81
-98,Non sospetto,0.81
-99,Non sospetto,0.51
-100,Non sospetto,0.81
-101,Non sospetto,0.81
-102,Non sospetto,0.81
-102,Non sospetto,0.71
-103,Non sospetto,0.71
-104,Non sospetto,0.71
-105,Non sospetto,0.71
-106,Non sospetto,0.71
-107,Non sospetto,0.71
-108,Sospetto,0.71
-109,Non sospetto,0.71
-110,Non sospetto,0.71
-111,Non sospetto,0.51
-111,Non sospetto,0.51
-112,Non sospetto,0.81
-113,Non sospetto,0.81
-114,Non sospetto,0.81
-115,Non sospetto,0.81
-116,Non sospetto,0.81
-117,Non sospetto,0.81
-118,Non sospetto,0.51
-118,Non sospetto,0.61
-119,Non sospetto,0.83
-120,Non sospetto,0.83
-121,Non sospetto,0.83
-122,Sospetto,0.83
-123,Non sospetto,0.83
-124,Non sospetto,0.83
-125,Non sospetto,0.83
-125,Non sospetto,0.84
-126,Non sospetto,0.84
-127,Non sospetto,0.6
-128,Sospetto,0.6
-129,Non sospetto,0.84
-130,Non sospetto,0.84
-131,Non sospetto,0.6
-131,Non sospetto,0.71
-132,Non sospetto,0.71
-133,Non sospetto,0.82
-134,Non sospetto,0.82
-135,Non sospetto,0.59
-136,Non sospetto,0.82
-137,Non sospetto,0.71
-138,Non sospetto,0.59
-138,Non sospetto,0.5
-139,Non sospetto,0.83
-140,Non sospetto,0.83
-141,Non sospetto,0.5
-142,Non sospetto,0.83
-143,Non sospetto,0.83
-144,Non sospetto,0.83
-145,Non sospetto,0.83
-146,Non sospetto,0.83
-146,Non sospetto,0.82
-147,Non sospetto,0.82
-148,Non sospetto,0.61
-149,Non sospetto,0.82
-150,Non sospetto,0.82
-151,Non sospetto,0.59
-152,Non sospetto,0.59
-153,Non sospetto,0.82
-154,Non sospetto,0.61
-154,Non sospetto,0.71
-155,Non sospetto,0.83
-156,Non sospetto,0.83
-157,Non sospetto,0.5
-158,Non sospetto,0.83
-159,Non sospetto,0.71
-160,Non sospetto,0.83
-161,Non sospetto,0.83
-162,Non sospetto,0.83
-163,Non sospetto,0.83
-163,Non sospetto,0.83
-164,Non sospetto,0.83
-165,Non sospetto,0.83
-166,Non sospetto,0.83
-167,Non sospetto,0.83
-168,Non sospetto,0.83
-169,Non sospetto,0.71
-169,Non sospetto,0.71
-170,Non sospetto,0.83
-171,Non sospetto,0.83
-172,Non sospetto,0.83
-173,Non sospetto,0.83
-174,Non sospetto,0.83
-175,Non sospetto,0.83
-175,Non sospetto,0.81
-176,Non sospetto,0.81
-177,Non sospetto,0.81
-178,Non sospetto,0.81
-179,Non sospetto,0.61
-180,Non sospetto,0.81
-181,Sospetto,0.81
-182,Non sospetto,0.61
-183,Non sospetto,0.81
-183,Non sospetto,0.82
-184,Non sospetto,0.5
-185,Non sospetto,0.82
-186,Non sospetto,0.82
-187,Non sospetto,0.82
-188,Non sospetto,0.82
-189,Non sospetto,0.82
-189,Non sospetto,0.81
-190,Non sospetto,0.81
-191,Non sospetto,0.81
-192,Non sospetto,0.6
-193,Non sospetto,0.81
-194,Non sospetto,0.6
-195,Non sospetto,0.81
-196,Non sospetto,0.81
-197,Non sospetto,0.6
-198,Non sospetto,0.81
-198,Non sospetto,0.8
-199,Non sospetto,0.8
-200,Non sospetto,0.8
-201,Non sospetto,0.8
-202,Non sospetto,0.71
-203,Non sospetto,0.71
-204,Non sospetto,0.71
-205,Non sospetto,0.71
-206,Non sospetto,0.8
-206,Non sospetto,0.81
-207,Non sospetto,0.72
-208,Non sospetto,0.81
-209,Non sospetto,0.72
-210,Non sospetto,0.5
-211,Non sospetto,0.72
-212,Non sospetto,0.72
-213,Non sospetto,0.72
-213,Non sospetto,0.73
-214,Non sospetto,0.73
-215,Non sospetto,0.73
-216,Non sospetto,0.73
-217,Non sospetto,0.73
-218,Non sospetto,0.8
-219,Non sospetto,0.73
-220,Non sospetto,0.73
-220,Non sospetto,0.76
-221,Non sospetto,0.76
-222,Non sospetto,0.76
-223,Non sospetto,0.76
-224,Non sospetto,0.76
-225,Non sospetto,0.76
-226,Non sospetto,0.76
-227,Non sospetto,0.76
-228,Sospetto,0.76
-228,Sospetto,0.76
-229,Non sospetto,0.8
-230,Non sospetto,0.8
-231,Non sospetto,0.8
-232,Non sospetto,0.8
-233,Non sospetto,0.8
-234,Non sospetto,0.5
-235,Non sospetto,0.8
-236,Non sospetto,0.8
-237,Non sospetto,0.8
-238,Non sospetto,0.8
-239,Non sospetto,0.8
-239,Non sospetto,0.84
-240,Non sospetto,0.84
-241,Non sospetto,0.84
-242,Non sospetto,0.84
-243,Non sospetto,0.84
-244,Non sospetto,0.84
-245,Non sospetto,0.84
-246,Non sospetto,0.84
-247,Non sospetto,0.84
-247,Non sospetto,0.85
-248,Non sospetto,0.85
-249,Non sospetto,0.85
-250,Non sospetto,0.85
-251,Non sospetto,0.85
-252,Non sospetto,0.71
-253,Non sospetto,0.85
-254,Non sospetto,0.71
-255,Non sospetto,0.85
-256,Non sospetto,0.85
-257,Non sospetto,0.5
-258,Non sospetto,0.85
-258,Non sospetto,0.86
-259,Non sospetto,0.86
-260,Non sospetto,0.86
-261,Non sospetto,0.86
-262,Non sospetto,0.86
-263,Non sospetto,0.86
-264,Non sospetto,0.5
-265,Non sospetto,0.86
-266,Non sospetto,0.86
-266,Non sospetto,0.85
-267,Non sospetto,0.5
-268,Non sospetto,0.85
-269,Non sospetto,0.85
-270,Non sospetto,0.85
-271,Non sospetto,0.85
-272,Non sospetto,0.5
-273,Non sospetto,0.85
-273,Non sospetto,0.86
-274,Non sospetto,0.86
-275,Non sospetto,0.86
-276,Non sospetto,0.86
-277,Sospetto,0.86
-278,Non sospetto,0.86
-279,Non sospetto,0.86
-280,Non sospetto,0.5
-281,Non sospetto,0.86
-282,Non sospetto,0.86
-283,Non sospetto,0.86
-283,Non sospetto,0.84
-284,Non sospetto,0.84
-285,Non sospetto,0.84
-286,Non sospetto,0.84
-287,Non sospetto,0.84
-288,Non sospetto,0.84
-289,Non sospetto,0.84
-290,Non sospetto,0.84
-290,Non sospetto,0.85
-291,Non sospetto,0.85
-292,Non sospetto,0.85
-293,Non sospetto,0.85
-294,Non sospetto,0.85
-295,Non sospetto,0.85
-296,Non sospetto,0.85
-296,Non sospetto,0.85
-297,Non sospetto,0.85
-298,Non sospetto,0.85
-299,Non sospetto,0.85
-300,Non sospetto,0.85
-301,Non sospetto,0.85
-302,Non sospetto,0.85
-303,Non sospetto,0.85
-304,Non sospetto,0.85
-305,Non sospetto,0.85
-305,Non sospetto,0.87
-306,Non sospetto,0.87
-307,Non sospetto,0.87
-308,Non sospetto,0.87
-309,Non sospetto,0.87
-310,Non sospetto,0.87
-311,Non sospetto,0.87
-312,Sospetto,0.87
-313,Non sospetto,0.87
-314,Non sospetto,0.87
-315,Non sospetto,0.87
-316,Sospetto,0.87
-316,Sospetto,0.87
-317,Sospetto,0.87
-318,Non sospetto,0.87
-319,Sospetto,0.87
-320,Non sospetto,0.87
-321,Non sospetto,0.87
-322,Non sospetto,0.87
-323,Non sospetto,0.5
-324,Non sospetto,0.87
-325,Non sospetto,0.87
-326,Non sospetto,0.87
-326,Non sospetto,0.87
-327,Non sospetto,0.87
-328,Non sospetto,0.87
-329,Non sospetto,0.87
-330,Non sospetto,0.87
-331,Sospetto,0.87
-332,Non sospetto,0.87
-333,Non sospetto,0.87
-334,Non sospetto,0.87
-335,Non sospetto,0.87
-335,Non sospetto,0.87
-336,Non sospetto,0.87
-337,Non sospetto,0.87
-338,Non sospetto,0.87
-339,Non sospetto,0.5
-340,Non sospetto,0.87
-341,Non sospetto,0.87
-342,Non sospetto,0.87
-343,Non sospetto,0.87
-344,Non sospetto,0.87
-344,Non sospetto,0.89
-345,Non sospetto,0.89
-346,Non sospetto,0.89
-347,Non sospetto,0.89
-348,Non sospetto,0.89
-349,Non sospetto,0.89
-350,Non sospetto,0.89
-350,Non sospetto,0.89
-351,Non sospetto,0.89
-352,Non sospetto,0.89
-353,Sospetto,0.89
-354,Non sospetto,0.89
-355,Non sospetto,0.89
-356,Non sospetto,0.89
-357,Non sospetto,0.89
-357,Non sospetto,0.86
-358,Non sospetto,0.86
-359,Non sospetto,0.86
-360,Non sospetto,0.86
-361,Non sospetto,0.86
-362,Non sospetto,0.86
-363,Non sospetto,0.5
-363,Non sospetto,0.5
-364,Non sospetto,0.87
-365,Non sospetto,0.87
-366,Non sospetto,0.87
-367,Non sospetto,0.87
-368,Non sospetto,0.87
-368,Non sospetto,0.86
-369,Non sospetto,0.86
-370,Non sospetto,0.86
-371,Non sospetto,0.86
-372,Non sospetto,0.5
-373,Non sospetto,0.86
-374,Non sospetto,0.5
-375,Non sospetto,0.86
-376,Non sospetto,0.86
-376,Non sospetto,0.75
-377,Non sospetto,0.75
-378,Non sospetto,0.75
-379,Non sospetto,0.75
-380,Non sospetto,0.75
-381,Non sospetto,0.75
-382,Non sospetto,0.75
-383,Sospetto,0.75
-383,Sospetto,0.75
-384,Non sospetto,0.77
-385,Non sospetto,0.77
-386,Sospetto,0.77
-387,Non sospetto,0.77
-388,Non sospetto,0.77
-389,Non sospetto,0.77
-390,Sospetto,0.77
-391,Non sospetto,0.77
-392,Non sospetto,0.77
-392,Non sospetto,0.85
-393,Non sospetto,0.85
-394,Non sospetto,0.85
-395,Non sospetto,0.85
-396,Non sospetto,0.85
-397,Non sospetto,0.85
-398,Non sospetto,0.85
-399,Non sospetto,0.85
-399,Non sospetto,0.84
-400,Non sospetto,0.5
-401,Non sospetto,0.5
-402,Sospetto,0.5
-403,Sospetto,0.5
-404,Non sospetto,0.5
-405,Sospetto,0.5
-406,Sospetto,0.5
-406,Sospetto,0.5
-407,Non sospetto,0.83
-408,Sospetto,0.83
-409,Non sospetto,0.83
-410,Sospetto,0.83
-411,Non sospetto,0.5
-412,Sospetto,0.5
-413,Sospetto,0.5
-414,Sospetto,0.5
-414,Non sospetto,0.5
-415,Sospetto,0.5
-416,Non sospetto,0.5
-417,Non sospetto,0.5
-418,Non sospetto,0.5
-419,Non sospetto,0.5
-420,Non sospetto,0.5
-421,Non sospetto,0.5
-422,Non sospetto,0.82
-422,Non sospetto,0.78
-423,Non sospetto,0.53
-424,Non sospetto,0.5
-425,Non sospetto,0.53
-426,Non sospetto,0.53
-427,Non sospetto,0.53
-428,Non sospetto,0.53
-428,Non sospetto,0.75
-429,Non sospetto,0.5
-430,Non sospetto,0.5
-431,Non sospetto,0.5
-432,Non sospetto,0.5
-433,Non sospetto,0.75
-434,Non sospetto,0.5
-435,Non sospetto,0.75
-436,Non sospetto,0.75
-436,Non sospetto,0.75
-437,Non sospetto,0.6
-438,Non sospetto,0.6
-439,Non sospetto,0.6
-440,Non sospetto,0.75
-441,Non sospetto,0.75
-442,Non sospetto,0.75
-442,Non sospetto,0.76
-443,Non sospetto,0.71
-444,Non sospetto,0.76
-445,Non sospetto,0.76
-446,Non sospetto,0.76
-447,Non sospetto,0.76
-447,Non sospetto,0.77
-448,Non sospetto,0.77
-449,Non sospetto,0.77
-450,Non sospetto,0.77
-451,Non sospetto,0.71
-452,Non sospetto,0.77
-452,Non sospetto,0.79
-453,Non sospetto,0.79
-454,Non sospetto,0.79
-455,Non sospetto,0.79
-456,Non sospetto,0.79
-457,Non sospetto,0.71
-458,Non sospetto,0.79
-459,Non sospetto,0.79
-459,Non sospetto,0.8
-460,Non sospetto,0.5
-461,Non sospetto,0.72
-462,Non sospetto,0.72
-463,Non sospetto,0.8
-464,Non sospetto,0.8
-465,Non sospetto,0.8
-466,Non sospetto,0.8
-466,Non sospetto,0.81
-467,Non sospetto,0.81
-468,Non sospetto,0.81
-469,Non sospetto,0.81
-470,Non sospetto,0.81
-471,Non sospetto,0.81
-472,Non sospetto,0.81
-472,Non sospetto,0.82
-473,Non sospetto,0.71
-474,Non sospetto,0.82
-475,Non sospetto,0.71
-476,Non sospetto,0.82
-477,Non sospetto,0.82
-478,Non sospetto,0.82
-479,Non sospetto,0.5
-480,Non sospetto,0.71
-480,Non sospetto,0.71
-481,Non sospetto,0.71
-482,Non sospetto,0.81
-483,Non sospetto,0.81
-484,Non sospetto,0.71
-485,Non sospetto,0.5
-486,Non sospetto,0.81
-486,Non sospetto,0.81
-487,Non sospetto,0.81
-488,Non sospetto,0.81
-489,Non sospetto,0.81
-490,Non sospetto,0.81
-491,Non sospetto,0.81
-492,Non sospetto,0.81
-492,Non sospetto,0.82
-493,Non sospetto,0.82
-494,Non sospetto,0.82
-495,Non sospetto,0.82
-496,Non sospetto,0.82
-497,Non sospetto,0.82
-498,Non sospetto,0.61
-499,Non sospetto,0.82
-499,Non sospetto,0.82
-500,Non sospetto,0.5
-501,Non sospetto,0.82
-502,Sospetto,0.82
-503,Non sospetto,0.82
-504,Non sospetto,0.82
-505,Non sospetto,0.82
-506,Non sospetto,0.61
-507,Non sospetto,0.82
-507,Non sospetto,0.79
-508,Non sospetto,0.5
-509,Non sospetto,0.79
-510,Non sospetto,0.61
-511,Non sospetto,0.79
-512,Non sospetto,0.5
-513,Non sospetto,0.79
-514,Non sospetto,0.79
-515,Non sospetto,0.79
-515,Non sospetto,0.78
-516,Non sospetto,0.5
-517,Non sospetto,0.78
-518,Non sospetto,0.78
-519,Non sospetto,0.78
-520,Non sospetto,0.5
-521,Non sospetto,0.5
-522,Non sospetto,0.5
-522,Non sospetto,0.51
-523,Non sospetto,0.67
-524,Non sospetto,0.51
-525,Non sospetto,0.51
-526,Non sospetto,0.51
-527,Non sospetto,0.5
-528,Non sospetto,0.67
-529,Non sospetto,0.51
-530,Non sospetto,0.51
-531,Non sospetto,0.51
-531,Non sospetto,0.63
-532,Non sospetto,0.67
-533,Non sospetto,0.67
-534,Non sospetto,0.63
-535,Non sospetto,0.67
-536,Non sospetto,0.67
-537,Non sospetto,0.67
-538,Non sospetto,0.63
-539,Non sospetto,0.67
-539,Non sospetto,0.67
-540,Non sospetto,0.53
-541,Non sospetto,0.67
-542,Non sospetto,0.67
-543,Non sospetto,0.67
-544,Non sospetto,0.67
-545,Non sospetto,0.67
-546,Non sospetto,0.67
-547,Non sospetto,0.67
-548,Non sospetto,0.67
-548,Non sospetto,0.67
-549,Non sospetto,0.5
-550,Non sospetto,0.65
-551,Non sospetto,0.67
-552,Non sospetto,0.5
-553,Non sospetto,0.67
-554,Non sospetto,0.67
-555,Non sospetto,0.67
-556,Non sospetto,0.65
-557,Non sospetto,0.67
-558,Non sospetto,0.67
-558,Non sospetto,0.8
-559,Non sospetto,0.8
-560,Non sospetto,0.8
-561,Sospetto,0.8
-562,Non sospetto,0.8
-563,Non sospetto,0.8
-564,Non sospetto,0.5
-564,Non sospetto,0.5
-565,Non sospetto,0.74
-566,Sospetto,0.74
-567,Non sospetto,0.83
-568,Non sospetto,0.83
-569,Non sospetto,0.74
-570,Non sospetto,0.83
-571,Non sospetto,0.83
-571,Non sospetto,0.82
-572,Non sospetto,0.82
-573,Non sospetto,0.82
-574,Non sospetto,0.82
-575,Non sospetto,0.82
-576,Non sospetto,0.82
-577,Non sospetto,0.82
-578,Non sospetto,0.82
-579,Non sospetto,0.75
-580,Non sospetto,0.82
-580,Non sospetto,0.87
-581,Non sospetto,0.87
-582,Non sospetto,0.62
-583,Non sospetto,0.62
-584,Non sospetto,0.62
-585,Non sospetto,0.87
-586,Non sospetto,0.87
-587,Non sospetto,0.62
-588,Non sospetto,0.87
-588,Non sospetto,0.88
-589,Non sospetto,0.72
-590,Non sospetto,0.88
-591,Non sospetto,0.88
-592,Non sospetto,0.5
-593,Non sospetto,0.88
-594,Non sospetto,0.88
-595,Non sospetto,0.72
-596,Non sospetto,0.88
-596,Non sospetto,0.87
-597,Non sospetto,0.62
-598,Non sospetto,0.87
-599,Non sospetto,0.87
+Id,Prima etichetta,Pr Prima etichetta,Luogo,Orario,Verita Seconda etichetta,Tipo situazione,Seconda etichetta,Pr Seconda etichetta,Incertezza Sistema
+1,VS,85,D,1647349800,Non sospetto,Situazione Normale,Non sospetto,50,0.57
+2,VS,50,B,1647349804,Non sospetto,Situazione Normale,Non sospetto,50,0.75
+3,VCS,80,E,1647349807,Non sospetto,Situazione Normale,Non sospetto,50,0.6
+4,VS,91,B,1647349811,Non sospetto,Situazione Normale,Non sospetto,50,0.54
+5,VS,83,B,1647349813,Non sospetto,Situazione Normale,Non sospetto,50,0.58
+6,VS,69,D,1647349814,Non sospetto,Situazione Normale,Non sospetto,50,0.66
+7,VS,84,E,1647349817,Non sospetto,Situazione Normale,Non sospetto,50,0.58
+8,VS,76,D,1647349818,Non sospetto,Situazione Normale,Non sospetto,50,0.62
+9,VS,95,D,1647349821,Non sospetto,Situazione Normale,Non sospetto,50,0.53
+10,VCS,64,B,1647349824,Non sospetto,Situazione Normale,Non sospetto,50,0.68
+11,VS,56,E,1647349826,Non sospetto,Situazione Normale,Non sospetto,88,0.51
+12,VS,73,D,1647349827,Non sospetto,Situazione Normale,Non sospetto,88,0.36
+13,VS,89,D,1647349829,Non sospetto,Situazione Normale,Non sospetto,88,0.22
+14,VS,54,C,1647349830,Non sospetto,Situazione Normale,Non sospetto,88,0.52
+15,VS,71,E,1647349832,Non sospetto,Situazione Normale,Non sospetto,88,0.38
+16,VS,91,D,1647349836,Non sospetto,Situazione Normale,Non sospetto,88,0.2
+17,VS,66,D,1647349837,Non sospetto,Situazione Normale,Non sospetto,88,0.42
+18,VS,86,C,1647349839,Non sospetto,Situazione Normale,Non sospetto,88,0.24
+19,VS,63,B,1647349843,Non sospetto,Situazione Normale,Non sospetto,88,0.45
+20,VS,51,E,1647349845,Non sospetto,Situazione Normale,Non sospetto,88,0.55
+21,VS,98,E,1647349847,Non sospetto,Situazione Normale,Non sospetto,88,0.14
+22,VCS,86,A,1647349848,Non sospetto,Situazione Normale,Non sospetto,50,0.57
+23,VS,63,B,1647349850,Non sospetto,Situazione Normale,Non sospetto,88,0.45
+24,VS,53,C,1647349852,Non sospetto,Situazione Normale,Non sospetto,88,0.53
+25,VS,87,B,1647349856,Non sospetto,Situazione Normale,Non sospetto,88,0.23
+26,VS,85,D,1647349858,Non sospetto,Situazione Normale,Non sospetto,88,0.25
+27,VS,58,D,1647349862,Non sospetto,Situazione Normale,Non sospetto,88,0.49
+28,VS,74,A,1647349864,Non sospetto,Situazione Normale,Non sospetto,88,0.35
+29,VS,93,E,1647349865,Non sospetto,Situazione Normale,Non sospetto,77,0.28
+30,VS,51,D,1647349867,Non sospetto,Situazione Normale,Non sospetto,77,0.61
+31,VS,59,E,1647349869,Non sospetto,Situazione Normale,Non sospetto,77,0.55
+32,VS,74,E,1647349871,Non sospetto,Situazione Normale,Non sospetto,77,0.43
+33,VS,65,C,1647349873,Non sospetto,Situazione Normale,Non sospetto,77,0.5
+34,VS,61,B,1647349875,Non sospetto,Situazione Normale,Non sospetto,77,0.53
+35,VS,56,C,1647349879,Non sospetto,Situazione Normale,Non sospetto,77,0.57
+36,VS,89,D,1647349882,Non sospetto,Situazione Normale,Non sospetto,77,0.31
+37,VS,62,E,1647349883,Non sospetto,Situazione Normale,Non sospetto,77,0.52
+38,VS,85,E,1647349884,Non sospetto,Situazione Normale,Non sospetto,77,0.35
+39,VS,63,B,1647349887,Non sospetto,Situazione Normale,Non sospetto,77,0.51
+40,VCS,78,A,1647349888,Non sospetto,Situazione Normale,Non sospetto,50,0.61
+41,VCS,61,A,1647349889,Non sospetto,Situazione Normale,Non sospetto,50,0.7
+42,VS,95,C,1647349890,Non sospetto,Situazione Normale,Non sospetto,75,0.29
+43,VCI,74,B,1647349894,Sospetto,Situazione Normale,Sospetto,100,0.26
+44,VS,58,B,1647349898,Non sospetto,Situazione Normale,Non sospetto,75,0.57
+45,VCS,92,A,1647349901,Non sospetto,Situazione Normale,Non sospetto,50,0.54
+46,VS,54,E,1647349905,Non sospetto,Situazione Normale,Non sospetto,75,0.59
+47,VS,63,C,1647349908,Non sospetto,Situazione Normale,Non sospetto,75,0.53
+48,VS,83,A,1647349910,Non sospetto,Situazione Normale,Non sospetto,73,0.39
+49,VS,93,E,1647349914,Non sospetto,Situazione Normale,Non sospetto,73,0.32
+50,VS,61,C,1647349918,Non sospetto,Situazione Normale,Non sospetto,73,0.55
+51,VS,62,E,1647349919,Non sospetto,Situazione Normale,Non sospetto,73,0.55
+52,VCS,61,B,1647349921,Non sospetto,Situazione Normale,Non sospetto,50,0.7
+53,VS,58,D,1647349923,Non sospetto,Situazione Normale,Non sospetto,73,0.58
+54,VS,85,B,1647349926,Non sospetto,Situazione Normale,Non sospetto,73,0.38
+55,VS,81,C,1647349930,Non sospetto,Situazione Normale,Non sospetto,73,0.41
+56,VS,97,A,1647349932,Non sospetto,Situazione Normale,Non sospetto,82,0.2
+57,VS,90,C,1647349933,Non sospetto,Situazione Normale,Non sospetto,82,0.26
+58,VS,73,D,1647349935,Non sospetto,Situazione Normale,Non sospetto,82,0.4
+59,VS,50,E,1647349938,Non sospetto,Situazione Normale,Non sospetto,82,0.59
+60,VCI,92,B,1647349940,Sospetto,Situazione Normale,Sospetto,50,0.54
+61,VCS,93,D,1647349943,Non sospetto,Situazione Normale,Non sospetto,50,0.53
+62,VCI,52,C,1647349947,Sospetto,Situazione Normale,Sospetto,50,0.74
+63,VS,87,C,1647349948,Non sospetto,Situazione Normale,Non sospetto,82,0.29
+64,VCI,73,B,1647349950,Sospetto,Situazione Normale,Sospetto,50,0.64
+65,VS,50,E,1647349951,Non sospetto,Situazione Normale,Non sospetto,82,0.59
+66,VS,86,A,1647349954,Non sospetto,Situazione Normale,Non sospetto,81,0.3
+67,VCS,93,A,1647349956,Non sospetto,Situazione Normale,Non sospetto,50,0.53
+68,VS,50,C,1647349957,Non sospetto,Situazione Normale,Non sospetto,81,0.59
+69,VCS,83,E,1647349958,Non sospetto,Situazione Normale,Non sospetto,50,0.58
+70,VCS,85,E,1647349961,Non sospetto,Situazione Normale,Non sospetto,50,0.57
+71,VS,56,E,1647349965,Non sospetto,Situazione Normale,Non sospetto,81,0.55
+72,VS,89,D,1647349967,Non sospetto,Situazione Normale,Non sospetto,81,0.28
+73,VS,81,A,1647349968,Non sospetto,Situazione Normale,Non sospetto,81,0.34
+74,VS,74,A,1647349972,Non sospetto,Situazione Normale,Non sospetto,81,0.4
+75,VS,93,A,1647349975,Non sospetto,Situazione Normale,Non sospetto,79,0.27
+76,VS,73,A,1647349977,Non sospetto,Situazione Normale,Non sospetto,79,0.42
+77,VS,80,A,1647349978,Non sospetto,Situazione Normale,Non sospetto,79,0.37
+78,VS,73,C,1647349982,Non sospetto,Situazione Normale,Non sospetto,79,0.42
+79,VS,62,A,1647349984,Non sospetto,Situazione Normale,Non sospetto,79,0.51
+80,VS,82,A,1647349986,Non sospetto,Situazione Normale,Non sospetto,79,0.35
+81,VS,79,C,1647349988,Non sospetto,Situazione Normale,Non sospetto,79,0.38
+82,VCI,85,B,1647349989,Sospetto,Situazione Normale,Sospetto,50,0.57
+83,VS,81,C,1647349990,Non sospetto,Situazione Normale,Non sospetto,79,0.36
+84,VS,93,B,1647349991,Non sospetto,Situazione Normale,Non sospetto,79,0.27
+85,VCS,52,B,1647349995,Non sospetto,Situazione Normale,Non sospetto,51,0.73
+86,VCS,93,E,1647349998,Non sospetto,Situazione Normale,Non sospetto,51,0.53
+87,VS,63,E,1647349999,Non sospetto,Situazione Normale,Non sospetto,81,0.49
+88,VS,61,C,1647350001,Non sospetto,Situazione Normale,Non sospetto,81,0.51
+89,VS,71,C,1647350002,Non sospetto,Situazione Normale,Non sospetto,81,0.42
+90,VS,94,D,1647350005,Non sospetto,Situazione Normale,Non sospetto,81,0.24
+91,VCS,79,D,1647350007,Non sospetto,Situazione Normale,Non sospetto,51,0.6
+92,VS,59,C,1647350008,Non sospetto,Situazione Normale,Non sospetto,81,0.52
+93,VCS,50,D,1647350012,Non sospetto,Situazione Normale,Non sospetto,51,0.74
+94,VS,62,D,1647350014,Non sospetto,Situazione Normale,Non sospetto,81,0.5
+95,VS,69,C,1647350016,Non sospetto,Situazione Normale,Non sospetto,81,0.44
+96,VS,59,B,1647350017,Non sospetto,Situazione Normale,Non sospetto,81,0.52
+97,VCI,87,D,1647350020,Sospetto,Situazione Normale,Sospetto,50,0.56
+98,VS,66,A,1647350022,Non sospetto,Situazione Normale,Non sospetto,81,0.47
+99,VCS,79,A,1647350024,Non sospetto,Situazione Normale,Non sospetto,52,0.59
+100,VS,50,D,1647350025,Non sospetto,Situazione Normale,Non sospetto,81,0.59
+101,VS,58,C,1647350027,Non sospetto,Situazione Normale,Non sospetto,81,0.53
+102,VS,51,C,1647350031,Non sospetto,Situazione Normale,Non sospetto,81,0.59
+103,VS,88,E,1647350035,Non sospetto,Situazione Normale,Non sospetto,81,0.29
+104,VS,68,C,1647350036,Non sospetto,Situazione Normale,Non sospetto,81,0.45
+105,VS,82,A,1647350038,Non sospetto,Situazione Normale,Non sospetto,81,0.34
+106,VS,60,E,1647350040,Non sospetto,Situazione Normale,Non sospetto,80,0.52
+107,VS,82,B,1647350043,Non sospetto,Situazione Normale,Non sospetto,80,0.34
+108,VCI,55,A,1647350044,Sospetto,Situazione Normale,Sospetto,50,0.72
+109,VS,53,D,1647350045,Non sospetto,Situazione Normale,Non sospetto,80,0.58
+110,VS,87,E,1647350047,Non sospetto,Situazione Normale,Non sospetto,80,0.3
+111,VCS,94,C,1647350048,Non sospetto,Situazione Normale,Non sospetto,51,0.52
+112,VS,68,E,1647350049,Non sospetto,Situazione Normale,Non sospetto,80,0.46
+113,VS,88,C,1647350053,Non sospetto,Situazione Normale,Non sospetto,80,0.3
+114,VS,75,E,1647350056,Non sospetto,Situazione Normale,Non sospetto,80,0.4
+115,VS,65,B,1647350058,Non sospetto,Situazione Normale,Non sospetto,80,0.48
+116,VS,95,D,1647350062,Non sospetto,Situazione Normale,Non sospetto,80,0.24
+117,VS,53,E,1647350066,Non sospetto,Situazione Normale,Non sospetto,81,0.57
+118,VCS,82,D,1647350068,Non sospetto,Situazione Normale,Non sospetto,62,0.49
+119,VS,80,D,1647350069,Non sospetto,Situazione Normale,Non sospetto,81,0.35
+120,VS,90,A,1647350073,Non sospetto,Situazione Normale,Non sospetto,81,0.27
+121,VS,97,E,1647350076,Non sospetto,Situazione Normale,Non sospetto,81,0.21
+122,VCI,84,A,1647350080,Sospetto,Situazione Normale,Sospetto,50,0.58
+123,VS,69,D,1647350081,Non sospetto,Situazione Normale,Non sospetto,81,0.44
+124,VS,89,E,1647350084,Non sospetto,Situazione Normale,Non sospetto,81,0.28
+125,VS,63,B,1647350088,Non sospetto,Situazione Normale,Non sospetto,83,0.48
+126,VS,53,C,1647350091,Non sospetto,Situazione Normale,Non sospetto,83,0.56
+127,VCS,91,B,1647350092,Non sospetto,Situazione Normale,Non sospetto,61,0.44
+128,VCI,94,C,1647350096,Sospetto,Situazione Normale,Sospetto,50,0.53
+129,VS,92,D,1647350098,Non sospetto,Situazione Normale,Non sospetto,83,0.24
+130,VS,76,C,1647350102,Non sospetto,Situazione Normale,Non sospetto,83,0.37
+131,VCS,58,B,1647350105,Non sospetto,Situazione Normale,Non sospetto,61,0.65
+132,VCS,60,D,1647350109,Non sospetto,Situazione Normale,Non sospetto,71,0.57
+133,VS,92,D,1647350112,Non sospetto,Situazione Normale,Non sospetto,82,0.25
+134,VS,89,E,1647350114,Non sospetto,Situazione Normale,Non sospetto,82,0.27
+135,VCI,84,D,1647350115,Sospetto,Situazione Normale,Non sospetto,59,0.5
+136,VS,86,C,1647350119,Non sospetto,Situazione Normale,Non sospetto,82,0.29
+137,VCS,59,A,1647350120,Non sospetto,Situazione Normale,Non sospetto,71,0.58
+138,VCI,83,E,1647350124,Sospetto,Situazione Normale,Non sospetto,59,0.51
+139,VS,90,C,1647350125,Non sospetto,Situazione Normale,Non sospetto,82,0.26
+140,VS,95,C,1647350128,Non sospetto,Situazione Normale,Non sospetto,82,0.22
+141,VCI,92,C,1647350131,Sospetto,Situazione Normale,Non sospetto,60,0.45
+142,VS,51,B,1647350133,Non sospetto,Situazione Normale,Non sospetto,81,0.59
+143,VS,52,A,1647350134,Non sospetto,Situazione Normale,Non sospetto,81,0.58
+144,VS,52,B,1647350138,Non sospetto,Situazione Normale,Non sospetto,81,0.58
+145,VS,93,E,1647350140,Non sospetto,Situazione Normale,Non sospetto,81,0.25
+146,VS,94,C,1647350142,Non sospetto,Situazione Normale,Non sospetto,81,0.24
+147,VS,81,D,1647350146,Non sospetto,Situazione Normale,Non sospetto,81,0.34
+148,VCI,66,B,1647350149,Sospetto,Situazione Normale,Non sospetto,60,0.6
+149,VS,56,D,1647350150,Non sospetto,Situazione Normale,Non sospetto,81,0.55
+150,VS,82,B,1647350153,Non sospetto,Situazione Normale,Non sospetto,81,0.34
+151,VCS,58,E,1647350154,Non sospetto,Situazione Normale,Non sospetto,59,0.66
+152,VCS,52,E,1647350158,Non sospetto,Situazione Normale,Non sospetto,59,0.69
+153,VS,66,C,1647350160,Non sospetto,Situazione Normale,Non sospetto,81,0.47
+154,VCI,95,C,1647350163,Sospetto,Situazione Normale,Non sospetto,61,0.42
+155,VS,59,C,1647350164,Non sospetto,Situazione Normale,Non sospetto,81,0.52
+156,VS,87,C,1647350165,Non sospetto,Situazione Normale,Non sospetto,81,0.3
+157,VCS,86,E,1647350169,Non sospetto,Situazione Normale,Non sospetto,59,0.49
+158,VS,94,C,1647350171,Non sospetto,Situazione Normale,Non sospetto,81,0.24
+159,VCI,57,E,1647350175,Sospetto,Situazione Normale,Non sospetto,61,0.65
+160,VS,75,D,1647350177,Non sospetto,Situazione Normale,Non sospetto,83,0.38
+161,VS,96,E,1647350178,Non sospetto,Situazione Normale,Non sospetto,83,0.2
+162,VS,64,D,1647350180,Non sospetto,Situazione Normale,Non sospetto,83,0.47
+163,VS,63,A,1647350183,Non sospetto,Situazione Normale,Non sospetto,83,0.48
+164,VS,87,E,1647350187,Non sospetto,Situazione Normale,Non sospetto,83,0.28
+165,VS,57,E,1647350189,Non sospetto,Situazione Normale,Non sospetto,83,0.53
+166,VS,98,E,1647350193,Non sospetto,Situazione Normale,Non sospetto,83,0.19
+167,VS,70,A,1647350196,Non sospetto,Situazione Normale,Non sospetto,83,0.42
+168,VS,58,B,1647350198,Non sospetto,Situazione Normale,Non sospetto,83,0.52
+169,VCI,84,D,1647350202,Sospetto,Situazione Normale,Non sospetto,61,0.49
+170,VS,58,A,1647350203,Non sospetto,Situazione Normale,Non sospetto,83,0.52
+171,VS,97,B,1647350207,Non sospetto,Situazione Normale,Non sospetto,83,0.19
+172,VS,85,D,1647350209,Non sospetto,Situazione Normale,Non sospetto,83,0.29
+173,VS,57,A,1647350211,Non sospetto,Situazione Normale,Non sospetto,83,0.53
+174,VS,64,D,1647350215,Non sospetto,Situazione Normale,Non sospetto,83,0.47
+175,VS,76,A,1647350219,Non sospetto,Situazione Normale,Non sospetto,81,0.38
+176,VS,97,B,1647350220,Non sospetto,Situazione Normale,Non sospetto,81,0.21
+177,VS,75,B,1647350222,Non sospetto,Situazione Normale,Non sospetto,81,0.39
+178,VS,95,B,1647350226,Non sospetto,Situazione Normale,Non sospetto,81,0.23
+179,VCI,56,D,1647350227,Sospetto,Situazione Normale,Non sospetto,61,0.66
+180,VS,62,A,1647350230,Non sospetto,Situazione Normale,Non sospetto,81,0.5
+181,VTC,65,A,1647350231,Sospetto,Situazione Normale,Sospetto,100,0.35
+182,VCI,68,E,1647350233,Sospetto,Situazione Normale,Non sospetto,61,0.59
+183,VS,56,E,1647350237,Non sospetto,Situazione Normale,Non sospetto,81,0.55
+184,VCS,88,A,1647350240,Non sospetto,Situazione Normale,Non sospetto,50,0.56
+185,VS,91,D,1647350244,Non sospetto,Situazione Normale,Non sospetto,81,0.26
+186,VS,55,C,1647350245,Non sospetto,Situazione Normale,Non sospetto,81,0.55
+187,VS,62,D,1647350249,Non sospetto,Situazione Normale,Non sospetto,81,0.5
+188,VS,57,E,1647350252,Non sospetto,Situazione Normale,Non sospetto,81,0.54
+189,VS,52,C,1647350254,Non sospetto,Situazione Normale,Non sospetto,81,0.58
+190,VS,91,A,1647350257,Non sospetto,Situazione Normale,Non sospetto,81,0.26
+191,VS,77,A,1647350261,Non sospetto,Situazione Normale,Non sospetto,81,0.38
+192,VCI,84,C,1647350262,Sospetto,Situazione Normale,Non sospetto,51,0.57
+193,VS,68,A,1647350263,Non sospetto,Situazione Normale,Non sospetto,79,0.46
+194,VCI,88,A,1647350264,Sospetto,Situazione Normale,Non sospetto,51,0.55
+195,VS,59,A,1647350268,Non sospetto,Situazione Normale,Non sospetto,79,0.53
+196,VS,94,C,1647350269,Non sospetto,Situazione Normale,Non sospetto,79,0.26
+197,VCI,86,A,1647350272,Sospetto,Situazione Normale,Non sospetto,51,0.56
+198,VS,90,A,1647350273,Non sospetto,Situazione Normale,Non sospetto,79,0.29
+199,VS,92,D,1647350276,Non sospetto,Situazione Normale,Non sospetto,79,0.27
+200,VS,84,B,1647350279,Non sospetto,Situazione Normale,Non sospetto,79,0.34
+201,VS,74,D,1647350282,Sospetto,Obbligo mascherina,Non sospetto,79,0.42
+202,VCI,75,B,1647350285,Non sospetto,Obbligo mascherina,Non sospetto,61,0.54
+203,VCI,65,E,1647350287,Non sospetto,Obbligo mascherina,Non sospetto,61,0.6
+204,VCI,95,A,1647350289,Non sospetto,Obbligo mascherina,Non sospetto,61,0.42
+205,VCI,53,C,1647350292,Non sospetto,Obbligo mascherina,Non sospetto,61,0.68
+206,VS,82,C,1647350295,Sospetto,Obbligo mascherina,Non sospetto,81,0.34
+207,VCI,78,A,1647350297,Non sospetto,Obbligo mascherina,Non sospetto,61,0.52
+208,VS,71,E,1647350299,Sospetto,Obbligo mascherina,Non sospetto,81,0.42
+209,VCI,98,D,1647350302,Non sospetto,Obbligo mascherina,Non sospetto,61,0.4
+210,VCS,74,B,1647350304,Sospetto,Obbligo mascherina,Non sospetto,50,0.63
+211,VCI,57,A,1647350307,Non sospetto,Obbligo mascherina,Non sospetto,73,0.58
+212,VCI,72,E,1647350311,Non sospetto,Obbligo mascherina,Non sospetto,73,0.47
+213,VCI,98,E,1647350315,Non sospetto,Obbligo mascherina,Non sospetto,73,0.28
+214,VCI,74,A,1647350319,Non sospetto,Obbligo mascherina,Non sospetto,73,0.46
+215,VCI,86,A,1647350323,Non sospetto,Obbligo mascherina,Non sospetto,73,0.37
+216,VCI,69,D,1647350326,Non sospetto,Obbligo mascherina,Non sospetto,73,0.5
+217,VCI,56,B,1647350327,Non sospetto,Obbligo mascherina,Non sospetto,75,0.58
+218,VS,78,D,1647350329,Sospetto,Obbligo mascherina,Non sospetto,79,0.38
+219,VCI,58,C,1647350331,Non sospetto,Obbligo mascherina,Non sospetto,75,0.57
+220,VCI,77,C,1647350334,Non sospetto,Obbligo mascherina,Non sospetto,75,0.42
+221,VCI,89,D,1647350337,Non sospetto,Obbligo mascherina,Non sospetto,75,0.33
+222,VCI,73,A,1647350339,Non sospetto,Obbligo mascherina,Non sospetto,75,0.45
+223,VCI,79,E,1647350341,Non sospetto,Obbligo mascherina,Non sospetto,75,0.41
+224,VCI,69,C,1647350342,Non sospetto,Obbligo mascherina,Non sospetto,75,0.48
+225,VCI,62,A,1647350344,Non sospetto,Obbligo mascherina,Non sospetto,75,0.54
+226,VCI,84,C,1647350347,Non sospetto,Obbligo mascherina,Non sospetto,75,0.37
+227,VCI,89,C,1647350351,Non sospetto,Obbligo mascherina,Non sospetto,79,0.3
+228,VTC,51,D,1647350353,Sospetto,Obbligo mascherina,Sospetto,50,0.74
+229,VCI,95,E,1647350354,Non sospetto,Obbligo mascherina,Non sospetto,79,0.25
+230,VCI,77,C,1647350355,Non sospetto,Obbligo mascherina,Non sospetto,79,0.39
+231,VCI,55,B,1647350356,Non sospetto,Obbligo mascherina,Non sospetto,79,0.57
+232,VCI,77,B,1647350359,Non sospetto,Obbligo mascherina,Non sospetto,79,0.39
+233,VCI,51,A,1647350361,Non sospetto,Obbligo mascherina,Non sospetto,79,0.6
+234,VCS,68,D,1647350364,Sospetto,Obbligo mascherina,Non sospetto,50,0.66
+235,VCI,66,B,1647350365,Non sospetto,Obbligo mascherina,Non sospetto,79,0.48
+236,VCI,89,A,1647350366,Non sospetto,Obbligo mascherina,Non sospetto,79,0.3
+237,VCI,94,B,1647350369,Non sospetto,Obbligo mascherina,Non sospetto,79,0.26
+238,VCI,64,A,1647350371,Non sospetto,Obbligo mascherina,Non sospetto,82,0.48
+239,VCI,52,B,1647350375,Non sospetto,Obbligo mascherina,Non sospetto,82,0.57
+240,VCI,76,C,1647350379,Non sospetto,Obbligo mascherina,Non sospetto,82,0.38
+241,VCI,58,D,1647350381,Non sospetto,Obbligo mascherina,Non sospetto,82,0.52
+242,VCI,63,A,1647350382,Non sospetto,Obbligo mascherina,Non sospetto,82,0.48
+243,VCI,75,A,1647350385,Non sospetto,Obbligo mascherina,Non sospetto,82,0.39
+244,VCI,70,D,1647350386,Non sospetto,Obbligo mascherina,Non sospetto,82,0.43
+245,VCI,84,D,1647350388,Non sospetto,Obbligo mascherina,Non sospetto,82,0.31
+246,VCI,57,C,1647350391,Non sospetto,Obbligo mascherina,Non sospetto,82,0.53
+247,VCI,96,C,1647350392,Non sospetto,Obbligo mascherina,Non sospetto,84,0.19
+248,VCI,66,C,1647350394,Non sospetto,Obbligo mascherina,Non sospetto,84,0.45
+249,VCI,53,E,1647350397,Non sospetto,Obbligo mascherina,Non sospetto,84,0.55
+250,VCI,78,E,1647350401,Non sospetto,Obbligo mascherina,Non sospetto,84,0.34
+251,VCI,86,B,1647350402,Non sospetto,Obbligo mascherina,Non sospetto,84,0.28
+252,VS,64,A,1647350404,Sospetto,Obbligo mascherina,Non sospetto,73,0.53
+253,VCI,72,A,1647350406,Non sospetto,Obbligo mascherina,Non sospetto,84,0.4
+254,VS,50,A,1647350408,Sospetto,Obbligo mascherina,Non sospetto,73,0.64
+255,VCI,93,A,1647350409,Non sospetto,Obbligo mascherina,Non sospetto,84,0.22
+256,VCI,51,A,1647350410,Non sospetto,Obbligo mascherina,Non sospetto,84,0.57
+257,VCS,79,C,1647350411,Sospetto,Obbligo mascherina,Non sospetto,50,0.6
+258,VCI,60,B,1647350412,Non sospetto,Obbligo mascherina,Non sospetto,84,0.5
+259,VCI,77,C,1647350415,Non sospetto,Obbligo mascherina,Non sospetto,86,0.34
+260,VCI,96,E,1647350417,Non sospetto,Obbligo mascherina,Non sospetto,86,0.17
+261,VCI,65,B,1647350419,Non sospetto,Obbligo mascherina,Non sospetto,86,0.44
+262,VCI,89,B,1647350421,Non sospetto,Obbligo mascherina,Non sospetto,86,0.23
+263,VCI,56,B,1647350425,Non sospetto,Obbligo mascherina,Non sospetto,86,0.52
+264,VS,60,D,1647350427,Sospetto,Obbligo mascherina,Non sospetto,50,0.7
+265,VCI,72,A,1647350431,Non sospetto,Obbligo mascherina,Non sospetto,86,0.38
+266,VCI,77,D,1647350435,Non sospetto,Obbligo mascherina,Non sospetto,86,0.34
+267,VCS,61,C,1647350439,Sospetto,Obbligo mascherina,Non sospetto,50,0.7
+268,VCI,94,D,1647350440,Non sospetto,Obbligo mascherina,Non sospetto,86,0.19
+269,VCI,80,C,1647350443,Non sospetto,Obbligo mascherina,Non sospetto,86,0.31
+270,VCI,71,D,1647350446,Non sospetto,Obbligo mascherina,Non sospetto,86,0.39
+271,VCI,58,B,1647350450,Non sospetto,Obbligo mascherina,Non sospetto,86,0.5
+272,VS,85,E,1647350451,Sospetto,Obbligo mascherina,Non sospetto,50,0.57
+273,VCI,87,B,1647350452,Non sospetto,Obbligo mascherina,Non sospetto,86,0.25
+274,VCI,79,B,1647350454,Non sospetto,Obbligo mascherina,Non sospetto,86,0.32
+275,VCI,88,E,1647350456,Non sospetto,Obbligo mascherina,Non sospetto,86,0.24
+276,VCI,50,A,1647350460,Non sospetto,Obbligo mascherina,Non sospetto,87,0.56
+277,VTC,76,B,1647350462,Sospetto,Obbligo mascherina,Sospetto,100,0.24
+278,VCI,63,B,1647350463,Non sospetto,Obbligo mascherina,Non sospetto,87,0.45
+279,VCI,58,C,1647350466,Non sospetto,Obbligo mascherina,Non sospetto,87,0.5
+280,VCS,97,A,1647350467,Sospetto,Obbligo mascherina,Non sospetto,50,0.52
+281,VCI,95,C,1647350468,Non sospetto,Obbligo mascherina,Non sospetto,87,0.17
+282,VCI,92,A,1647350470,Non sospetto,Obbligo mascherina,Non sospetto,87,0.2
+283,VCI,80,A,1647350472,Non sospetto,Obbligo mascherina,Non sospetto,87,0.3
+284,VCI,81,B,1647350473,Non sospetto,Obbligo mascherina,Non sospetto,87,0.3
+285,VCI,94,E,1647350477,Non sospetto,Obbligo mascherina,Non sospetto,87,0.18
+286,VCI,57,C,1647350479,Non sospetto,Obbligo mascherina,Non sospetto,85,0.52
+287,VCI,63,C,1647350481,Non sospetto,Obbligo mascherina,Non sospetto,85,0.46
+288,VCI,80,B,1647350483,Non sospetto,Obbligo mascherina,Non sospetto,85,0.32
+289,VCI,57,C,1647350487,Non sospetto,Obbligo mascherina,Non sospetto,85,0.52
+290,VCI,73,A,1647350491,Non sospetto,Obbligo mascherina,Non sospetto,85,0.38
+291,VCI,51,B,1647350493,Non sospetto,Obbligo mascherina,Non sospetto,85,0.57
+292,VCI,65,E,1647350496,Non sospetto,Obbligo mascherina,Non sospetto,85,0.45
+293,VCI,89,A,1647350499,Non sospetto,Obbligo mascherina,Non sospetto,85,0.24
+294,VCI,74,D,1647350503,Non sospetto,Obbligo mascherina,Non sospetto,84,0.38
+295,VCI,70,B,1647350507,Non sospetto,Obbligo mascherina,Non sospetto,84,0.41
+296,VCI,80,C,1647350508,Non sospetto,Obbligo mascherina,Non sospetto,84,0.33
+297,VCI,54,D,1647350510,Non sospetto,Obbligo mascherina,Non sospetto,84,0.55
+298,VCI,91,E,1647350513,Non sospetto,Obbligo mascherina,Non sospetto,84,0.24
+299,VCI,75,A,1647350517,Non sospetto,Obbligo mascherina,Non sospetto,84,0.37
+300,VCI,86,D,1647350518,Non sospetto,Obbligo mascherina,Non sospetto,84,0.28
+301,VCI,70,D,1647350520,Non sospetto,Obbligo mascherina,Non sospetto,84,0.41
+302,VCI,64,B,1647350522,Non sospetto,Obbligo mascherina,Non sospetto,86,0.45
+303,VCI,69,B,1647350524,Non sospetto,Obbligo mascherina,Non sospetto,86,0.41
+304,VCI,80,C,1647350525,Non sospetto,Obbligo mascherina,Non sospetto,86,0.31
+305,VCI,89,E,1647350529,Non sospetto,Obbligo mascherina,Non sospetto,86,0.23
+306,VCI,97,B,1647350531,Non sospetto,Obbligo mascherina,Non sospetto,86,0.17
+307,VCI,86,B,1647350532,Non sospetto,Obbligo mascherina,Non sospetto,86,0.26
+308,VCI,55,E,1647350533,Non sospetto,Obbligo mascherina,Non sospetto,86,0.53
+309,VCI,53,C,1647350534,Non sospetto,Obbligo mascherina,Non sospetto,86,0.54
+310,VCI,56,B,1647350536,Non sospetto,Obbligo mascherina,Non sospetto,86,0.52
+311,VCI,81,E,1647350539,Non sospetto,Obbligo mascherina,Non sospetto,86,0.3
+312,VS,52,C,1647350540,Sospetto,Obbligo mascherina,Non sospetto,50,0.74
+313,VCI,84,B,1647350543,Non sospetto,Obbligo mascherina,Non sospetto,86,0.28
+314,VCI,73,D,1647350544,Non sospetto,Obbligo mascherina,Non sospetto,86,0.37
+315,VCI,93,E,1647350545,Non sospetto,Obbligo mascherina,Non sospetto,86,0.2
+316,VS,92,E,1647350548,Sospetto,Obbligo mascherina,Non sospetto,50,0.54
+317,VS,57,C,1647350551,Sospetto,Obbligo mascherina,Non sospetto,50,0.72
+318,VCI,70,C,1647350552,Non sospetto,Obbligo mascherina,Non sospetto,86,0.4
+319,VS,84,C,1647350555,Sospetto,Obbligo mascherina,Non sospetto,50,0.58
+320,VCI,67,E,1647350557,Non sospetto,Obbligo mascherina,Non sospetto,86,0.42
+321,VCI,98,C,1647350558,Non sospetto,Obbligo mascherina,Non sospetto,86,0.16
+322,VCI,98,A,1647350559,Non sospetto,Obbligo mascherina,Non sospetto,86,0.16
+323,VCS,97,C,1647350561,Sospetto,Obbligo mascherina,Non sospetto,50,0.52
+324,VCI,72,E,1647350562,Non sospetto,Obbligo mascherina,Non sospetto,86,0.38
+325,VCI,67,C,1647350565,Non sospetto,Obbligo mascherina,Non sospetto,86,0.42
+326,VCI,63,B,1647350569,Non sospetto,Obbligo mascherina,Non sospetto,85,0.46
+327,VCI,61,B,1647350570,Non sospetto,Obbligo mascherina,Non sospetto,85,0.48
+328,VCI,71,B,1647350571,Non sospetto,Obbligo mascherina,Non sospetto,85,0.4
+329,VCI,68,A,1647350572,Non sospetto,Obbligo mascherina,Non sospetto,85,0.42
+330,VCI,59,A,1647350574,Non sospetto,Obbligo mascherina,Non sospetto,85,0.5
+331,VS,98,B,1647350577,Sospetto,Obbligo mascherina,Non sospetto,50,0.51
+332,VCI,85,B,1647350578,Non sospetto,Obbligo mascherina,Non sospetto,85,0.28
+333,VCI,65,C,1647350581,Non sospetto,Obbligo mascherina,Non sospetto,85,0.45
+334,VCI,68,C,1647350585,Non sospetto,Obbligo mascherina,Non sospetto,85,0.42
+335,VCI,63,D,1647350587,Non sospetto,Obbligo mascherina,Non sospetto,85,0.46
+336,VCI,92,B,1647350591,Non sospetto,Obbligo mascherina,Non sospetto,87,0.2
+337,VCI,69,C,1647350593,Non sospetto,Obbligo mascherina,Non sospetto,87,0.4
+338,VCI,90,A,1647350596,Non sospetto,Obbligo mascherina,Non sospetto,87,0.22
+339,VCS,98,E,1647350597,Sospetto,Obbligo mascherina,Non sospetto,50,0.51
+340,VCI,75,B,1647350599,Non sospetto,Obbligo mascherina,Non sospetto,87,0.35
+341,VCI,80,A,1647350600,Non sospetto,Obbligo mascherina,Non sospetto,87,0.3
+342,VCI,74,A,1647350601,Non sospetto,Obbligo mascherina,Non sospetto,87,0.36
+343,VCI,84,D,1647350604,Non sospetto,Obbligo mascherina,Non sospetto,87,0.27
+344,VCI,81,C,1647350608,Non sospetto,Obbligo mascherina,Non sospetto,87,0.3
+345,VCI,69,A,1647350611,Non sospetto,Obbligo mascherina,Non sospetto,88,0.39
+346,VCI,89,D,1647350613,Non sospetto,Obbligo mascherina,Non sospetto,88,0.22
+347,VCI,85,D,1647350617,Non sospetto,Obbligo mascherina,Non sospetto,88,0.25
+348,VCI,51,A,1647350621,Non sospetto,Obbligo mascherina,Non sospetto,88,0.55
+349,VCI,60,C,1647350624,Non sospetto,Obbligo mascherina,Non sospetto,88,0.47
+350,VCI,59,A,1647350628,Non sospetto,Obbligo mascherina,Non sospetto,88,0.48
+351,VCI,70,D,1647350631,Non sospetto,Obbligo mascherina,Non sospetto,88,0.38
+352,VCI,73,D,1647350633,Non sospetto,Obbligo mascherina,Non sospetto,88,0.36
+353,VS,58,C,1647350636,Sospetto,Obbligo mascherina,Non sospetto,50,0.71
+354,VCI,58,C,1647350638,Non sospetto,Obbligo mascherina,Non sospetto,88,0.49
+355,VCI,54,A,1647350640,Non sospetto,Obbligo mascherina,Non sospetto,88,0.52
+356,VCI,65,D,1647350642,Non sospetto,Obbligo mascherina,Non sospetto,88,0.43
+357,VCI,67,A,1647350646,Non sospetto,Obbligo mascherina,Non sospetto,88,0.41
+358,VCI,76,C,1647350649,Non sospetto,Obbligo mascherina,Non sospetto,88,0.33
+359,VCI,62,D,1647350651,Non sospetto,Obbligo mascherina,Non sospetto,88,0.45
+360,VCI,52,B,1647350655,Non sospetto,Obbligo mascherina,Non sospetto,88,0.54
+361,VCI,57,D,1647350657,Non sospetto,Obbligo mascherina,Non sospetto,87,0.5
+362,VCI,54,B,1647350661,Non sospetto,Obbligo mascherina,Non sospetto,87,0.53
+363,VCS,66,B,1647350665,Sospetto,Obbligo mascherina,Non sospetto,50,0.67
+364,VCI,65,D,1647350668,Non sospetto,Obbligo mascherina,Non sospetto,87,0.43
+365,VCI,71,D,1647350671,Non sospetto,Obbligo mascherina,Non sospetto,87,0.38
+366,VCI,51,C,1647350675,Non sospetto,Obbligo mascherina,Non sospetto,87,0.56
+367,VCI,83,B,1647350678,Non sospetto,Obbligo mascherina,Non sospetto,87,0.28
+368,VCI,96,D,1647350682,Non sospetto,Obbligo mascherina,Non sospetto,86,0.17
+369,VCI,84,C,1647350683,Non sospetto,Obbligo mascherina,Non sospetto,86,0.28
+370,VCI,56,E,1647350685,Non sospetto,Obbligo mascherina,Non sospetto,86,0.52
+371,VCI,73,B,1647350688,Non sospetto,Obbligo mascherina,Non sospetto,86,0.37
+372,VCS,61,C,1647350689,Sospetto,Obbligo mascherina,Non sospetto,50,0.7
+373,VCI,76,B,1647350692,Non sospetto,Obbligo mascherina,Non sospetto,86,0.35
+374,VCS,95,A,1647350694,Sospetto,Obbligo mascherina,Non sospetto,50,0.53
+375,VCI,76,B,1647350698,Non sospetto,Obbligo mascherina,Non sospetto,86,0.35
+376,VCI,98,B,1647350702,Non sospetto,Obbligo mascherina,Non sospetto,86,0.16
+377,VCI,64,D,1647350703,Non sospetto,Obbligo mascherina,Non sospetto,86,0.45
+378,VCI,84,B,1647350706,Non sospetto,Obbligo mascherina,Non sospetto,86,0.28
+379,VCI,57,A,1647350707,Non sospetto,Obbligo mascherina,Non sospetto,86,0.51
+380,VCI,98,B,1647350711,Non sospetto,Obbligo mascherina,Non sospetto,86,0.16
+381,VCI,67,B,1647350714,Non sospetto,Obbligo mascherina,Non sospetto,86,0.42
+382,VCI,51,E,1647350716,Non sospetto,Obbligo mascherina,Non sospetto,86,0.56
+383,VS,96,B,1647350719,Sospetto,Obbligo mascherina,Non sospetto,50,0.52
+384,VCI,91,B,1647350720,Non sospetto,Obbligo mascherina,Non sospetto,86,0.22
+385,VCI,88,C,1647350722,Non sospetto,Obbligo mascherina,Non sospetto,86,0.24
+386,VS,85,A,1647350726,Sospetto,Obbligo mascherina,Non sospetto,50,0.57
+387,VCI,60,B,1647350728,Non sospetto,Obbligo mascherina,Non sospetto,75,0.55
+388,VCI,83,B,1647350729,Non sospetto,Obbligo mascherina,Non sospetto,75,0.38
+389,VCI,66,D,1647350730,Non sospetto,Obbligo mascherina,Non sospetto,75,0.51
+390,VS,54,C,1647350732,Sospetto,Obbligo mascherina,Non sospetto,50,0.73
+391,VCI,95,D,1647350736,Non sospetto,Obbligo mascherina,Non sospetto,75,0.29
+392,VCI,60,C,1647350737,Non sospetto,Obbligo mascherina,Non sospetto,75,0.55
+393,VCI,87,C,1647350741,Non sospetto,Obbligo mascherina,Non sospetto,75,0.35
+394,VCI,71,E,1647350744,Non sospetto,Obbligo mascherina,Non sospetto,75,0.47
+395,VCI,94,A,1647350746,Non sospetto,Obbligo mascherina,Non sospetto,75,0.3
+396,VCI,76,B,1647350749,Non sospetto,Obbligo mascherina,Non sospetto,75,0.43
+397,VCI,51,A,1647350751,Non sospetto,Obbligo mascherina,Non sospetto,85,0.57
+398,VCI,64,C,1647350754,Non sospetto,Obbligo mascherina,Non sospetto,85,0.46
+399,VCI,84,C,1647350758,Non sospetto,Obbligo mascherina,Non sospetto,85,0.29
+400,VCS,60,B,1647350760,Sospetto,Obbligo mascherina,Non sospetto,50,0.7
+401,VCS,59,D,1647350763,Non sospetto,Situazione Normale,Non sospetto,50,0.71
+402,VS,98,E,1647350767,Non sospetto,Situazione Normale,Non sospetto,50,0.51
+403,VS,89,B,1647350769,Non sospetto,Situazione Normale,Non sospetto,50,0.55
+404,VCS,51,E,1647350772,Non sospetto,Situazione Normale,Non sospetto,50,0.74
+405,VS,52,E,1647350774,Non sospetto,Situazione Normale,Non sospetto,50,0.74
+406,VS,90,E,1647350777,Non sospetto,Situazione Normale,Non sospetto,50,0.55
+407,VCI,55,D,1647350778,Sospetto,Situazione Normale,Non sospetto,82,0.55
+408,VS,53,D,1647350779,Non sospetto,Situazione Normale,Non sospetto,50,0.73
+409,VCI,69,C,1647350781,Sospetto,Situazione Normale,Non sospetto,82,0.43
+410,VS,58,E,1647350785,Non sospetto,Situazione Normale,Non sospetto,50,0.71
+411,VCS,58,B,1647350789,Non sospetto,Situazione Normale,Non sospetto,50,0.71
+412,VS,60,C,1647350792,Non sospetto,Situazione Normale,Non sospetto,50,0.7
+413,VS,88,A,1647350793,Non sospetto,Situazione Normale,Non sospetto,50,0.56
+414,VS,87,B,1647350796,Non sospetto,Situazione Normale,Non sospetto,50,0.56
+415,VTC,77,E,1647350797,Sospetto,Situazione Normale,Sospetto,100,0.23
+416,VCS,64,A,1647350801,Non sospetto,Situazione Normale,Non sospetto,50,0.68
+417,VCS,77,B,1647350804,Non sospetto,Situazione Normale,Non sospetto,50,0.61
+418,VCS,74,D,1647350805,Non sospetto,Situazione Normale,Non sospetto,50,0.63
+419,VS,81,B,1647350808,Non sospetto,Situazione Normale,Non sospetto,50,0.59
+420,VS,93,A,1647350810,Non sospetto,Situazione Normale,Non sospetto,50,0.53
+421,VCS,88,E,1647350813,Non sospetto,Situazione Normale,Non sospetto,50,0.56
+422,VCI,91,B,1647350817,Sospetto,Situazione Normale,Non sospetto,81,0.26
+423,VS,83,A,1647350821,Non sospetto,Situazione Normale,Non sospetto,51,0.58
+424,VCS,50,C,1647350822,Non sospetto,Situazione Normale,Non sospetto,50,0.75
+425,VS,66,D,1647350825,Non sospetto,Situazione Normale,Non sospetto,51,0.66
+426,VS,96,C,1647350829,Non sospetto,Situazione Normale,Non sospetto,51,0.51
+427,VS,90,C,1647350833,Non sospetto,Situazione Normale,Non sospetto,51,0.54
+428,VS,68,A,1647350834,Non sospetto,Situazione Normale,Non sospetto,51,0.65
+429,VCS,77,C,1647350837,Non sospetto,Situazione Normale,Non sospetto,50,0.61
+430,VCS,54,D,1647350840,Non sospetto,Situazione Normale,Non sospetto,50,0.73
+431,VCS,52,E,1647350843,Non sospetto,Situazione Normale,Non sospetto,59,0.69
+432,VCS,63,C,1647350846,Non sospetto,Situazione Normale,Non sospetto,59,0.63
+433,VS,61,B,1647350849,Non sospetto,Situazione Normale,Non sospetto,75,0.54
+434,VCS,79,C,1647350851,Non sospetto,Situazione Normale,Non sospetto,59,0.53
+435,VS,90,B,1647350852,Non sospetto,Situazione Normale,Non sospetto,75,0.32
+436,VS,59,A,1647350855,Non sospetto,Situazione Normale,Non sospetto,75,0.56
+437,VCS,53,D,1647350859,Non sospetto,Situazione Normale,Non sospetto,59,0.69
+438,VCS,69,A,1647350863,Non sospetto,Situazione Normale,Non sospetto,59,0.59
+439,VCS,57,D,1647350865,Non sospetto,Situazione Normale,Non sospetto,60,0.66
+440,VS,95,D,1647350867,Non sospetto,Situazione Normale,Non sospetto,75,0.29
+441,VS,51,D,1647350869,Non sospetto,Situazione Normale,Non sospetto,75,0.62
+442,VS,61,E,1647350873,Non sospetto,Situazione Normale,Non sospetto,75,0.54
+443,VCS,62,E,1647350877,Non sospetto,Situazione Normale,Non sospetto,60,0.63
+444,VS,97,A,1647350879,Non sospetto,Situazione Normale,Non sospetto,75,0.27
+445,VS,57,B,1647350883,Non sospetto,Situazione Normale,Non sospetto,75,0.57
+446,VS,77,C,1647350887,Non sospetto,Situazione Normale,Non sospetto,75,0.42
+447,VS,85,B,1647350891,Non sospetto,Situazione Normale,Non sospetto,76,0.35
+448,VS,91,A,1647350895,Non sospetto,Situazione Normale,Non sospetto,76,0.31
+449,VS,61,C,1647350899,Non sospetto,Situazione Normale,Non sospetto,76,0.54
+450,VS,82,C,1647350902,Non sospetto,Situazione Normale,Non sospetto,76,0.38
+451,VCS,89,D,1647350905,Non sospetto,Situazione Normale,Non sospetto,60,0.47
+452,VS,59,C,1647350908,Non sospetto,Situazione Normale,Non sospetto,76,0.55
+453,VS,65,E,1647350909,Non sospetto,Situazione Normale,Non sospetto,78,0.49
+454,VS,77,B,1647350912,Non sospetto,Situazione Normale,Non sospetto,78,0.4
+455,VS,98,C,1647350916,Non sospetto,Situazione Normale,Non sospetto,78,0.24
+456,VS,97,A,1647350920,Non sospetto,Situazione Normale,Non sospetto,78,0.24
+457,VCS,80,E,1647350922,Non sospetto,Situazione Normale,Non sospetto,60,0.52
+458,VS,59,B,1647350924,Non sospetto,Situazione Normale,Non sospetto,78,0.54
+459,VS,82,A,1647350928,Non sospetto,Situazione Normale,Non sospetto,78,0.36
+460,VCI,94,E,1647350931,Sospetto,Situazione Normale,Non sospetto,50,0.53
+461,VCS,67,B,1647350935,Non sospetto,Situazione Normale,Non sospetto,61,0.59
+462,VCS,67,C,1647350938,Non sospetto,Situazione Normale,Non sospetto,61,0.59
+463,VS,90,C,1647350939,Non sospetto,Situazione Normale,Non sospetto,80,0.28
+464,VS,96,C,1647350943,Non sospetto,Situazione Normale,Non sospetto,80,0.23
+465,VS,78,B,1647350944,Non sospetto,Situazione Normale,Non sospetto,80,0.38
+466,VS,81,E,1647350946,Non sospetto,Situazione Normale,Non sospetto,80,0.35
+467,VS,52,B,1647350949,Non sospetto,Situazione Normale,Non sospetto,80,0.58
+468,VS,63,B,1647350953,Non sospetto,Situazione Normale,Non sospetto,80,0.5
+469,VS,90,C,1647350955,Non sospetto,Situazione Normale,Non sospetto,82,0.26
+470,VS,70,E,1647350959,Non sospetto,Situazione Normale,Non sospetto,82,0.43
+471,VS,77,D,1647350963,Non sospetto,Situazione Normale,Non sospetto,82,0.37
+472,VS,52,A,1647350966,Non sospetto,Situazione Normale,Non sospetto,82,0.57
+473,VCS,59,B,1647350968,Non sospetto,Situazione Normale,Non sospetto,63,0.63
+474,VS,95,B,1647350969,Non sospetto,Situazione Normale,Non sospetto,82,0.22
+475,VCS,60,D,1647350970,Non sospetto,Situazione Normale,Non sospetto,63,0.62
+476,VS,58,A,1647350974,Non sospetto,Situazione Normale,Non sospetto,82,0.52
+477,VS,50,C,1647350977,Non sospetto,Situazione Normale,Non sospetto,84,0.58
+478,VS,85,D,1647350980,Non sospetto,Situazione Normale,Non sospetto,84,0.29
+479,VCI,82,E,1647350981,Sospetto,Situazione Normale,Sospetto,100,0.18
+480,VCS,76,D,1647350984,Non sospetto,Situazione Normale,Non sospetto,61,0.54
+481,VCS,60,C,1647350987,Non sospetto,Situazione Normale,Non sospetto,61,0.63
+482,VS,56,B,1647350991,Non sospetto,Situazione Normale,Non sospetto,84,0.53
+483,VS,88,A,1647350994,Non sospetto,Situazione Normale,Non sospetto,84,0.26
+484,VCS,98,D,1647350998,Non sospetto,Situazione Normale,Non sospetto,61,0.4
+485,VCI,50,E,1647351000,Sospetto,Situazione Normale,Sospetto,50,0.75
+486,VS,88,A,1647351002,Non sospetto,Situazione Normale,Non sospetto,81,0.29
+487,VS,57,C,1647351006,Non sospetto,Situazione Normale,Non sospetto,81,0.54
+488,VS,59,B,1647351009,Non sospetto,Situazione Normale,Non sospetto,81,0.52
+489,VS,90,B,1647351011,Non sospetto,Situazione Normale,Non sospetto,81,0.27
+490,VS,67,E,1647351014,Non sospetto,Situazione Normale,Non sospetto,81,0.46
+491,VS,57,B,1647351017,Non sospetto,Situazione Normale,Non sospetto,81,0.54
+492,VS,71,D,1647351021,Non sospetto,Situazione Normale,Non sospetto,81,0.42
+493,VS,50,B,1647351025,Non sospetto,Situazione Normale,Non sospetto,83,0.58
+494,VS,50,C,1647351028,Non sospetto,Situazione Normale,Non sospetto,83,0.58
+495,VS,67,D,1647351029,Non sospetto,Situazione Normale,Non sospetto,83,0.44
+496,VS,82,B,1647351031,Non sospetto,Situazione Normale,Non sospetto,83,0.32
+497,VS,66,E,1647351033,Non sospetto,Situazione Normale,Non sospetto,83,0.45
+498,VCS,83,E,1647351037,Non sospetto,Situazione Normale,Non sospetto,60,0.5
+499,VS,52,D,1647351039,Non sospetto,Situazione Normale,Non sospetto,83,0.57
+500,VCI,72,E,1647351041,Sospetto,Situazione Normale,Sospetto,50,0.64
+501,VS,88,A,1647351043,Non sospetto,Situazione Normale,Non sospetto,83,0.27
+502,VTC,65,A,1647351045,Sospetto,Situazione Normale,Sospetto,100,0.35
+503,VS,51,D,1647351049,Non sospetto,Situazione Normale,Non sospetto,83,0.58
+504,VS,57,E,1647351052,Non sospetto,Situazione Normale,Non sospetto,83,0.53
+505,VS,62,D,1647351054,Non sospetto,Situazione Normale,Non sospetto,83,0.49
+506,VCS,94,B,1647351057,Non sospetto,Situazione Normale,Non sospetto,61,0.43
+507,VS,52,B,1647351060,Non sospetto,Situazione Normale,Non sospetto,83,0.57
+508,VCI,73,C,1647351063,Sospetto,Situazione Normale,Sospetto,50,0.64
+509,VS,77,D,1647351066,Non sospetto,Situazione Normale,Non sospetto,83,0.36
+510,VCS,87,E,1647351067,Non sospetto,Situazione Normale,Non sospetto,61,0.47
+511,VS,51,B,1647351069,Non sospetto,Situazione Normale,Non sospetto,81,0.59
+512,VCI,96,D,1647351072,Sospetto,Situazione Normale,Sospetto,50,0.52
+513,VS,54,C,1647351075,Non sospetto,Situazione Normale,Non sospetto,81,0.56
+514,VS,92,D,1647351077,Non sospetto,Situazione Normale,Non sospetto,81,0.25
+515,VS,90,E,1647351080,Non sospetto,Situazione Normale,Non sospetto,81,0.27
+516,VCS,98,E,1647351081,Non sospetto,Situazione Normale,Non sospetto,61,0.4
+517,VS,55,C,1647351083,Non sospetto,Situazione Normale,Non sospetto,81,0.55
+518,VS,65,B,1647351086,Non sospetto,Situazione Normale,Non sospetto,81,0.47
+519,VS,68,B,1647351090,Non sospetto,Situazione Normale,Non sospetto,81,0.45
+520,VCI,50,B,1647351094,Sospetto,Situazione Normale,Sospetto,50,0.75
+521,VCI,70,E,1647351097,Sospetto,Situazione Normale,Sospetto,50,0.65
+522,VCS,75,E,1647351099,Non sospetto,Situazione Normale,Non sospetto,50,0.62
+523,VS,89,A,1647351101,Non sospetto,Situazione Normale,Non sospetto,79,0.3
+524,VCS,82,A,1647351102,Non sospetto,Situazione Normale,Non sospetto,50,0.59
+525,VCS,62,D,1647351105,Non sospetto,Situazione Normale,Non sospetto,50,0.69
+526,VCS,78,A,1647351108,Non sospetto,Situazione Normale,Non sospetto,50,0.61
+527,VCI,84,E,1647351109,Sospetto,Situazione Normale,Sospetto,50,0.58
+528,VS,59,A,1647351110,Non sospetto,Situazione Normale,Non sospetto,79,0.53
+529,VCS,89,B,1647351112,Non sospetto,Situazione Normale,Non sospetto,50,0.55
+530,VCS,66,E,1647351116,Non sospetto,Situazione Normale,Non sospetto,62,0.59
+531,VCS,98,A,1647351120,Non sospetto,Situazione Normale,Non sospetto,62,0.39
+532,VS,50,D,1647351124,Non sospetto,Situazione Normale,Non sospetto,65,0.68
+533,VS,58,E,1647351125,Non sospetto,Situazione Normale,Non sospetto,65,0.62
+534,VCS,51,C,1647351126,Non sospetto,Situazione Normale,Non sospetto,62,0.68
+535,VS,54,D,1647351130,Non sospetto,Situazione Normale,Non sospetto,65,0.65
+536,VS,69,E,1647351132,Non sospetto,Situazione Normale,Non sospetto,65,0.55
+537,VS,76,A,1647351133,Non sospetto,Situazione Normale,Non sospetto,65,0.51
+538,VCS,97,E,1647351136,Non sospetto,Situazione Normale,Non sospetto,53,0.49
+539,VS,69,D,1647351139,Non sospetto,Situazione Normale,Non sospetto,64,0.56
+540,VCS,65,D,1647351142,Non sospetto,Situazione Normale,Non sospetto,53,0.66
+541,VS,78,B,1647351143,Non sospetto,Situazione Normale,Non sospetto,64,0.5
+542,VS,81,E,1647351144,Non sospetto,Situazione Normale,Non sospetto,64,0.48
+543,VS,72,A,1647351147,Non sospetto,Situazione Normale,Non sospetto,64,0.54
+544,VS,98,E,1647351150,Non sospetto,Situazione Normale,Non sospetto,64,0.37
+545,VS,80,D,1647351153,Non sospetto,Situazione Normale,Non sospetto,64,0.49
+546,VS,69,D,1647351155,Non sospetto,Situazione Normale,Non sospetto,64,0.56
+547,VS,62,D,1647351156,Non sospetto,Situazione Normale,Non sospetto,66,0.59
+548,VS,66,E,1647351159,Non sospetto,Situazione Normale,Non sospetto,66,0.56
+549,VCI,82,C,1647351161,Sospetto,Situazione Normale,Non sospetto,50,0.59
+550,VCS,97,C,1647351164,Non sospetto,Situazione Normale,Non sospetto,64,0.38
+551,VS,65,A,1647351165,Non sospetto,Situazione Normale,Non sospetto,66,0.57
+552,VCI,61,D,1647351167,Sospetto,Situazione Normale,Non sospetto,50,0.7
+553,VS,94,C,1647351169,Non sospetto,Situazione Normale,Non sospetto,66,0.38
+554,VS,94,A,1647351170,Non sospetto,Situazione Normale,Non sospetto,66,0.38
+555,VS,65,C,1647351171,Non sospetto,Situazione Normale,Non sospetto,66,0.57
+556,VCS,90,A,1647351172,Non sospetto,Situazione Normale,Non sospetto,64,0.42
+557,VS,88,B,1647351175,Non sospetto,Situazione Normale,Non sospetto,66,0.42
+558,VS,80,A,1647351179,Non sospetto,Situazione Normale,Non sospetto,66,0.47
+559,VS,68,E,1647351183,Non sospetto,Situazione Normale,Non sospetto,77,0.48
+560,VS,83,A,1647351186,Non sospetto,Situazione Normale,Non sospetto,77,0.36
+561,VTC,59,D,1647351189,Sospetto,Situazione Normale,Sospetto,100,0.41
+562,VS,95,E,1647351191,Non sospetto,Situazione Normale,Non sospetto,77,0.27
+563,VS,77,B,1647351192,Non sospetto,Situazione Normale,Non sospetto,77,0.41
+564,VCI,58,E,1647351196,Sospetto,Situazione Normale,Non sospetto,50,0.71
+565,VCS,96,C,1647351199,Non sospetto,Situazione Normale,Non sospetto,75,0.28
+566,VTC,78,C,1647351201,Sospetto,Situazione Normale,Sospetto,100,0.22
+567,VS,94,E,1647351203,Non sospetto,Situazione Normale,Non sospetto,81,0.24
+568,VS,80,B,1647351204,Non sospetto,Situazione Normale,Non sospetto,81,0.35
+569,VCS,88,D,1647351207,Non sospetto,Situazione Normale,Non sospetto,63,0.45
+570,VS,71,E,1647351211,Non sospetto,Situazione Normale,Non sospetto,81,0.42
+571,VS,90,E,1647351214,Non sospetto,Situazione Normale,Non sospetto,81,0.27
+572,VS,97,A,1647351215,Non sospetto,Situazione Normale,Non sospetto,81,0.21
+573,VS,66,B,1647351217,Non sospetto,Situazione Normale,Non sospetto,81,0.47
+574,VS,89,D,1647351219,Non sospetto,Situazione Normale,Non sospetto,81,0.28
+575,VS,76,A,1647351221,Non sospetto,Situazione Normale,Non sospetto,81,0.38
+576,VS,69,B,1647351223,Non sospetto,Situazione Normale,Non sospetto,81,0.44
+577,VS,83,A,1647351227,Non sospetto,Situazione Normale,Non sospetto,83,0.31
+578,VS,77,C,1647351230,Non sospetto,Situazione Normale,Non sospetto,83,0.36
+579,VCS,56,D,1647351231,Non sospetto,Situazione Normale,Non sospetto,64,0.64
+580,VS,87,B,1647351235,Non sospetto,Situazione Normale,Non sospetto,83,0.28
+581,VS,65,A,1647351236,Non sospetto,Situazione Normale,Non sospetto,83,0.46
+582,VCS,73,A,1647351238,Non sospetto,Situazione Normale,Non sospetto,64,0.53
+583,VCS,51,A,1647351239,Non sospetto,Situazione Normale,Non sospetto,64,0.67
+584,VCS,66,B,1647351242,Non sospetto,Situazione Normale,Non sospetto,64,0.58
+585,VS,90,B,1647351243,Non sospetto,Situazione Normale,Non sospetto,83,0.25
+586,VS,61,D,1647351247,Non sospetto,Situazione Normale,Non sospetto,83,0.49
+587,VCS,81,C,1647351250,Non sospetto,Situazione Normale,Non sospetto,73,0.41
+588,VS,96,E,1647351252,Non sospetto,Situazione Normale,Non sospetto,86,0.17
+589,VCS,87,C,1647351253,Non sospetto,Situazione Normale,Non sospetto,73,0.36
+590,VS,86,D,1647351257,Non sospetto,Situazione Normale,Non sospetto,86,0.26
+591,VS,98,A,1647351260,Non sospetto,Situazione Normale,Non sospetto,86,0.16
+592,VCI,90,E,1647351263,Sospetto,Situazione Normale,Non sospetto,50,0.55
+593,VS,80,D,1647351266,Non sospetto,Situazione Normale,Non sospetto,86,0.31
+594,VS,56,C,1647351268,Non sospetto,Situazione Normale,Non sospetto,86,0.52
+595,VCS,97,B,1647351270,Non sospetto,Situazione Normale,Non sospetto,63,0.39
+596,VS,71,C,1647351272,Non sospetto,Situazione Normale,Non sospetto,88,0.38
+597,VCS,95,C,1647351273,Non sospetto,Situazione Normale,Non sospetto,63,0.4
+598,VS,89,D,1647351277,Non sospetto,Situazione Normale,Non sospetto,88,0.22
+599,VS,84,D,1647351279,Non sospetto,Situazione Normale,Non sospetto,88,0.26
