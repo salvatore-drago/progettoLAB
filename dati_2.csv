@@ -1,0 +1,600 @@
+Id,Prima etichetta,Pr Prima etichetta,Verita Prima etichetta,Luogo,Orario,Verita Seconda etichetta,Tipo situazione
+1,VS,66,VS,D,1647614166,Non sospetto,Situazione Normale
+2,VS,70,VS,B,1647614169,Non sospetto,Situazione Normale
+3,VCS,62,VCS,E,1647614171,Non sospetto,Situazione Normale
+4,VS,65,VS,B,1647614174,Non sospetto,Situazione Normale
+5,VS,62,VCS,B,1647614175,Non sospetto,Situazione Normale
+6,VS,57,VCI,D,1647614177,Non sospetto,Situazione Normale
+7,VS,68,VS,E,1647614181,Non sospetto,Situazione Normale
+8,VS,80,VS,D,1647614184,Non sospetto,Situazione Normale
+9,VS,85,VS,D,1647614186,Non sospetto,Situazione Normale
+10,VCS,89,VCS,B,1647614189,Non sospetto,Situazione Normale
+11,VS,65,VS,E,1647614192,Non sospetto,Situazione Normale
+12,VS,59,VS,D,1647614193,Non sospetto,Situazione Normale
+13,VS,85,VS,D,1647614195,Non sospetto,Situazione Normale
+14,VS,90,VS,C,1647614199,Non sospetto,Situazione Normale
+15,VS,92,VS,E,1647614200,Non sospetto,Situazione Normale
+16,VS,82,VS,D,1647614202,Non sospetto,Situazione Normale
+17,VS,50,VTC,D,1647614204,Non sospetto,Situazione Normale
+18,VS,67,VS,C,1647614208,Non sospetto,Situazione Normale
+19,VS,51,VCS,B,1647614209,Non sospetto,Situazione Normale
+20,VS,81,VS,E,1647614212,Non sospetto,Situazione Normale
+21,VS,61,VS,E,1647614213,Non sospetto,Situazione Normale
+22,VCS,62,VTC,A,1647614214,Non sospetto,Situazione Normale
+23,VS,82,VS,B,1647614218,Non sospetto,Situazione Normale
+24,VS,74,VS,C,1647614222,Non sospetto,Situazione Normale
+25,VS,61,VS,B,1647614223,Non sospetto,Situazione Normale
+26,VS,71,VS,D,1647614227,Non sospetto,Situazione Normale
+27,VS,70,VS,D,1647614230,Non sospetto,Situazione Normale
+28,VS,57,VS,A,1647614233,Non sospetto,Situazione Normale
+29,VS,55,VCI,E,1647614235,Non sospetto,Situazione Normale
+30,VS,85,VS,D,1647614236,Non sospetto,Situazione Normale
+31,VS,66,VS,E,1647614237,Non sospetto,Situazione Normale
+32,VS,84,VS,E,1647614239,Non sospetto,Situazione Normale
+33,VS,80,VS,C,1647614241,Non sospetto,Situazione Normale
+34,VS,63,VCI,B,1647614242,Non sospetto,Situazione Normale
+35,VS,64,VS,C,1647614244,Non sospetto,Situazione Normale
+36,VS,62,VS,D,1647614247,Non sospetto,Situazione Normale
+37,VS,54,VTC,E,1647614248,Non sospetto,Situazione Normale
+38,VS,55,VCI,E,1647614251,Non sospetto,Situazione Normale
+39,VS,62,VCS,B,1647614253,Non sospetto,Situazione Normale
+40,VCS,94,VCS,A,1647614256,Non sospetto,Situazione Normale
+41,VCS,85,VCS,A,1647614258,Non sospetto,Situazione Normale
+42,VS,78,VS,C,1647614262,Non sospetto,Situazione Normale
+43,VCI,88,VCI,B,1647614266,Sospetto,Situazione Normale
+44,VS,95,VS,B,1647614270,Non sospetto,Situazione Normale
+45,VCS,84,VCS,A,1647614273,Non sospetto,Situazione Normale
+46,VS,54,VTC,E,1647614276,Non sospetto,Situazione Normale
+47,VS,56,VS,C,1647614278,Non sospetto,Situazione Normale
+48,VS,95,VS,A,1647614281,Non sospetto,Situazione Normale
+49,VS,97,VS,E,1647614283,Non sospetto,Situazione Normale
+50,VS,63,VTC,C,1647614286,Non sospetto,Situazione Normale
+51,VS,97,VS,E,1647614290,Non sospetto,Situazione Normale
+52,VCS,71,VCS,B,1647614293,Non sospetto,Situazione Normale
+53,VS,55,VS,D,1647614295,Non sospetto,Situazione Normale
+54,VS,56,VS,B,1647614298,Non sospetto,Situazione Normale
+55,VS,86,VS,C,1647614300,Non sospetto,Situazione Normale
+56,VS,79,VS,A,1647614303,Non sospetto,Situazione Normale
+57,VS,55,VTC,C,1647614304,Non sospetto,Situazione Normale
+58,VS,84,VS,D,1647614308,Non sospetto,Situazione Normale
+59,VS,56,VCI,E,1647614310,Non sospetto,Situazione Normale
+60,VCI,67,VCI,B,1647614313,Sospetto,Situazione Normale
+61,VCS,78,VCS,D,1647614316,Non sospetto,Situazione Normale
+62,VCI,90,VCI,C,1647614319,Sospetto,Situazione Normale
+63,VS,85,VS,C,1647614320,Non sospetto,Situazione Normale
+64,VCI,57,VCS,B,1647614324,Sospetto,Situazione Normale
+65,VS,72,VS,E,1647614326,Non sospetto,Situazione Normale
+66,VS,83,VS,A,1647614330,Non sospetto,Situazione Normale
+67,VCS,53,VCS,A,1647614334,Non sospetto,Situazione Normale
+68,VS,75,VS,C,1647614335,Non sospetto,Situazione Normale
+69,VCS,98,VCS,E,1647614337,Non sospetto,Situazione Normale
+70,VCS,87,VCS,E,1647614339,Non sospetto,Situazione Normale
+71,VS,88,VS,E,1647614342,Non sospetto,Situazione Normale
+72,VS,83,VS,D,1647614346,Non sospetto,Situazione Normale
+73,VS,65,VS,A,1647614347,Non sospetto,Situazione Normale
+74,VS,64,VCS,A,1647614348,Non sospetto,Situazione Normale
+75,VS,86,VS,A,1647614352,Non sospetto,Situazione Normale
+76,VS,80,VS,A,1647614354,Non sospetto,Situazione Normale
+77,VS,75,VS,A,1647614357,Non sospetto,Situazione Normale
+78,VS,97,VS,C,1647614361,Non sospetto,Situazione Normale
+79,VS,58,VCI,A,1647614364,Non sospetto,Situazione Normale
+80,VS,74,VS,A,1647614365,Non sospetto,Situazione Normale
+81,VS,50,VCS,C,1647614368,Non sospetto,Situazione Normale
+82,VCI,52,VCS,B,1647614369,Sospetto,Situazione Normale
+83,VS,53,VCS,C,1647614373,Non sospetto,Situazione Normale
+84,VS,81,VS,B,1647614374,Non sospetto,Situazione Normale
+85,VCS,90,VCS,B,1647614375,Non sospetto,Situazione Normale
+86,VCS,52,VS,E,1647614379,Non sospetto,Situazione Normale
+87,VS,97,VS,E,1647614380,Non sospetto,Situazione Normale
+88,VS,72,VS,C,1647614381,Non sospetto,Situazione Normale
+89,VS,98,VS,C,1647614383,Non sospetto,Situazione Normale
+90,VS,77,VS,D,1647614385,Non sospetto,Situazione Normale
+91,VCS,57,VTC,D,1647614388,Non sospetto,Situazione Normale
+92,VS,66,VS,C,1647614389,Non sospetto,Situazione Normale
+93,VCS,82,VCS,D,1647614393,Non sospetto,Situazione Normale
+94,VS,86,VS,D,1647614396,Non sospetto,Situazione Normale
+95,VS,94,VS,C,1647614398,Non sospetto,Situazione Normale
+96,VS,81,VS,B,1647614400,Non sospetto,Situazione Normale
+97,VCI,53,VS,D,1647614402,Sospetto,Situazione Normale
+98,VS,91,VS,A,1647614403,Non sospetto,Situazione Normale
+99,VCS,80,VCS,A,1647614404,Non sospetto,Situazione Normale
+100,VS,94,VS,D,1647614405,Non sospetto,Situazione Normale
+101,VS,91,VS,C,1647614408,Non sospetto,Situazione Normale
+102,VS,56,VS,C,1647614411,Non sospetto,Situazione Normale
+103,VS,59,VS,E,1647614415,Non sospetto,Situazione Normale
+104,VS,69,VS,C,1647614419,Non sospetto,Situazione Normale
+105,VS,83,VS,A,1647614422,Non sospetto,Situazione Normale
+106,VS,55,VCS,E,1647614426,Non sospetto,Situazione Normale
+107,VS,51,VS,B,1647614430,Non sospetto,Situazione Normale
+108,VCI,81,VCI,A,1647614434,Sospetto,Situazione Normale
+109,VS,72,VS,D,1647614436,Non sospetto,Situazione Normale
+110,VS,98,VS,E,1647614439,Non sospetto,Situazione Normale
+111,VCS,76,VCS,C,1647614443,Non sospetto,Situazione Normale
+112,VS,86,VS,E,1647614444,Non sospetto,Situazione Normale
+113,VS,50,VTC,C,1647614447,Non sospetto,Situazione Normale
+114,VS,53,VCI,E,1647614448,Non sospetto,Situazione Normale
+115,VS,80,VS,B,1647614452,Non sospetto,Situazione Normale
+116,VS,59,VCS,D,1647614456,Non sospetto,Situazione Normale
+117,VS,98,VS,E,1647614460,Non sospetto,Situazione Normale
+118,VCS,98,VCS,D,1647614462,Non sospetto,Situazione Normale
+119,VS,51,VS,D,1647614464,Non sospetto,Situazione Normale
+120,VS,94,VS,A,1647614466,Non sospetto,Situazione Normale
+121,VS,50,VCS,E,1647614468,Non sospetto,Situazione Normale
+122,VCI,65,VCI,A,1647614471,Sospetto,Situazione Normale
+123,VS,55,VTC,D,1647614473,Non sospetto,Situazione Normale
+124,VS,92,VS,E,1647614477,Non sospetto,Situazione Normale
+125,VS,79,VS,B,1647614479,Non sospetto,Situazione Normale
+126,VS,57,VTC,C,1647614480,Non sospetto,Situazione Normale
+127,VCS,74,VCS,B,1647614484,Non sospetto,Situazione Normale
+128,VCI,80,VCI,C,1647614487,Sospetto,Situazione Normale
+129,VS,56,VTC,D,1647614490,Non sospetto,Situazione Normale
+130,VS,58,VTC,C,1647614492,Non sospetto,Situazione Normale
+131,VCS,65,VCS,B,1647614495,Non sospetto,Situazione Normale
+132,VCS,66,VCS,D,1647614499,Non sospetto,Situazione Normale
+133,VS,63,VS,D,1647614501,Non sospetto,Situazione Normale
+134,VS,55,VS,E,1647614505,Non sospetto,Situazione Normale
+135,VCI,60,VTC,D,1647614506,Sospetto,Situazione Normale
+136,VS,60,VTC,C,1647614509,Non sospetto,Situazione Normale
+137,VCS,59,VCS,A,1647614511,Non sospetto,Situazione Normale
+138,VCI,51,VCS,E,1647614515,Sospetto,Situazione Normale
+139,VS,53,VS,C,1647614516,Non sospetto,Situazione Normale
+140,VS,64,VCS,C,1647614520,Non sospetto,Situazione Normale
+141,VCI,92,VCI,C,1647614523,Sospetto,Situazione Normale
+142,VS,82,VS,B,1647614527,Non sospetto,Situazione Normale
+143,VS,74,VS,A,1647614528,Non sospetto,Situazione Normale
+144,VS,86,VS,B,1647614530,Non sospetto,Situazione Normale
+145,VS,95,VS,E,1647614534,Non sospetto,Situazione Normale
+146,VS,96,VS,C,1647614536,Non sospetto,Situazione Normale
+147,VS,88,VS,D,1647614538,Non sospetto,Situazione Normale
+148,VCI,76,VCI,B,1647614539,Sospetto,Situazione Normale
+149,VS,81,VS,D,1647614543,Non sospetto,Situazione Normale
+150,VS,82,VS,B,1647614547,Non sospetto,Situazione Normale
+151,VCS,67,VCS,E,1647614549,Non sospetto,Situazione Normale
+152,VCS,88,VCS,E,1647614551,Non sospetto,Situazione Normale
+153,VS,56,VS,C,1647614553,Non sospetto,Situazione Normale
+154,VCI,80,VCI,C,1647614555,Sospetto,Situazione Normale
+155,VS,89,VS,C,1647614557,Non sospetto,Situazione Normale
+156,VS,76,VS,C,1647614559,Non sospetto,Situazione Normale
+157,VCS,68,VCS,E,1647614562,Non sospetto,Situazione Normale
+158,VS,84,VS,C,1647614563,Non sospetto,Situazione Normale
+159,VCI,67,VCI,E,1647614567,Sospetto,Situazione Normale
+160,VS,68,VS,D,1647614569,Non sospetto,Situazione Normale
+161,VS,79,VS,E,1647614572,Non sospetto,Situazione Normale
+162,VS,62,VS,D,1647614574,Non sospetto,Situazione Normale
+163,VS,51,VCS,A,1647614577,Non sospetto,Situazione Normale
+164,VS,87,VS,E,1647614580,Non sospetto,Situazione Normale
+165,VS,81,VS,E,1647614584,Non sospetto,Situazione Normale
+166,VS,54,VCI,E,1647614587,Non sospetto,Situazione Normale
+167,VS,52,VTC,A,1647614591,Non sospetto,Situazione Normale
+168,VS,51,VS,B,1647614593,Non sospetto,Situazione Normale
+169,VCI,97,VCI,D,1647614595,Sospetto,Situazione Normale
+170,VS,59,VCI,A,1647614597,Non sospetto,Situazione Normale
+171,VS,50,VS,B,1647614598,Non sospetto,Situazione Normale
+172,VS,55,VCS,D,1647614601,Non sospetto,Situazione Normale
+173,VS,92,VS,A,1647614605,Non sospetto,Situazione Normale
+174,VS,56,VTC,D,1647614606,Non sospetto,Situazione Normale
+175,VS,82,VS,A,1647614609,Non sospetto,Situazione Normale
+176,VS,63,VS,B,1647614613,Non sospetto,Situazione Normale
+177,VS,93,VS,B,1647614617,Non sospetto,Situazione Normale
+178,VS,55,VCS,B,1647614619,Non sospetto,Situazione Normale
+179,VCI,77,VCI,D,1647614621,Sospetto,Situazione Normale
+180,VS,60,VCS,A,1647614623,Non sospetto,Situazione Normale
+181,VTC,56,VTC,A,1647614626,Sospetto,Situazione Normale
+182,VCI,92,VCI,E,1647614627,Sospetto,Situazione Normale
+183,VS,74,VS,E,1647614631,Non sospetto,Situazione Normale
+184,VCS,68,VCS,A,1647614633,Non sospetto,Situazione Normale
+185,VS,79,VS,D,1647614637,Non sospetto,Situazione Normale
+186,VS,81,VS,C,1647614641,Non sospetto,Situazione Normale
+187,VS,84,VS,D,1647614644,Non sospetto,Situazione Normale
+188,VS,94,VS,E,1647614647,Non sospetto,Situazione Normale
+189,VS,75,VS,C,1647614651,Non sospetto,Situazione Normale
+190,VS,62,VS,A,1647614653,Non sospetto,Situazione Normale
+191,VS,91,VS,A,1647614655,Non sospetto,Situazione Normale
+192,VCI,77,VCI,C,1647614658,Sospetto,Situazione Normale
+193,VS,66,VS,A,1647614662,Non sospetto,Situazione Normale
+194,VCI,68,VCI,A,1647614663,Sospetto,Situazione Normale
+195,VS,55,VCS,A,1647614664,Non sospetto,Situazione Normale
+196,VS,83,VS,C,1647614665,Non sospetto,Situazione Normale
+197,VCI,70,VCI,A,1647614666,Sospetto,Situazione Normale
+198,VS,70,VS,A,1647614670,Non sospetto,Situazione Normale
+199,VS,62,VTC,D,1647614672,Non sospetto,Situazione Normale
+200,VS,67,VS,B,1647614673,Non sospetto,Situazione Normale
+201,VS,73,VS,D,1647614674,Sospetto,Obbligo mascherina
+202,VCI,98,VCI,B,1647614678,Non sospetto,Obbligo mascherina
+203,VCI,96,VCI,E,1647614680,Non sospetto,Obbligo mascherina
+204,VCI,93,VCI,A,1647614683,Non sospetto,Obbligo mascherina
+205,VCI,80,VCI,C,1647614687,Non sospetto,Obbligo mascherina
+206,VS,97,VS,C,1647614690,Sospetto,Obbligo mascherina
+207,VCI,91,VCI,A,1647614693,Non sospetto,Obbligo mascherina
+208,VS,83,VS,E,1647614695,Sospetto,Obbligo mascherina
+209,VCI,75,VCI,D,1647614698,Non sospetto,Obbligo mascherina
+210,VCS,82,VCS,B,1647614700,Sospetto,Obbligo mascherina
+211,VCI,84,VCI,A,1647614703,Non sospetto,Obbligo mascherina
+212,VCI,75,VCI,E,1647614705,Non sospetto,Obbligo mascherina
+213,VCI,66,VCI,E,1647614708,Non sospetto,Obbligo mascherina
+214,VCI,74,VCI,A,1647614711,Non sospetto,Obbligo mascherina
+215,VCI,97,VCI,A,1647614715,Non sospetto,Obbligo mascherina
+216,VCI,85,VCI,D,1647614716,Non sospetto,Obbligo mascherina
+217,VCI,95,VCI,B,1647614719,Non sospetto,Obbligo mascherina
+218,VS,92,VS,D,1647614722,Sospetto,Obbligo mascherina
+219,VCI,69,VCI,C,1647614725,Non sospetto,Obbligo mascherina
+220,VCI,55,VS,C,1647614729,Non sospetto,Obbligo mascherina
+221,VCI,67,VCI,D,1647614730,Non sospetto,Obbligo mascherina
+222,VCI,93,VCI,A,1647614733,Non sospetto,Obbligo mascherina
+223,VCI,56,VCS,E,1647614736,Non sospetto,Obbligo mascherina
+224,VCI,59,VTC,C,1647614739,Non sospetto,Obbligo mascherina
+225,VCI,58,VCI,A,1647614740,Non sospetto,Obbligo mascherina
+226,VCI,73,VCI,C,1647614744,Non sospetto,Obbligo mascherina
+227,VCI,94,VCI,C,1647614747,Non sospetto,Obbligo mascherina
+228,VTC,53,VS,D,1647614748,Sospetto,Obbligo mascherina
+229,VCI,63,VCS,E,1647614749,Non sospetto,Obbligo mascherina
+230,VCI,87,VCI,C,1647614752,Non sospetto,Obbligo mascherina
+231,VCI,89,VCI,B,1647614753,Non sospetto,Obbligo mascherina
+232,VCI,85,VCI,B,1647614754,Non sospetto,Obbligo mascherina
+233,VCI,88,VCI,A,1647614756,Non sospetto,Obbligo mascherina
+234,VCS,93,VCS,D,1647614759,Sospetto,Obbligo mascherina
+235,VCI,87,VCI,B,1647614762,Non sospetto,Obbligo mascherina
+236,VCI,53,VS,A,1647614766,Non sospetto,Obbligo mascherina
+237,VCI,83,VCI,B,1647614770,Non sospetto,Obbligo mascherina
+238,VCI,51,VCI,A,1647614772,Non sospetto,Obbligo mascherina
+239,VCI,96,VCI,B,1647614774,Non sospetto,Obbligo mascherina
+240,VCI,87,VCI,C,1647614775,Non sospetto,Obbligo mascherina
+241,VCI,57,VCI,D,1647614777,Non sospetto,Obbligo mascherina
+242,VCI,90,VCI,A,1647614781,Non sospetto,Obbligo mascherina
+243,VCI,94,VCI,A,1647614782,Non sospetto,Obbligo mascherina
+244,VCI,58,VS,D,1647614786,Non sospetto,Obbligo mascherina
+245,VCI,67,VCI,D,1647614788,Non sospetto,Obbligo mascherina
+246,VCI,60,VCS,C,1647614790,Non sospetto,Obbligo mascherina
+247,VCI,91,VCI,C,1647614794,Non sospetto,Obbligo mascherina
+248,VCI,71,VCI,C,1647614798,Non sospetto,Obbligo mascherina
+249,VCI,53,VS,E,1647614800,Non sospetto,Obbligo mascherina
+250,VCI,93,VCI,E,1647614802,Non sospetto,Obbligo mascherina
+251,VCI,83,VCI,B,1647614804,Non sospetto,Obbligo mascherina
+252,VS,96,VS,A,1647614807,Sospetto,Obbligo mascherina
+253,VCI,89,VCI,A,1647614810,Non sospetto,Obbligo mascherina
+254,VS,87,VS,A,1647614813,Sospetto,Obbligo mascherina
+255,VCI,74,VCI,A,1647614815,Non sospetto,Obbligo mascherina
+256,VCI,55,VCI,A,1647614819,Non sospetto,Obbligo mascherina
+257,VCS,94,VCS,C,1647614820,Sospetto,Obbligo mascherina
+258,VCI,69,VCI,B,1647614824,Non sospetto,Obbligo mascherina
+259,VCI,55,VS,C,1647614827,Non sospetto,Obbligo mascherina
+260,VCI,73,VCI,E,1647614831,Non sospetto,Obbligo mascherina
+261,VCI,79,VCI,B,1647614832,Non sospetto,Obbligo mascherina
+262,VCI,91,VCI,B,1647614834,Non sospetto,Obbligo mascherina
+263,VCI,89,VCI,B,1647614836,Non sospetto,Obbligo mascherina
+264,VS,97,VS,D,1647614838,Sospetto,Obbligo mascherina
+265,VCI,50,VTC,A,1647614839,Non sospetto,Obbligo mascherina
+266,VCI,53,VS,D,1647614842,Non sospetto,Obbligo mascherina
+267,VCS,78,VCS,C,1647614843,Sospetto,Obbligo mascherina
+268,VCI,97,VCI,D,1647614845,Non sospetto,Obbligo mascherina
+269,VCI,59,VCS,C,1647614847,Non sospetto,Obbligo mascherina
+270,VCI,81,VCI,D,1647614851,Non sospetto,Obbligo mascherina
+271,VCI,75,VCI,B,1647614854,Non sospetto,Obbligo mascherina
+272,VS,84,VS,E,1647614856,Sospetto,Obbligo mascherina
+273,VCI,54,VCI,B,1647614858,Non sospetto,Obbligo mascherina
+274,VCI,77,VCI,B,1647614860,Non sospetto,Obbligo mascherina
+275,VCI,50,VCS,E,1647614862,Non sospetto,Obbligo mascherina
+276,VCI,57,VCS,A,1647614863,Non sospetto,Obbligo mascherina
+277,VTC,52,VCS,B,1647614865,Sospetto,Obbligo mascherina
+278,VCI,74,VCI,B,1647614867,Non sospetto,Obbligo mascherina
+279,VCI,58,VS,C,1647614870,Non sospetto,Obbligo mascherina
+280,VCS,52,VCS,A,1647614872,Sospetto,Obbligo mascherina
+281,VCI,90,VCI,C,1647614875,Non sospetto,Obbligo mascherina
+282,VCI,66,VCI,A,1647614878,Non sospetto,Obbligo mascherina
+283,VCI,88,VCI,A,1647614880,Non sospetto,Obbligo mascherina
+284,VCI,66,VCI,B,1647614883,Non sospetto,Obbligo mascherina
+285,VCI,90,VCI,E,1647614885,Non sospetto,Obbligo mascherina
+286,VCI,61,VCS,C,1647614889,Non sospetto,Obbligo mascherina
+287,VCI,84,VCI,C,1647614892,Non sospetto,Obbligo mascherina
+288,VCI,92,VCI,B,1647614896,Non sospetto,Obbligo mascherina
+289,VCI,55,VS,C,1647614900,Non sospetto,Obbligo mascherina
+290,VCI,54,VCI,A,1647614902,Non sospetto,Obbligo mascherina
+291,VCI,52,VCS,B,1647614903,Non sospetto,Obbligo mascherina
+292,VCI,85,VCI,E,1647614907,Non sospetto,Obbligo mascherina
+293,VCI,96,VCI,A,1647614911,Non sospetto,Obbligo mascherina
+294,VCI,74,VCI,D,1647614912,Non sospetto,Obbligo mascherina
+295,VCI,82,VCI,B,1647614916,Non sospetto,Obbligo mascherina
+296,VCI,95,VCI,C,1647614917,Non sospetto,Obbligo mascherina
+297,VCI,54,VCI,D,1647614921,Non sospetto,Obbligo mascherina
+298,VCI,61,VCI,E,1647614925,Non sospetto,Obbligo mascherina
+299,VCI,97,VCI,A,1647614929,Non sospetto,Obbligo mascherina
+300,VCI,80,VCI,D,1647614930,Non sospetto,Obbligo mascherina
+301,VCI,63,VTC,D,1647614931,Non sospetto,Obbligo mascherina
+302,VCI,84,VCI,B,1647614932,Non sospetto,Obbligo mascherina
+303,VCI,86,VCI,B,1647614935,Non sospetto,Obbligo mascherina
+304,VCI,97,VCI,C,1647614937,Non sospetto,Obbligo mascherina
+305,VCI,70,VCI,E,1647614940,Non sospetto,Obbligo mascherina
+306,VCI,70,VCI,B,1647614941,Non sospetto,Obbligo mascherina
+307,VCI,80,VCI,B,1647614942,Non sospetto,Obbligo mascherina
+308,VCI,64,VTC,E,1647614944,Non sospetto,Obbligo mascherina
+309,VCI,62,VTC,C,1647614948,Non sospetto,Obbligo mascherina
+310,VCI,81,VCI,B,1647614951,Non sospetto,Obbligo mascherina
+311,VCI,86,VCI,E,1647614952,Non sospetto,Obbligo mascherina
+312,VS,77,VS,C,1647614954,Sospetto,Obbligo mascherina
+313,VCI,86,VCI,B,1647614956,Non sospetto,Obbligo mascherina
+314,VCI,74,VCI,D,1647614957,Non sospetto,Obbligo mascherina
+315,VCI,97,VCI,E,1647614960,Non sospetto,Obbligo mascherina
+316,VS,92,VS,E,1647614963,Sospetto,Obbligo mascherina
+317,VS,85,VS,C,1647614967,Sospetto,Obbligo mascherina
+318,VCI,62,VTC,C,1647614969,Non sospetto,Obbligo mascherina
+319,VS,75,VS,C,1647614972,Sospetto,Obbligo mascherina
+320,VCI,94,VCI,E,1647614974,Non sospetto,Obbligo mascherina
+321,VCI,56,VCI,C,1647614976,Non sospetto,Obbligo mascherina
+322,VCI,63,VCS,A,1647614978,Non sospetto,Obbligo mascherina
+323,VCS,89,VCS,C,1647614980,Sospetto,Obbligo mascherina
+324,VCI,91,VCI,E,1647614984,Non sospetto,Obbligo mascherina
+325,VCI,91,VCI,C,1647614986,Non sospetto,Obbligo mascherina
+326,VCI,69,VCI,B,1647614989,Non sospetto,Obbligo mascherina
+327,VCI,91,VCI,B,1647614991,Non sospetto,Obbligo mascherina
+328,VCI,92,VCI,B,1647614994,Non sospetto,Obbligo mascherina
+329,VCI,71,VCI,A,1647614998,Non sospetto,Obbligo mascherina
+330,VCI,71,VCI,A,1647615000,Non sospetto,Obbligo mascherina
+331,VS,91,VS,B,1647615002,Sospetto,Obbligo mascherina
+332,VCI,77,VCI,B,1647615003,Non sospetto,Obbligo mascherina
+333,VCI,62,VS,C,1647615006,Non sospetto,Obbligo mascherina
+334,VCI,82,VCI,C,1647615010,Non sospetto,Obbligo mascherina
+335,VCI,82,VCI,D,1647615011,Non sospetto,Obbligo mascherina
+336,VCI,72,VCI,B,1647615012,Non sospetto,Obbligo mascherina
+337,VCI,91,VCI,C,1647615016,Non sospetto,Obbligo mascherina
+338,VCI,63,VCI,A,1647615019,Non sospetto,Obbligo mascherina
+339,VCS,66,VCS,E,1647615022,Sospetto,Obbligo mascherina
+340,VCI,72,VCI,B,1647615025,Non sospetto,Obbligo mascherina
+341,VCI,64,VTC,A,1647615028,Non sospetto,Obbligo mascherina
+342,VCI,60,VTC,A,1647615029,Non sospetto,Obbligo mascherina
+343,VCI,72,VCI,D,1647615031,Non sospetto,Obbligo mascherina
+344,VCI,92,VCI,C,1647615032,Non sospetto,Obbligo mascherina
+345,VCI,59,VCI,A,1647615036,Non sospetto,Obbligo mascherina
+346,VCI,66,VCI,D,1647615038,Non sospetto,Obbligo mascherina
+347,VCI,83,VCI,D,1647615039,Non sospetto,Obbligo mascherina
+348,VCI,78,VCI,A,1647615041,Non sospetto,Obbligo mascherina
+349,VCI,68,VCI,C,1647615044,Non sospetto,Obbligo mascherina
+350,VCI,69,VCI,A,1647615048,Non sospetto,Obbligo mascherina
+351,VCI,81,VCI,D,1647615049,Non sospetto,Obbligo mascherina
+352,VCI,65,VCI,D,1647615052,Non sospetto,Obbligo mascherina
+353,VS,94,VS,C,1647615053,Sospetto,Obbligo mascherina
+354,VCI,56,VS,C,1647615056,Non sospetto,Obbligo mascherina
+355,VCI,80,VCI,A,1647615060,Non sospetto,Obbligo mascherina
+356,VCI,87,VCI,D,1647615063,Non sospetto,Obbligo mascherina
+357,VCI,93,VCI,A,1647615065,Non sospetto,Obbligo mascherina
+358,VCI,54,VS,C,1647615068,Non sospetto,Obbligo mascherina
+359,VCI,67,VCI,D,1647615070,Non sospetto,Obbligo mascherina
+360,VCI,68,VCI,B,1647615072,Non sospetto,Obbligo mascherina
+361,VCI,61,VCI,D,1647615074,Non sospetto,Obbligo mascherina
+362,VCI,50,VCS,B,1647615075,Non sospetto,Obbligo mascherina
+363,VCS,68,VCS,B,1647615076,Sospetto,Obbligo mascherina
+364,VCI,87,VCI,D,1647615079,Non sospetto,Obbligo mascherina
+365,VCI,76,VCI,D,1647615083,Non sospetto,Obbligo mascherina
+366,VCI,77,VCI,C,1647615084,Non sospetto,Obbligo mascherina
+367,VCI,83,VCI,B,1647615085,Non sospetto,Obbligo mascherina
+368,VCI,83,VCI,D,1647615088,Non sospetto,Obbligo mascherina
+369,VCI,89,VCI,C,1647615092,Non sospetto,Obbligo mascherina
+370,VCI,77,VCI,E,1647615093,Non sospetto,Obbligo mascherina
+371,VCI,94,VCI,B,1647615094,Non sospetto,Obbligo mascherina
+372,VCS,75,VCS,C,1647615096,Sospetto,Obbligo mascherina
+373,VCI,56,VCS,B,1647615099,Non sospetto,Obbligo mascherina
+374,VCS,93,VCS,A,1647615101,Sospetto,Obbligo mascherina
+375,VCI,78,VCI,B,1647615102,Non sospetto,Obbligo mascherina
+376,VCI,84,VCI,B,1647615104,Non sospetto,Obbligo mascherina
+377,VCI,72,VCI,D,1647615105,Non sospetto,Obbligo mascherina
+378,VCI,80,VCI,B,1647615109,Non sospetto,Obbligo mascherina
+379,VCI,81,VCI,A,1647615112,Non sospetto,Obbligo mascherina
+380,VCI,74,VCI,B,1647615113,Non sospetto,Obbligo mascherina
+381,VCI,60,VCI,B,1647615117,Non sospetto,Obbligo mascherina
+382,VCI,74,VCI,E,1647615118,Non sospetto,Obbligo mascherina
+383,VS,74,VS,B,1647615119,Sospetto,Obbligo mascherina
+384,VCI,85,VCI,B,1647615123,Non sospetto,Obbligo mascherina
+385,VCI,77,VCI,C,1647615124,Non sospetto,Obbligo mascherina
+386,VS,89,VS,A,1647615126,Sospetto,Obbligo mascherina
+387,VCI,98,VCI,B,1647615129,Non sospetto,Obbligo mascherina
+388,VCI,66,VCI,B,1647615133,Non sospetto,Obbligo mascherina
+389,VCI,51,VTC,D,1647615137,Non sospetto,Obbligo mascherina
+390,VS,88,VS,C,1647615141,Sospetto,Obbligo mascherina
+391,VCI,69,VCI,D,1647615144,Non sospetto,Obbligo mascherina
+392,VCI,68,VCI,C,1647615148,Non sospetto,Obbligo mascherina
+393,VCI,78,VCI,C,1647615149,Non sospetto,Obbligo mascherina
+394,VCI,82,VCI,E,1647615152,Non sospetto,Obbligo mascherina
+395,VCI,78,VCI,A,1647615155,Non sospetto,Obbligo mascherina
+396,VCI,93,VCI,B,1647615159,Non sospetto,Obbligo mascherina
+397,VCI,86,VCI,A,1647615162,Non sospetto,Obbligo mascherina
+398,VCI,51,VCS,C,1647615164,Non sospetto,Obbligo mascherina
+399,VCI,86,VCI,C,1647615166,Non sospetto,Obbligo mascherina
+400,VCS,54,VTC,B,1647615167,Sospetto,Obbligo mascherina
+401,VCS,74,VCS,D,1647615169,Non sospetto,Situazione Normale
+402,VS,71,VS,E,1647615173,Non sospetto,Situazione Normale
+403,VS,73,VS,B,1647615174,Non sospetto,Situazione Normale
+404,VCS,92,VCS,E,1647615176,Non sospetto,Situazione Normale
+405,VS,67,VS,E,1647615179,Non sospetto,Situazione Normale
+406,VS,88,VS,E,1647615182,Non sospetto,Situazione Normale
+407,VCI,57,VTC,D,1647615183,Sospetto,Situazione Normale
+408,VS,72,VS,D,1647615187,Non sospetto,Situazione Normale
+409,VCI,72,VCI,C,1647615191,Sospetto,Situazione Normale
+410,VS,59,VS,E,1647615192,Non sospetto,Situazione Normale
+411,VCS,57,VTC,B,1647615193,Non sospetto,Situazione Normale
+412,VS,78,VS,C,1647615196,Non sospetto,Situazione Normale
+413,VS,94,VS,A,1647615199,Non sospetto,Situazione Normale
+414,VS,59,VCI,B,1647615203,Non sospetto,Situazione Normale
+415,VTC,60,VS,E,1647615207,Sospetto,Situazione Normale
+416,VCS,53,VS,A,1647615211,Non sospetto,Situazione Normale
+417,VCS,81,VCS,B,1647615214,Non sospetto,Situazione Normale
+418,VCS,86,VCS,D,1647615215,Non sospetto,Situazione Normale
+419,VS,68,VS,B,1647615216,Non sospetto,Situazione Normale
+420,VS,71,VS,A,1647615218,Non sospetto,Situazione Normale
+421,VCS,72,VCS,E,1647615220,Non sospetto,Situazione Normale
+422,VCI,55,VCS,B,1647615223,Sospetto,Situazione Normale
+423,VS,92,VS,A,1647615225,Non sospetto,Situazione Normale
+424,VCS,66,VCS,C,1647615229,Non sospetto,Situazione Normale
+425,VS,58,VTC,D,1647615233,Non sospetto,Situazione Normale
+426,VS,61,VTC,C,1647615236,Non sospetto,Situazione Normale
+427,VS,71,VS,C,1647615237,Non sospetto,Situazione Normale
+428,VS,77,VS,A,1647615240,Non sospetto,Situazione Normale
+429,VCS,94,VCS,C,1647615242,Non sospetto,Situazione Normale
+430,VCS,51,VCI,D,1647615245,Non sospetto,Situazione Normale
+431,VCS,80,VCS,E,1647615249,Non sospetto,Situazione Normale
+432,VCS,87,VCS,C,1647615252,Non sospetto,Situazione Normale
+433,VS,56,VCI,B,1647615255,Non sospetto,Situazione Normale
+434,VCS,82,VCS,C,1647615257,Non sospetto,Situazione Normale
+435,VS,90,VS,B,1647615258,Non sospetto,Situazione Normale
+436,VS,77,VS,A,1647615262,Non sospetto,Situazione Normale
+437,VCS,64,VS,D,1647615266,Non sospetto,Situazione Normale
+438,VCS,62,VCI,A,1647615267,Non sospetto,Situazione Normale
+439,VCS,96,VCS,D,1647615271,Non sospetto,Situazione Normale
+440,VS,90,VS,D,1647615273,Non sospetto,Situazione Normale
+441,VS,87,VS,D,1647615277,Non sospetto,Situazione Normale
+442,VS,52,VS,E,1647615281,Non sospetto,Situazione Normale
+443,VCS,80,VCS,E,1647615282,Non sospetto,Situazione Normale
+444,VS,56,VCI,A,1647615285,Non sospetto,Situazione Normale
+445,VS,89,VS,B,1647615288,Non sospetto,Situazione Normale
+446,VS,77,VS,C,1647615290,Non sospetto,Situazione Normale
+447,VS,51,VS,B,1647615293,Non sospetto,Situazione Normale
+448,VS,55,VS,A,1647615297,Non sospetto,Situazione Normale
+449,VS,51,VCI,C,1647615300,Non sospetto,Situazione Normale
+450,VS,53,VTC,C,1647615303,Non sospetto,Situazione Normale
+451,VCS,96,VCS,D,1647615307,Non sospetto,Situazione Normale
+452,VS,72,VS,C,1647615308,Non sospetto,Situazione Normale
+453,VS,81,VS,E,1647615309,Non sospetto,Situazione Normale
+454,VS,79,VS,B,1647615310,Non sospetto,Situazione Normale
+455,VS,67,VS,C,1647615312,Non sospetto,Situazione Normale
+456,VS,75,VS,A,1647615315,Non sospetto,Situazione Normale
+457,VCS,84,VCS,E,1647615316,Non sospetto,Situazione Normale
+458,VS,54,VS,B,1647615319,Non sospetto,Situazione Normale
+459,VS,62,VCI,A,1647615322,Non sospetto,Situazione Normale
+460,VCI,82,VCI,E,1647615323,Sospetto,Situazione Normale
+461,VCS,73,VCS,B,1647615325,Non sospetto,Situazione Normale
+462,VCS,83,VCS,C,1647615327,Non sospetto,Situazione Normale
+463,VS,64,VCS,C,1647615328,Non sospetto,Situazione Normale
+464,VS,87,VS,C,1647615329,Non sospetto,Situazione Normale
+465,VS,94,VS,B,1647615333,Non sospetto,Situazione Normale
+466,VS,52,VTC,E,1647615334,Non sospetto,Situazione Normale
+467,VS,92,VS,B,1647615337,Non sospetto,Situazione Normale
+468,VS,92,VS,B,1647615340,Non sospetto,Situazione Normale
+469,VS,86,VS,C,1647615342,Non sospetto,Situazione Normale
+470,VS,95,VS,E,1647615343,Non sospetto,Situazione Normale
+471,VS,96,VS,D,1647615344,Non sospetto,Situazione Normale
+472,VS,60,VCS,A,1647615345,Non sospetto,Situazione Normale
+473,VCS,61,VS,B,1647615346,Non sospetto,Situazione Normale
+474,VS,85,VS,B,1647615347,Non sospetto,Situazione Normale
+475,VCS,63,VTC,D,1647615351,Non sospetto,Situazione Normale
+476,VS,67,VS,A,1647615353,Non sospetto,Situazione Normale
+477,VS,72,VS,C,1647615355,Non sospetto,Situazione Normale
+478,VS,69,VS,D,1647615357,Non sospetto,Situazione Normale
+479,VCI,53,VS,E,1647615358,Sospetto,Situazione Normale
+480,VCS,97,VCS,D,1647615361,Non sospetto,Situazione Normale
+481,VCS,84,VCS,C,1647615364,Non sospetto,Situazione Normale
+482,VS,84,VS,B,1647615366,Non sospetto,Situazione Normale
+483,VS,55,VS,A,1647615368,Non sospetto,Situazione Normale
+484,VCS,83,VCS,D,1647615370,Non sospetto,Situazione Normale
+485,VCI,62,VCS,E,1647615371,Sospetto,Situazione Normale
+486,VS,73,VS,A,1647615374,Non sospetto,Situazione Normale
+487,VS,90,VS,C,1647615377,Non sospetto,Situazione Normale
+488,VS,78,VS,B,1647615381,Non sospetto,Situazione Normale
+489,VS,95,VS,B,1647615384,Non sospetto,Situazione Normale
+490,VS,92,VS,E,1647615385,Non sospetto,Situazione Normale
+491,VS,80,VS,B,1647615387,Non sospetto,Situazione Normale
+492,VS,65,VS,D,1647615388,Non sospetto,Situazione Normale
+493,VS,57,VS,B,1647615389,Non sospetto,Situazione Normale
+494,VS,84,VS,C,1647615391,Non sospetto,Situazione Normale
+495,VS,80,VS,D,1647615394,Non sospetto,Situazione Normale
+496,VS,78,VS,B,1647615395,Non sospetto,Situazione Normale
+497,VS,96,VS,E,1647615397,Non sospetto,Situazione Normale
+498,VCS,74,VCS,E,1647615399,Non sospetto,Situazione Normale
+499,VS,96,VS,D,1647615403,Non sospetto,Situazione Normale
+500,VCI,76,VCI,E,1647615404,Sospetto,Situazione Normale
+501,VS,87,VS,A,1647615408,Non sospetto,Situazione Normale
+502,VTC,79,VTC,A,1647615410,Sospetto,Situazione Normale
+503,VS,56,VCI,D,1647615411,Non sospetto,Situazione Normale
+504,VS,73,VS,E,1647615415,Non sospetto,Situazione Normale
+505,VS,60,VS,D,1647615417,Non sospetto,Situazione Normale
+506,VCS,57,VCI,B,1647615418,Non sospetto,Situazione Normale
+507,VS,90,VS,B,1647615422,Non sospetto,Situazione Normale
+508,VCI,81,VCI,C,1647615423,Sospetto,Situazione Normale
+509,VS,64,VS,D,1647615424,Non sospetto,Situazione Normale
+510,VCS,68,VCS,E,1647615426,Non sospetto,Situazione Normale
+511,VS,82,VS,B,1647615430,Non sospetto,Situazione Normale
+512,VCI,70,VCI,D,1647615434,Sospetto,Situazione Normale
+513,VS,97,VS,C,1647615436,Non sospetto,Situazione Normale
+514,VS,66,VS,D,1647615439,Non sospetto,Situazione Normale
+515,VS,71,VS,E,1647615440,Non sospetto,Situazione Normale
+516,VCS,80,VCS,E,1647615444,Non sospetto,Situazione Normale
+517,VS,73,VS,C,1647615447,Non sospetto,Situazione Normale
+518,VS,97,VS,B,1647615451,Non sospetto,Situazione Normale
+519,VS,70,VS,B,1647615452,Non sospetto,Situazione Normale
+520,VCI,64,VTC,B,1647615453,Sospetto,Situazione Normale
+521,VCI,51,VTC,E,1647615455,Sospetto,Situazione Normale
+522,VCS,52,VTC,E,1647615459,Non sospetto,Situazione Normale
+523,VS,51,VS,A,1647615460,Non sospetto,Situazione Normale
+524,VCS,85,VCS,A,1647615462,Non sospetto,Situazione Normale
+525,VCS,65,VCS,D,1647615466,Non sospetto,Situazione Normale
+526,VCS,88,VCS,A,1647615468,Non sospetto,Situazione Normale
+527,VCI,51,VCI,E,1647615470,Sospetto,Situazione Normale
+528,VS,77,VS,A,1647615473,Non sospetto,Situazione Normale
+529,VCS,55,VTC,B,1647615475,Non sospetto,Situazione Normale
+530,VCS,63,VCS,E,1647615479,Non sospetto,Situazione Normale
+531,VCS,96,VCS,A,1647615481,Non sospetto,Situazione Normale
+532,VS,97,VS,D,1647615482,Non sospetto,Situazione Normale
+533,VS,93,VS,E,1647615485,Non sospetto,Situazione Normale
+534,VCS,77,VCS,C,1647615486,Non sospetto,Situazione Normale
+535,VS,64,VTC,D,1647615488,Non sospetto,Situazione Normale
+536,VS,88,VS,E,1647615491,Non sospetto,Situazione Normale
+537,VS,81,VS,A,1647615492,Non sospetto,Situazione Normale
+538,VCS,95,VCS,E,1647615494,Non sospetto,Situazione Normale
+539,VS,65,VS,D,1647615497,Non sospetto,Situazione Normale
+540,VCS,69,VCS,D,1647615498,Non sospetto,Situazione Normale
+541,VS,71,VS,B,1647615502,Non sospetto,Situazione Normale
+542,VS,65,VS,E,1647615504,Non sospetto,Situazione Normale
+543,VS,98,VS,A,1647615507,Non sospetto,Situazione Normale
+544,VS,57,VTC,E,1647615509,Non sospetto,Situazione Normale
+545,VS,91,VS,D,1647615512,Non sospetto,Situazione Normale
+546,VS,71,VS,D,1647615515,Non sospetto,Situazione Normale
+547,VS,81,VS,D,1647615516,Non sospetto,Situazione Normale
+548,VS,88,VS,E,1647615518,Non sospetto,Situazione Normale
+549,VCI,86,VCI,C,1647615519,Sospetto,Situazione Normale
+550,VCS,81,VCS,C,1647615521,Non sospetto,Situazione Normale
+551,VS,61,VCS,A,1647615524,Non sospetto,Situazione Normale
+552,VCI,75,VCI,D,1647615525,Sospetto,Situazione Normale
+553,VS,80,VS,C,1647615527,Non sospetto,Situazione Normale
+554,VS,76,VS,A,1647615530,Non sospetto,Situazione Normale
+555,VS,59,VCS,C,1647615532,Non sospetto,Situazione Normale
+556,VCS,61,VTC,A,1647615536,Non sospetto,Situazione Normale
+557,VS,51,VCI,B,1647615538,Non sospetto,Situazione Normale
+558,VS,52,VS,A,1647615539,Non sospetto,Situazione Normale
+559,VS,53,VTC,E,1647615541,Non sospetto,Situazione Normale
+560,VS,60,VTC,A,1647615542,Non sospetto,Situazione Normale
+561,VTC,51,VCI,D,1647615543,Sospetto,Situazione Normale
+562,VS,73,VS,E,1647615545,Non sospetto,Situazione Normale
+563,VS,81,VS,B,1647615547,Non sospetto,Situazione Normale
+564,VCI,66,VCI,E,1647615550,Sospetto,Situazione Normale
+565,VCS,85,VCS,C,1647615551,Non sospetto,Situazione Normale
+566,VTC,79,VTC,C,1647615554,Sospetto,Situazione Normale
+567,VS,82,VS,E,1647615557,Non sospetto,Situazione Normale
+568,VS,55,VTC,B,1647615560,Non sospetto,Situazione Normale
+569,VCS,67,VCS,D,1647615563,Non sospetto,Situazione Normale
+570,VS,77,VS,E,1647615564,Non sospetto,Situazione Normale
+571,VS,84,VS,E,1647615565,Non sospetto,Situazione Normale
+572,VS,56,VCS,A,1647615567,Non sospetto,Situazione Normale
+573,VS,89,VS,B,1647615568,Non sospetto,Situazione Normale
+574,VS,79,VS,D,1647615571,Non sospetto,Situazione Normale
+575,VS,52,VTC,A,1647615572,Non sospetto,Situazione Normale
+576,VS,58,VCI,B,1647615575,Non sospetto,Situazione Normale
+577,VS,73,VS,A,1647615577,Non sospetto,Situazione Normale
+578,VS,79,VS,C,1647615579,Non sospetto,Situazione Normale
+579,VCS,61,VCI,D,1647615583,Non sospetto,Situazione Normale
+580,VS,56,VTC,B,1647615587,Non sospetto,Situazione Normale
+581,VS,98,VS,A,1647615588,Non sospetto,Situazione Normale
+582,VCS,60,VCI,A,1647615590,Non sospetto,Situazione Normale
+583,VCS,85,VCS,A,1647615592,Non sospetto,Situazione Normale
+584,VCS,67,VCS,B,1647615595,Non sospetto,Situazione Normale
+585,VS,98,VS,B,1647615598,Non sospetto,Situazione Normale
+586,VS,68,VS,D,1647615602,Non sospetto,Situazione Normale
+587,VCS,57,VCI,C,1647615605,Non sospetto,Situazione Normale
+588,VS,94,VS,E,1647615607,Non sospetto,Situazione Normale
+589,VCS,73,VCS,C,1647615608,Non sospetto,Situazione Normale
+590,VS,83,VS,D,1647615612,Non sospetto,Situazione Normale
+591,VS,66,VS,A,1647615613,Non sospetto,Situazione Normale
+592,VCI,50,VS,E,1647615614,Sospetto,Situazione Normale
+593,VS,60,VCS,D,1647615615,Non sospetto,Situazione Normale
+594,VS,68,VS,C,1647615617,Non sospetto,Situazione Normale
+595,VCS,67,VCS,B,1647615621,Non sospetto,Situazione Normale
+596,VS,78,VS,C,1647615623,Non sospetto,Situazione Normale
+597,VCS,64,VTC,C,1647615627,Non sospetto,Situazione Normale
+598,VS,76,VS,D,1647615628,Non sospetto,Situazione Normale
+599,VS,66,VS,D,1647615629,Non sospetto,Situazione Normale

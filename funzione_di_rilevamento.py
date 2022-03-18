@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 import csv
-risultati="risultati.csv"
-dati_da_analizzare="dati.csv"
+risultati="risultati_2.csv"
+dati_da_analizzare="dati_2.csv"
 # FUNZIONE DI RILEVAMENTO 
 T= 20 #voglio analizzare i dati ogni 20s
 N= 50 #voglio conservare i dati relativi alle ultime 50 persone 
@@ -10,6 +10,7 @@ k= 0.6 # k può assumere valori [0;1] e permette di  assegnare piu o meno import
 s_min= 65 # scarta i dati con pr.etichetta inferiore al 65%
 d_min= 0.1 #cambia in 'SOSPETTO' se sei inferiore a questa soglia
 d_max=0.4 #cambia in 'NON SOSPETTO' se sei superiore a questa soglia
+###
 cs = [0,1,0,1]
 prima_etichetta= ['VS', 'VCI', 'VCS', 'VTC']
 seconda_etichetta= {0:'Non sospetto', 1: 'Sospetto'}

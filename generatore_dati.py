@@ -1,18 +1,28 @@
 import random as r
 import time
 import csv
+# PARAMETRI
 s1=45 # seed generazione prima etichetta
+s2=33 # seed generazione luogo rilevamento
+s3=56 #seed generazione verità seconda etichetta
+s4=77 #seed generazione pr. prima etichetta
+s5=89 #seed generazione orario
+salvare_dati="dati_2.csv"
+###
+
 r.seed(s1)
 stato1= r.getstate()
-s2=33 # seed generazione luogo rilevamento
+
 r.seed(s2)
 stato2= r.getstate()
-s3=56 #seed generazione verità seconda etichetta
+
 r.seed(s3)
 stato3= r.getstate()
-s4=77 #seed generazione pr. prima etichetta
+
+r.seed(s4)
 stato4= r.getstate()
-s5= 89 #seed generazione orario
+
+r.seed(s5)
 stato5= r.getstate()
 
 prima_etichetta= ['VS', 'VCI', 'VCS', 'VTC']
@@ -43,6 +53,9 @@ pB=[]
 pC=[]
 pD=[]
 pE=[]
+
+def get_seed():
+    return [s1,s2,s3,s4,s5]
 
 def probabilitàLuoghiSbilanciata():
     global pA, pB, pC, pD, pE
@@ -118,7 +131,7 @@ def genera_orario():
     return orario
 
 probabilitàLuoghiUniforme()
-with open('dati.csv', 'w', newline='') as file:
+with open(salvare_dati, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Id", "Prima etichetta", "Pr Prima etichetta", "Verita Prima etichetta", "Luogo", "Orario", "Verita Seconda etichetta","Tipo situazione"])
     for i in range(1,600,1):
@@ -176,3 +189,6 @@ with open('dati.csv', 'w', newline='') as file:
         v_seconda_etichetta=verità_seconda_etichetta[cs[prima_etichetta.index(etichetta)]]
         writer.writerow([i,etichetta,p,v_etichetta,luogo,o,v_seconda_etichetta,ts])
     
+with open('seed_dati.csv', 'a', newline='\n') as file:
+    writer = csv.writer(file)
+    writer.writerow([salvare_dati,s1,s2,s3,s4,s5])
