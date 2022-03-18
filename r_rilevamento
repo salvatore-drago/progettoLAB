@@ -5014,3 +5014,531 @@ REPORT_ORA:1647351268
  CS:[0, 0, 0, 1]
 
 
+REPORT_ORA:1647349821
+ Elementi finestra:8
+ [nVS: 5, nVCI: 0, nVCS: 1, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 0, nL_VCS: 1, nL_VTC: 0] 
+ [sVS:0.85, sVCI:0.0, sVCS:0.25, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349843
+ Elementi finestra:17
+ [nVS: 11, nVCI: 0, nVCS: 1, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 0, nL_VCS: 1, nL_VTC: 0] 
+ [sVS:0.8588235294117648, sVCI:0.0, sVCS:0.22352941176470587, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349864
+ Elementi finestra:25
+ [nVS: 15, nVCI: 0, nVCS: 2, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 0, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.72, sVCI:0.0, sVCS:0.272, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349887
+ Elementi finestra:35
+ [nVS: 19, nVCI: 0, nVCS: 2, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 0, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.6971428571428571, sVCI:0.0, sVCS:0.26285714285714284, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349908
+ Elementi finestra:42
+ [nVS: 21, nVCI: 1, nVCS: 4, nVTC: 0]
+ [nL_VS: 4, nL_VCI: 1, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.6799999999999999, sVCI:0.1295238095238095, sVCS:0.27809523809523806, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349930
+ Elementi finestra:49
+ [nVS: 23, nVCI: 1, nVCS: 4, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.7877551020408163, sVCI:0.12816326530612243, sVCS:0.2726530612244898, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349951
+ Elementi finestra:50
+ [nVS: 22, nVCI: 2, nVCS: 4, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.136, sVCS:0.272, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349972
+ Elementi finestra:50
+ [nVS: 19, nVCI: 3, nVCS: 7, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.752, sVCI:0.144, sVCS:0.416, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647349995
+ Elementi finestra:50
+ [nVS: 22, nVCI: 4, nVCS: 6, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.152, sVCS:0.408, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350016
+ Elementi finestra:50
+ [nVS: 21, nVCI: 4, nVCS: 8, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.768, sVCI:0.152, sVCS:0.424, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350038
+ Elementi finestra:50
+ [nVS: 20, nVCI: 4, nVCS: 7, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 2, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.76, sVCI:0.272, sVCS:0.416, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350062
+ Elementi finestra:50
+ [nVS: 22, nVCI: 3, nVCS: 8, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 2, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.264, sVCS:0.544, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350084
+ Elementi finestra:50
+ [nVS: 24, nVCI: 3, nVCS: 7, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 3, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.792, sVCI:0.384, sVCS:0.536, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350105
+ Elementi finestra:50
+ [nVS: 23, nVCI: 4, nVCS: 6, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.784, sVCI:0.512, sVCS:0.648, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350128
+ Elementi finestra:50
+ [nVS: 21, nVCI: 5, nVCS: 6, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.768, sVCI:0.52, sVCS:0.648, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350149
+ Elementi finestra:50
+ [nVS: 21, nVCI: 6, nVCS: 4, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.768, sVCI:0.528, sVCS:0.512, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350171
+ Elementi finestra:50
+ [nVS: 24, nVCI: 6, nVCS: 3, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.792, sVCI:0.528, sVCS:0.384, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350193
+ Elementi finestra:50
+ [nVS: 24, nVCI: 6, nVCS: 4, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.792, sVCI:0.528, sVCS:0.512, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350215
+ Elementi finestra:50
+ [nVS: 22, nVCI: 7, nVCS: 3, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.536, sVCS:0.384, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350237
+ Elementi finestra:50
+ [nVS: 22, nVCI: 6, nVCS: 2, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 3, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.776, sVCI:0.408, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350261
+ Elementi finestra:50
+ [nVS: 19, nVCI: 6, nVCS: 2, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 3, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.752, sVCI:0.408, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350282
+ Elementi finestra:50
+ [nVS: 22, nVCI: 6, nVCS: 2, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.776, sVCI:0.528, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350304
+ Elementi finestra:50
+ [nVS: 20, nVCI: 10, nVCS: 2, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.76, sVCI:0.6799999999999999, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350326
+ Elementi finestra:50
+ [nVS: 19, nVCI: 13, nVCS: 1, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 1, nL_VTC: 1] 
+ [sVS:0.752, sVCI:0.704, sVCS:0.128, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350347
+ Elementi finestra:50
+ [nVS: 16, nVCI: 18, nVCS: 1, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 1, nL_VTC: 1] 
+ [sVS:0.728, sVCI:0.744, sVCS:0.128, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350369
+ Elementi finestra:50
+ [nVS: 10, nVCI: 23, nVCS: 2, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.6799999999999999, sVCI:0.784, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350391
+ Elementi finestra:50
+ [nVS: 9, nVCI: 26, nVCS: 1, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 1, nL_VTC: 0] 
+ [sVS:0.6719999999999999, sVCI:0.808, sVCS:0.128, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350412
+ Elementi finestra:50
+ [nVS: 3, nVCI: 29, nVCS: 1, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 1, nL_VTC: 0] 
+ [sVS:0.384, sVCI:0.832, sVCS:0.128, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350435
+ Elementi finestra:50
+ [nVS: 1, nVCI: 29, nVCS: 2, nVTC: 0]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.128, sVCI:0.832, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350456
+ Elementi finestra:50
+ [nVS: 1, nVCI: 30, nVCS: 2, nVTC: 0]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.128, sVCI:0.84, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350477
+ Elementi finestra:50
+ [nVS: 1, nVCI: 27, nVCS: 3, nVTC: 1]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 3, nL_VTC: 1] 
+ [sVS:0.128, sVCI:0.8160000000000001, sVCS:0.384, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350499
+ Elementi finestra:50
+ [nVS: 1, nVCI: 26, nVCS: 2, nVTC: 1]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.128, sVCI:0.808, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350520
+ Elementi finestra:50
+ [nVS: 1, nVCI: 29, nVCS: 2, nVTC: 1]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.128, sVCI:0.832, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350543
+ Elementi finestra:50
+ [nVS: 1, nVCI: 29, nVCS: 2, nVTC: 1]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.128, sVCI:0.832, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350565
+ Elementi finestra:50
+ [nVS: 3, nVCI: 28, nVCS: 2, nVTC: 1]
+ [nL_VS: 2, nL_VCI: 5, nL_VCS: 2, nL_VTC: 1] 
+ [sVS:0.264, sVCI:0.8240000000000001, sVCS:0.256, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350587
+ Elementi finestra:50
+ [nVS: 3, nVCI: 30, nVCS: 2, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.384, sVCI:0.84, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350608
+ Elementi finestra:50
+ [nVS: 3, nVCI: 32, nVCS: 2, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.384, sVCI:0.856, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350631
+ Elementi finestra:50
+ [nVS: 3, nVCI: 32, nVCS: 2, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.384, sVCI:0.856, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350655
+ Elementi finestra:50
+ [nVS: 3, nVCI: 30, nVCS: 2, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.384, sVCI:0.84, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350678
+ Elementi finestra:50
+ [nVS: 3, nVCI: 29, nVCS: 3, nVTC: 0]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.384, sVCI:0.832, sVCS:0.384, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350702
+ Elementi finestra:50
+ [nVS: 1, nVCI: 29, nVCS: 4, nVTC: 0]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.128, sVCI:0.832, sVCS:0.512, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350726
+ Elementi finestra:50
+ [nVS: 2, nVCI: 28, nVCS: 3, nVTC: 0]
+ [nL_VS: 1, nL_VCI: 4, nL_VCS: 3, nL_VTC: 0] 
+ [sVS:0.136, sVCI:0.704, sVCS:0.384, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350749
+ Elementi finestra:50
+ [nVS: 1, nVCI: 28, nVCS: 2, nVTC: 0]
+ [nL_VS: 1, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.128, sVCI:0.8240000000000001, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350772
+ Elementi finestra:50
+ [nVS: 2, nVCI: 23, nVCS: 2, nVTC: 0]
+ [nL_VS: 2, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.256, sVCI:0.784, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350793
+ Elementi finestra:50
+ [nVS: 4, nVCI: 22, nVCS: 2, nVTC: 0]
+ [nL_VS: 2, nL_VCI: 5, nL_VCS: 2, nL_VTC: 0] 
+ [sVS:0.272, sVCI:0.776, sVCS:0.256, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350817
+ Elementi finestra:50
+ [nVS: 7, nVCI: 18, nVCS: 3, nVTC: 1]
+ [nL_VS: 3, nL_VCI: 5, nL_VCS: 3, nL_VTC: 1] 
+ [sVS:0.416, sVCI:0.744, sVCS:0.384, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350840
+ Elementi finestra:50
+ [nVS: 12, nVCI: 14, nVCS: 4, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.696, sVCI:0.712, sVCS:0.512, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350863
+ Elementi finestra:50
+ [nVS: 13, nVCI: 10, nVCS: 5, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 5, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.704, sVCI:0.6799999999999999, sVCS:0.52, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350887
+ Elementi finestra:50
+ [nVS: 14, nVCI: 6, nVCS: 5, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 4, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.712, sVCI:0.528, sVCS:0.52, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350908
+ Elementi finestra:50
+ [nVS: 17, nVCI: 3, nVCS: 5, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 2, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.736, sVCI:0.264, sVCS:0.52, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350931
+ Elementi finestra:50
+ [nVS: 20, nVCI: 1, nVCS: 7, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.76, sVCI:0.128, sVCS:0.536, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647350953
+ Elementi finestra:50
+ [nVS: 23, nVCI: 0, nVCS: 9, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.784, sVCI:0.0, sVCS:0.5519999999999999, sVTC:0.128]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350974
+ Elementi finestra:50
+ [nVS: 26, nVCI: 0, nVCS: 7, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 0, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.808, sVCI:0.0, sVCS:0.536, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647350998
+ Elementi finestra:50
+ [nVS: 22, nVCI: 1, nVCS: 7, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.776, sVCI:0.128, sVCS:0.536, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647351021
+ Elementi finestra:50
+ [nVS: 24, nVCI: 1, nVCS: 5, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.792, sVCI:0.128, sVCS:0.52, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647351043
+ Elementi finestra:50
+ [nVS: 25, nVCI: 1, nVCS: 6, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.8, sVCI:0.128, sVCS:0.528, sVTC:0.0]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647351066
+ Elementi finestra:50
+ [nVS: 21, nVCI: 2, nVCS: 6, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.768, sVCI:0.136, sVCS:0.528, sVTC:0.128]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647351090
+ Elementi finestra:50
+ [nVS: 18, nVCI: 4, nVCS: 5, nVTC: 1]
+ [nL_VS: 5, nL_VCI: 3, nL_VCS: 3, nL_VTC: 1] 
+ [sVS:0.744, sVCI:0.392, sVCS:0.4, sVTC:0.128]
+ CS:[0, 1, 0, 1]
+
+
+REPORT_ORA:1647351112
+ Elementi finestra:50
+ [nVS: 13, nVCI: 6, nVCS: 8, nVTC: 1]
+ [nL_VS: 4, nL_VCI: 3, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.584, sVCI:0.408, sVCS:0.544, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351133
+ Elementi finestra:50
+ [nVS: 11, nVCI: 5, nVCS: 9, nVTC: 1]
+ [nL_VS: 4, nL_VCI: 3, nL_VCS: 3, nL_VTC: 1] 
+ [sVS:0.568, sVCI:0.4, sVCS:0.432, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351155
+ Elementi finestra:50
+ [nVS: 14, nVCI: 5, nVCS: 11, nVTC: 1]
+ [nL_VS: 4, nL_VCI: 3, nL_VCS: 4, nL_VTC: 1] 
+ [sVS:0.592, sVCI:0.4, sVCS:0.568, sVTC:0.128]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351179
+ Elementi finestra:50
+ [nVS: 16, nVCI: 5, nVCS: 12, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 3, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.728, sVCI:0.4, sVCS:0.696, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351201
+ Elementi finestra:50
+ [nVS: 21, nVCI: 4, nVCS: 10, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 3, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.768, sVCI:0.392, sVCS:0.56, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351223
+ Elementi finestra:50
+ [nVS: 25, nVCI: 3, nVCS: 11, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 2, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.8, sVCI:0.264, sVCS:0.568, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351247
+ Elementi finestra:50
+ [nVS: 29, nVCI: 1, nVCS: 9, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 1, nL_VCS: 5, nL_VTC: 0] 
+ [sVS:0.832, sVCI:0.128, sVCS:0.6719999999999999, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+
+REPORT_ORA:1647351268
+ Elementi finestra:50
+ [nVS: 32, nVCI: 2, nVCS: 9, nVTC: 0]
+ [nL_VS: 5, nL_VCI: 2, nL_VCS: 4, nL_VTC: 0] 
+ [sVS:0.856, sVCI:0.256, sVCS:0.5519999999999999, sVTC:0.0]
+ CS:[0, 0, 0, 1]
+
+

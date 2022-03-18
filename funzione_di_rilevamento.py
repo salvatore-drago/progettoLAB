@@ -22,6 +22,9 @@ sVCI=(d_max-d_min)/2
 sVCS=(d_max-d_min)/2
 sVTC=(d_max-d_min)/2
 
+def get_parametri_rilevamento():
+    return [T,N,k,s_min,d_min,d_max]
+
 def calcolo_probabilita_NS(min,max,x):
         if x<=min and x>=0:
             m=(0-0.5)/(0-min)

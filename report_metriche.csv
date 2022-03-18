@@ -1,0 +1,3 @@
+Dati analizzati,Parametri rilevamento,Risultati analizzati,N,P,T,TN,TP,TT,FN,FP,FT,Prevalence,TPR,TNR,PPV,NPV,ACC,BA,DOR,F_score,Incertezza Media,Incertezza Max,Incertezza Min,Incertezza Mediana
+dati.csv,"[20, 50, 0.6, 65, 0.1, 0.4]",risultati.csv,527,72,599,527,24,551,48,0,48,0.1202,0.3333,1.0,1.0,0.9165,0.9199,0.6666,inf,0.5,0.45,0.75,0.14,0.47
+dati.csv,"[20, 50, 0.6, 65, 0.1, 0.4]",risultati.csv,527,72,599,527,24,551,48,0,48,0.1202,0.3333,1.0,1.0,0.9165,0.9199,0.6666,inf,0.5,0.45,0.75,0.14,0.47
