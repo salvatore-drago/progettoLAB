@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import csv
+risultati="risultati.csv"
+dati_da_analizzare="dati.csv"
 # FUNZIONE DI RILEVAMENTO 
 T= 20 #voglio analizzare i dati ogni 20s
 N= 50 #voglio conservare i dati relativi alle ultime 50 persone 
@@ -25,6 +27,12 @@ sVTC=(d_max-d_min)/2
 def get_parametri_rilevamento():
     return [T,N,k,s_min,d_min,d_max]
 
+def get_dati_da_analizzare():
+    return dati_da_analizzare
+
+def get_risultati():
+    return risultati
+
 def calcolo_probabilita_NS(min,max,x):
         if x<=min and x>=0:
             m=(0-0.5)/(0-min)
@@ -45,12 +53,12 @@ def calcolo_probabilita_S(min,max,x):
        
     
 
-dati= pd.read_csv('dati.csv' ,usecols=["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario","Verita Seconda etichetta","Tipo situazione"])
+dati= pd.read_csv(dati_da_analizzare ,usecols=["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario","Verita Seconda etichetta","Tipo situazione"])
 dati_array= dati.to_numpy()
 ultimo_orario= int(dati_array[0][4])
 i=0
 
-with open('risultati.csv', 'w', newline='') as file:
+with open(risultati, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Id","Prima etichetta","Pr Prima etichetta","Luogo","Orario","Verita Seconda etichetta","Tipo situazione","Seconda etichetta", "Pr Seconda etichetta","Incertezza Sistema"])
     while i<len(dati_array):
