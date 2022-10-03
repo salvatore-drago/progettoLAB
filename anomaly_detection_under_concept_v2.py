@@ -40,6 +40,7 @@ start_time=0
 stop_time=0
 time=0
 m=[] #modello attualmente in uso
+utilizzo_m=[] #lista di [m,n,score] in cui m indica il numero del modello, n il numero di volte in cui è stato utilizzato, s il suo score
 n_modelli_usati=0
 n_riutilizzo_modello=0
 
@@ -76,12 +77,16 @@ def sliding_window():
 def aggiungi_modello():
     if(len(ml)<max_model):
         ml.append(LOF(n_neighbors=n_neig, algorithm='ball_tree', leaf_size=30, metric='minkowski', p=3, metric_params=None, contamination=0.1, n_jobs=1))
-        m=len(ml)
+        m=len(ml)-1
         ml[m].fit(old_data)
+        utilizzo_m.append([m,0]) #da fare
         print(f"\nCreato modello {m}, modelli presenti:{len(ml)}")
     else:
         elimina_modello()
         aggiungi_modello()
+
+def score_modell0():
+    pass
 
 def elimina_modello():
     pass
@@ -107,6 +112,7 @@ def predici_classe(new_model):
                 writer.writerow([y_pred[i],y_conf[i],m])
                 #predizioni.append(y_pred[i])
         n_riutilizzo_modello+=1
+    utilizzo_m[m][1]+=1
 
 def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_concept)! NON PIU FINESTRE ADIACENTI
     for i in range(0, len(cd_d)):
