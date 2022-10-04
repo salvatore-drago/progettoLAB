@@ -27,6 +27,7 @@ cd_d=[]
 cd_m=[]
 cd_d_flag=[]
 cd_m_flag=[]
+cl=[] #per ogni modello la lista delle confidance di previsione sui dati con cui è stato originariamente addestrato
 
 #Anomaly Detection Module
 ml=[] #lista dei modelli LOF
@@ -40,7 +41,8 @@ start_time=0
 stop_time=0
 time=0
 m=[] #modello attualmente in uso
-utilizzo_m=[] #lista di [m,n,score] in cui m indica il numero del modello, n il numero di volte in cui è stato utilizzato, s il suo score
+utilizzo_m=[] # numero di volte il cui quel modello è stato utilizzato
+score_m={}# score dei modelli
 n_modelli_usati=0
 n_riutilizzo_modello=0
 
@@ -66,6 +68,18 @@ def prepara_stream_e_CD():
     for i in range(0,n_feature+1):
         cd_d.append(sk.drift_detection.KSWIN(alpha=0.005, window_size=dim_finestra*2, stat_size=dim_finestra))
         cd_d_flag.append(False)
+    for i in range(0,max_model):
+        cd_m_flag.append(False)
+
+def reset_all_flag():
+    for i in range(0, len(cd_d_flag)):
+        cd_d_flag[i]=False
+    for i in range(0, len(cd_m_flag)):
+        cd_m_flag[i]=False
+    for i in range(0, len(cd_d)):
+        cd_d[i].reset()
+    for i in range(0, len(cd_m)):
+        cd_m[i].reset()
 
 def sliding_window():
     if(n_batch==1):
@@ -79,17 +93,27 @@ def aggiungi_modello():
         ml.append(LOF(n_neighbors=n_neig, algorithm='ball_tree', leaf_size=30, metric='minkowski', p=3, metric_params=None, contamination=0.1, n_jobs=1))
         m=len(ml)-1
         ml[m].fit(old_data)
-        utilizzo_m.append([m,0]) #da fare
-        print(f"\nCreato modello {m}, modelli presenti:{len(ml)}")
+        y_pred,y_conf=ml[m].predict(old_data,return_confidence=True)
+        cl.append(y_conf)
+        utilizzo_m.append(0) #da fare
+        print(f"\n Creato modello {m}, modelli presenti:{len(ml)}")
     else:
         elimina_modello()
         aggiungi_modello()
 
-def score_modell0():
-    pass
+def score_modello():
+    for i in range(0, len(utilizzo_m)):
+        s=utilizzo_m[i]+[(i*10*n_batch)/100] # Combinazione Utilizzo/Creazione recente
+        score_m[i]=s
 
 def elimina_modello():
-    pass
+    score_modello()
+    scores=sorted(score_m.values())
+    for key, value in score_m.items():
+         if scores[0] == value:
+            del ml[key]
+            del utilizzo_m[key]
+            del cl[key]
 
 def predici_classe(new_model):
     if(new_model):
@@ -112,7 +136,7 @@ def predici_classe(new_model):
                 writer.writerow([y_pred[i],y_conf[i],m])
                 #predizioni.append(y_pred[i])
         n_riutilizzo_modello+=1
-    utilizzo_m[m][1]+=1
+    utilizzo_m[m]+=1
 
 def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_concept)! NON PIU FINESTRE ADIACENTI
     for i in range(0, len(cd_d)):
@@ -120,7 +144,7 @@ def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_
             cd_d[i].add_element(dato[i])
         for dato in new_data:
             cd_d[i].add_element(dato[i])
-        if cd_d[i].detected_change()==True:
+        if cd_d[i].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
             cd_d_flag[i]=True
     for i in range(0, len(cd_d)):
         if cd_d_flag[i]==True:
@@ -129,13 +153,34 @@ def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_
         else:
             print(f'No Drift zone has been detected on feature {i} in batch {n_batch} with kswin')
             return False
+def CD_m():
+    for i in range(0, len(ml)):
+        print(f"Predizione e test modello:{i}")
+        y_pred_val,y_conf_val=ml[i].predict(new_data,return_confidence=True)
+        for j in range(0, len(cl[i])): #inserisco i dati delle confidence originali (old_data)
+            cd_m[i].add_element(cl[i][j])
+        for j in range(0, len(y_conf_val)): #inserisco le confidence sulle nuove previsioni (new_data)
+            cd_m[i].add_element(y_conf_val[j]) #dovra essere fatto append
+        if cd_m[i].detected_change()==True:
+            cd_m_flag[i]=True
+    for i in range(0, len(ml)):
+        if cd_m_flag[i]==False:
+            print(f'Il modello {i} è quello adatto al concetto!')
+            return i
+        else:
+            print(f'Nessun modello tra quelli presenti è adatto per il nuovo concetto')
+            return -1
+
+def rilevato_nuovo_concetto():
+    old_data=new_data #la finestra fissa è cambiata perchè è stato rilevato un nuovo concetto
 
 
 def start(dn,uf,uv):
     carica_dataset(dn,uf,uv)
     prepara_stream_e_CD()
+    start_time=time.time*1000
     while fine!=True:
-        start_time=time.time*1000
+        reset_all_flag()
         sliding_window()
         if(len(new_data)!=0):
             n_batch+=1
@@ -147,7 +192,14 @@ def start(dn,uf,uv):
             else: # STEP 2
                 print(f"\nBatch numero:{n_batch}")
                 if(CD_d()): # STEP 4
-                    pass 
+                    f=CD_m()
+                    if(f==-1): #STEP 6-7
+                        rilevato_nuovo_concetto()
+                        aggiungi_modello()
+                        predici_classe(True) #STEP 8
+                    else:
+                        m=f #STEP 5
+                        predici_classe(False) #STEP 8
                 else: #STEP 3
                     predici_classe(False) #STEP 8
         else:
