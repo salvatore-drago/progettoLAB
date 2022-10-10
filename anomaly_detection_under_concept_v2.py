@@ -23,6 +23,7 @@ data_stream=[]
 #Concept Drift Detection Module
 old_data=[]
 new_data=[]
+sintetica=[] #feature
 cd_d=[]
 cd_m=[]
 cd_d_flag=[]
@@ -55,11 +56,12 @@ def carica_dataset(dataset_name, usecols_feature, usecols_verita):
 
 
 def feature_sintetica(dataset):  #feature aggiuntiva per il rilevamento del concept drif sulle singole feature
+    sintetica=[]
     for i in range(0, len(dataset)):
         new_f=0
         for j in range(0, len(dataset[i])):
             new_f=new_f+dataset[i][j]**2
-        dataset[i].append(new_f)
+        sintetica[i].append(new_f)
   
 def prepara_stream_e_CD(): 
     data_stream= sk.data.DataStream(dataset_np,y=None)
@@ -139,13 +141,23 @@ def predici_classe(new_model):
     utilizzo_m[m]+=1
 
 def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_concept)! NON PIU FINESTRE ADIACENTI
-    for i in range(0, len(cd_d)):
+    for i in range(0, len(cd_d)-1):
         for dato in old_data:
             cd_d[i].add_element(dato[i])
         for dato in new_data:
             cd_d[i].add_element(dato[i])
         if cd_d[i].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
             cd_d_flag[i]=True
+            
+    feature_sintetica(old_data)
+    for i in range(0, len(sintetica)):
+        cd_d[-1].add_element(sintetica[i])
+    feature_sintetica(new_data)
+    for i in range(0, len(sintetica)):
+        cd_d[-1].add_element(sintetica[i])
+    if cd_d[-1].detected_change()==True:
+        cd_d_flag[-1]=True
+        
     for i in range(0, len(cd_d)):
         if cd_d_flag[i]==True:
             print(f'Drift zone has been detected on feature {i} in batch {n_batch} with kswin')
