@@ -96,17 +96,15 @@ def sliding_window(data_stream,dim_finestra):
         
 
 def aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m):
-    if(len(ml)<max_model):
-        ml.append(LOF(n_neighbors=n_neig, algorithm='ball_tree', leaf_size=30, metric='minkowski', p=3, metric_params=None, contamination=0.1, n_jobs=1))
-        m=len(ml)-1
-        ml[m].fit(old_data)
-        y_pred,y_conf=ml[m].predict(old_data,return_confidence=True)
-        cl.append(y_conf)
-        utilizzo_m.append(0) #da fare
-        print(f"\n Creato modello {m}, modelli presenti:{len(ml)}")
-    else:
+    if(len(ml)>=max_model):
         elimina_modello(utilizzo_m,n_batch,score_m,ml,cl)
-        aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m)
+    ml.append(LOF(n_neighbors=n_neig, algorithm='ball_tree', leaf_size=30, metric='minkowski', p=3, metric_params=None, contamination=0.1, n_jobs=1))
+    m=len(ml)-1
+    ml[m].fit(old_data)
+    y_pred,y_conf=ml[m].predict(old_data,return_confidence=True)
+    cl.append(y_conf)
+    utilizzo_m.append(0) #da fare
+    print(f"\n Creato modello {m}, modelli presenti:{len(ml)}")
     return m
 
 def score_modello(utilizzo_m,n_batch,score_m):
@@ -261,6 +259,10 @@ def main():
         return
 
 '''def prova():
+    score=[1,2,3]
+    aumenta(score)
+    diminuisci(score)
+    print(score)
     a=0
     n=[1,2,3]
     m=[1,1,1]
@@ -269,14 +271,13 @@ def main():
     for i in range(1,5):
         a+=1
     print(a)
-def aumenta(n,m):
-    i=1
-    o=2
-    n.append(4)
-    n[0]=5
-    m=[2,2,2]
-    return i,o'''
     
+def aumenta(score):
+    score.append(1)
+
+def diminuisci(score):
+    del score[0]'''
+
 if __name__ == "__main__":
     main()
     #prova()
