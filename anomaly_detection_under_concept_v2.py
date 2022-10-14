@@ -214,6 +214,8 @@ def start(dn,uf,uv,risultati,max_model,dim_finestra,n_feature):
             else: # STEP 2
                 new_data=data
                 print(f"\nBatch numero:{n_batch}")
+                print(f"Old_data:{old_data[:10]}")
+                print(f"New_data:{new_data[:10]}")
                 if(CD_d(cd_d,old_data,new_data,cd_d_flag,n_batch)): # STEP 4
                     f=CD_m(ml,new_data,cl,cd_m,cd_m_flag)
                     if(f==-1): #STEP 6-7
