@@ -77,11 +77,14 @@ def score_modello(utilizzo_m,n_batch,score_m):
 def elimina_modello(utilizzo_m,n_batch,score_m,ml,cl):
     score_modello(utilizzo_m,n_batch,score_m)
     scores=sorted(score_m.values())
+    print(f"Scores:{score_m}")
     for key, value in score_m.items():
          if scores[0] == value:
             del ml[key]
             del utilizzo_m[key]
             del cl[key]
+            print(f"Eliminato modello {key} con score {value}")
+            return
 
 def predici_classe(new_model,ml,m,old_data,risultati,new_data,utilizzo_m,n_modelli_usati,n_riutilizzo_modello):
     print(f"Modello utilizzato per la predizione:{m}")
@@ -114,12 +117,11 @@ def CD_d(cd_d,old_data,new_data,cd_d_flag,n_batch): # ATTENZIONE: finestra fissa
             cd_d[i].add_element(dato[i])
         for dato in new_data:
             cd_d[i].add_element(dato[i])
-            if cd_d[i].detected_change()==True: #IN QUESTO CASO DOPO OGNI AGGIUNZIONE
-                cd_d_flag[i]=True
-        '''
+            '''if cd_d[i].detected_change()==True: #IN QUESTO CASO DOPO OGNI AGGIUNZIONE
+                cd_d_flag[i]=True'''
         if cd_d[i].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
             cd_d_flag[i]=True
-        '''
+        
        
            
             
@@ -129,12 +131,11 @@ def CD_d(cd_d,old_data,new_data,cd_d_flag,n_batch): # ATTENZIONE: finestra fissa
     sintetica=feature_sintetica(new_data)
     for i in range(0, len(sintetica)):
         cd_d[-1].add_element(sintetica[i])
-        if cd_d[-1].detected_change()==True: #IN QUESTO CASO DOPO OGNI AGGIUNZIONE
-            cd_d_flag[-1]=True
-    '''
+        '''if cd_d[-1].detected_change()==True: #IN QUESTO CASO DOPO OGNI AGGIUNZIONE
+            cd_d_flag[-1]=True'''
     if cd_d[-1].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
         cd_d_flag[-1]=True
-    '''
+    
         
     for i in range(0, len(cd_d)):
         if cd_d_flag[i]==True:
