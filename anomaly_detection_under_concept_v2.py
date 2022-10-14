@@ -8,46 +8,6 @@ import matplotlib.pyplot as plt
 import time
 import csv
 
-#dataset e risultati
-#dataset_np=[]
-#verita=[]
-#risultati=[]
-
-#variabili architettura
-#max_model=[]
-#dim_finestra=[]
-
-#stream dati
-#data_stream=[]
-
-#Concept Drift Detection Module
-#old_data=[]
-#new_data=[]
-sintetica=[] #feature
-#cd_d=[]
-#cd_m=[]
-#cd_d_flag=[]
-#cd_m_flag=[]
-#cl=[] #per ogni modello la lista delle confidance di previsione sui dati con cui è stato originariamente addestrato
-
-#Anomaly Detection Module
-#ml=[] #lista dei modelli LOF
-n_neig=25 #numero vicini da considerare
-
-#variabili utili
-#n_feature=0
-fine=False
-#n_batch=0 
-start_time=0
-stop_time=0
-time=0
-#m=[] #modello attualmente in uso
-#utilizzo_m=[] # numero di volte il cui quel modello è stato utilizzato
-#score_m={}# score dei modelli
-#n_modelli_usati=0
-#n_riutilizzo_modello=0
-
-
 def carica_dataset(dataset_name, usecols_feature, usecols_verita):
     dataset_np=pd.read_csv(dataset_name ,usecols=usecols_feature).to_numpy()
     verita=pd.read_csv(dataset_name ,usecols=usecols_verita).values.tolist()
@@ -62,20 +22,22 @@ def feature_sintetica(dataset):  #feature aggiuntiva per il rilevamento del conc
         new_f=0
         for j in range(0, len(dataset[i])):
             new_f=new_f+dataset[i][j]**2
-        sintetica[i].append(new_f)
+        sintetica.append(new_f)
+    return sintetica
   
 def prepara_stream_e_CD(dataset_np,n_feature,dim_finestra,max_model):
     cd_d=[]
     cd_m=[]
     cd_d_flag=[]
     cd_m_flag=[]
-    data_stream= sk.data.DataStream(dataset_np,y=None)
+    data_stream= sk.data.DataStream(dataset_np,y=None, n_targets=0)
     data_stream.print_df()
     data_stream.prepare_for_use()
     for i in range(0,n_feature+1):
-        cd_d.append(sk.drift_detection.KSWIN(alpha=0.005, window_size=dim_finestra*2, stat_size=dim_finestra))
+        cd_d.append(sk.drift_detection.KSWIN(alpha=0.005, window_size=(dim_finestra*2)-1, stat_size=dim_finestra))
         cd_d_flag.append(False)
     for i in range(0,max_model):
+        cd_m.append(sk.drift_detection.KSWIN(alpha=0.005, window_size=(dim_finestra*2)-1, stat_size=dim_finestra))
         cd_m_flag.append(False)
     return data_stream, cd_d, cd_m, cd_d_flag, cd_m_flag
 
@@ -95,7 +57,7 @@ def sliding_window(data_stream,dim_finestra):
     
         
 
-def aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m):
+def aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m,n_neig):
     if(len(ml)>=max_model):
         elimina_modello(utilizzo_m,n_batch,score_m,ml,cl)
     ml.append(LOF(n_neighbors=n_neig, algorithm='ball_tree', leaf_size=30, metric='minkowski', p=3, metric_params=None, contamination=0.1, n_jobs=1))
@@ -122,6 +84,7 @@ def elimina_modello(utilizzo_m,n_batch,score_m,ml,cl):
             del cl[key]
 
 def predici_classe(new_model,ml,m,old_data,risultati,new_data,utilizzo_m,n_modelli_usati,n_riutilizzo_modello):
+    print(f"Modello utilizzato per la predizione:{m}")
     if(new_model):
         y_pred,y_conf=ml[m].predict(old_data,return_confidence=True)
         #finestra_del_concetto.append(y_conf)
@@ -145,23 +108,33 @@ def predici_classe(new_model,ml,m,old_data,risultati,new_data,utilizzo_m,n_model
     utilizzo_m[m]+=1
     return n_modelli_usati,n_riutilizzo_modello
 
-def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_concept)! NON PIU FINESTRE ADIACENTI
+def CD_d(cd_d,old_data,new_data,cd_d_flag,n_batch): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_concept)! NON PIU FINESTRE ADIACENTI
     for i in range(0, len(cd_d)-1):
         for dato in old_data:
             cd_d[i].add_element(dato[i])
         for dato in new_data:
             cd_d[i].add_element(dato[i])
+            if cd_d[i].detected_change()==True: #IN QUESTO CASO DOPO OGNI AGGIUNZIONE
+                cd_d_flag[i]=True
+        '''
         if cd_d[i].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
             cd_d_flag[i]=True
+        '''
+       
+           
             
-    feature_sintetica(old_data)
+    sintetica=feature_sintetica(old_data)
     for i in range(0, len(sintetica)):
         cd_d[-1].add_element(sintetica[i])
-    feature_sintetica(new_data)
+    sintetica=feature_sintetica(new_data)
     for i in range(0, len(sintetica)):
         cd_d[-1].add_element(sintetica[i])
-    if cd_d[-1].detected_change()==True:
+        if cd_d[-1].detected_change()==True: #IN QUESTO CASO DOPO OGNI AGGIUNZIONE
+            cd_d_flag[-1]=True
+    '''
+    if cd_d[-1].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
         cd_d_flag[-1]=True
+    '''
         
     for i in range(0, len(cd_d)):
         if cd_d_flag[i]==True:
@@ -169,8 +142,9 @@ def CD_d(): # ATTENZIONE: finestra fissa(old_concept) e finestra scorrevole(new_
             return True
         else:
             print(f'No Drift zone has been detected on feature {i} in batch {n_batch} with kswin')
-            return False
-def CD_m():
+    return False
+
+def CD_m(ml,new_data,cl,cd_m,cd_m_flag):
     for i in range(0, len(ml)):
         print(f"Predizione e test modello:{i}")
         y_pred_val,y_conf_val=ml[i].predict(new_data,return_confidence=True)
@@ -188,24 +162,43 @@ def CD_m():
             print(f'Nessun modello tra quelli presenti è adatto per il nuovo concetto')
             return -1
 
-def rilevato_nuovo_concetto():
-    old_data=new_data #la finestra fissa è cambiata perchè è stato rilevato un nuovo concetto
-
 
 def start(dn,uf,uv,risultati,max_model,dim_finestra,n_feature):
+    #dataset e risultati
+    dataset_np=[]
+    verita=[]
+   
+    #stream dati
+    data_stream=[]
+
+    #Concept Drift Detection Module
     old_data=[]
     new_data=[]
-    ml=[]
-    cl=[]
-    n_batch=0
-    utilizzo_m=[]
-    score_m={}
-    m=[]
+    sintetica=[] #feature
+    cd_d=[]
+    cd_m=[]
+    cd_d_flag=[]
+    cd_m_flag=[]
+    cl=[] #per ogni modello la lista delle confidance di previsione sui dati con cui è stato originariamente addestrato
+
+    #Anomaly Detection Module
+    ml=[] #lista dei modelli LOF
+    n_neig=25 #numero vicini da considerare
+
+    #variabili utili
+    fine=False
+    n_batch=0 
+    start_time=0
+    stop_time=0
+    m=[] #modello attualmente in uso
+    utilizzo_m=[] # numero di volte il cui quel modello è stato utilizzato
+    score_m={}# score dei modelli
     n_modelli_usati=0
     n_riutilizzo_modello=0
     dataset_np, verita=carica_dataset(dn,uf,uv)
     data_stream, cd_d, cd_m, cd_d_flag, cd_m_flag=prepara_stream_e_CD(dataset_np,n_feature,dim_finestra,max_model)
-    start_time=time.time*1000
+    start_time=time.time()*1000
+
     while fine!=True:
         reset_all_flag(cd_d_flag, cd_m_flag, cd_d, cd_m)
         data=sliding_window(data_stream,dim_finestra)
@@ -215,26 +208,27 @@ def start(dn,uf,uv,risultati,max_model,dim_finestra,n_feature):
             if n_batch==1: # STEP 1
                 old_data=data
                 print(f"\nPrimo batch")
-                m=aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m)
+                m=aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m,n_neig)
                 n_modelli_usati,n_riutilizzo_modello=predici_classe(True,ml,m,old_data,risultati,new_data,utilizzo_m,n_modelli_usati,n_riutilizzo_modello) #STEP 8
             else: # STEP 2
+                new_data=data
                 print(f"\nBatch numero:{n_batch}")
-                if(CD_d()): # STEP 4
-                    f=CD_m()
+                if(CD_d(cd_d,old_data,new_data,cd_d_flag,n_batch)): # STEP 4
+                    f=CD_m(ml,new_data,cl,cd_m,cd_m_flag)
                     if(f==-1): #STEP 6-7
-                        rilevato_nuovo_concetto()
-                        aggiungi_modello()
-                        predici_classe(True) #STEP 8
+                        old_data=new_data #rilevato_nuovo_concetto
+                        m=aggiungi_modello(max_model,ml,old_data,cl,utilizzo_m,n_batch,score_m,n_neig)
+                        n_modelli_usati,n_riutilizzo_modello=predici_classe(True,ml,m,old_data,risultati,new_data,utilizzo_m,n_modelli_usati,n_riutilizzo_modello) #STEP 8
                     else:
                         m=f #STEP 5
-                        predici_classe(False) #STEP 8
+                        n_modelli_usati,n_riutilizzo_modello=predici_classe(False,ml,m,old_data,risultati,new_data,utilizzo_m,n_modelli_usati,n_riutilizzo_modello) #STEP 8
                 else: #STEP 3
-                    predici_classe(False) #STEP 8
+                     n_modelli_usati,n_riutilizzo_modello=predici_classe(False,ml,m,old_data,risultati,new_data,utilizzo_m,n_modelli_usati,n_riutilizzo_modello) #STEP 8
         else:
             print("Fine")
             fine=True
     stop_time=time.time()*1000
-    time=stop_time-start_time
+    tot_time=stop_time-start_time
 
 
 def main():
@@ -246,8 +240,8 @@ def main():
         n_feature=0
         dn=sys.argv[1]
         risultati=sys.argv[2]
-        max_model=sys.argv[3]
-        dim_finestra=sys.argv[4]
+        max_model=int(sys.argv[3])
+        dim_finestra=int(sys.argv[4])
         uf=[]
         for i in range(5,len(sys.argv)-1):
             n_feature+=1
