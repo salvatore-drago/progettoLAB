@@ -121,10 +121,7 @@ def CD_d(cd_d,old_data,new_data,cd_d_flag,n_batch): # ATTENZIONE: finestra fissa
                 cd_d_flag[i]=True'''
         if cd_d[i].detected_change()==True: #IN QUESTO CASO UNA SOLA VOLTA
             cd_d_flag[i]=True
-        
-       
-           
-            
+          
     sintetica=feature_sintetica(old_data)
     for i in range(0, len(sintetica)):
         cd_d[-1].add_element(sintetica[i])
